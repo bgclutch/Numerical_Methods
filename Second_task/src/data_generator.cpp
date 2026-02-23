@@ -16,7 +16,7 @@ std::vector<financial::OptionParameters> dataGenerator()  {
 
     for (auto i = 0; i < OPTIONS_AMOUNT; ++i) {
         auto spotPrice = spotGen(seed);
-        OptionType optionTypeGen = ((i * 42 + 43) % 19 == 0) ? OptionType::Call : OptionType::Put;
+        OptionType optionTypeGen = (i % 2 == 0) ? OptionType::Call : OptionType::Put;
         data.push_back({
             spotPrice,
             spotPrice * strikeGenFactor(seed),

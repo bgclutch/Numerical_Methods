@@ -1,5 +1,5 @@
-Best price: 119.637 for
-Option type:      Put
+Best price: 575.293 for
+Option type:      Call
 Spot price:       798.578
 Strike price:     721.56
 Time to maturity: 7.81894
@@ -14,8 +14,8 @@ Time to maturity: 3.40372
 Risk free rating: 0.0371447
 Volatility:       0.603255
 
-Best price: 114.679 for
-Option type:      Put
+Best price: 50.5938 for
+Option type:      Call
 Spot price:       65.8475
 Strike price:     137.516
 Time to maturity: 9.39167
@@ -30,8 +30,8 @@ Time to maturity: 0.169956
 Risk free rating: 0.0143819
 Volatility:       0.496058
 
-Best price: 0.256385 for
-Option type:      Put
+Best price: 261.761 for
+Option type:      Call
 Spot price:       405.862
 Strike price:     244.599
 Time to maturity: 9.74018
@@ -46,8 +46,8 @@ Time to maturity: 9.83399
 Risk free rating: 0.098685
 Volatility:       0.780949
 
-Best price: 335.668 for
-Option type:      Put
+Best price: 7.58258 for
+Option type:      Call
 Spot price:       683.504
 Strike price:     1019.17
 Time to maturity: 0.231323
@@ -62,8 +62,8 @@ Time to maturity: 2.38585
 Risk free rating: 0.0557948
 Volatility:       0.630774
 
-Best price: 818.342 for
-Option type:      Put
+Best price: 0.453938 for
+Option type:      Call
 Spot price:       613.897
 Strike price:     1432.24
 Time to maturity: 1.81631
@@ -78,8 +78,8 @@ Time to maturity: 2.15862
 Risk free rating: 0.117863
 Volatility:       0.0766163
 
-Best price: 480.568 for
-Option type:      Put
+Best price: 491.721 for
+Option type:      Call
 Spot price:       843.862
 Strike price:     1256.9
 Time to maturity: 4.01199
@@ -94,24 +94,24 @@ Time to maturity: 5.25626
 Risk free rating: 0.192623
 Volatility:       0.767854
 
-Best price: 518.651 for
-Option type:      Put
+Best price: 490.246 for
+Option type:      Call
 Spot price:       749.847
 Strike price:     1265.23
 Time to maturity: 5.90884
 Risk free rating: 0.193399
 Volatility:       0.565979
 
-Best price: 47.7346 for
-Option type:      Call
+Best price: 84.4663 for
+Option type:      Put
 Spot price:       283.239
 Strike price:     326.235
 Time to maturity: 1.73614
 Risk free rating: 0.0129709
 Volatility:       0.409891
 
-Best price: 85.7744 for
-Option type:      Put
+Best price: 31.8338 for
+Option type:      Call
 Spot price:       400.933
 Strike price:     459.338
 Time to maturity: 0.23939
@@ -126,8 +126,8 @@ Time to maturity: 9.27038
 Risk free rating: 0.133705
 Volatility:       0.827716
 
-Best price: 468.715 for
-Option type:      Put
+Best price: 122.05 for
+Option type:      Call
 Spot price:       851.538
 Strike price:     1267.76
 Time to maturity: 1.04456
@@ -142,8 +142,8 @@ Time to maturity: 2.81975
 Risk free rating: 0.116636
 Volatility:       0.375488
 
-Best price: 1329.31 for
-Option type:      Put
+Best price: 133.48 for
+Option type:      Call
 Spot price:       971.995
 Strike price:     2301.31
 Time to maturity: 7.24512
@@ -158,8 +158,8 @@ Time to maturity: 1.19782
 Risk free rating: 0.0934739
 Volatility:       0.221461
 
-Best price: 489.49 for
-Option type:      Put
+Best price: 306.366 for
+Option type:      Call
 Spot price:       896.806
 Strike price:     1386.3
 Time to maturity: 5.67643
@@ -174,8 +174,8 @@ Time to maturity: 2.11031
 Risk free rating: 0.189142
 Volatility:       0.559036
 
-Best price: 1002.81 for
-Option type:      Put
+Best price: 12.2714 for
+Option type:      Call
 Spot price:       697.837
 Strike price:     1700.65
 Time to maturity: 6.28111
@@ -190,8 +190,8 @@ Time to maturity: 4.22345
 Risk free rating: 0.177823
 Volatility:       0.325693
 
-Best price: 78.7385 for
-Option type:      Put
+Best price: 90.1863 for
+Option type:      Call
 Spot price:       130.867
 Strike price:     168.014
 Time to maturity: 9.0776
@@ -206,8 +206,8 @@ Time to maturity: 3.11733
 Risk free rating: 0.0412846
 Volatility:       0.503976
 
-Best price: 501.427 for
-Option type:      Put
+Best price: 3.66143 for
+Option type:      Call
 Spot price:       489.982
 Strike price:     991.409
 Time to maturity: 2.76718
@@ -222,8 +222,8 @@ Time to maturity: 4.09798
 Risk free rating: 0.0223295
 Volatility:       0.265828
 
-Best price: 374.827 for
-Option type:      Put
+Best price: 182.397 for
+Option type:      Call
 Spot price:       254.407
 Strike price:     516.922
 Time to maturity: 7.15148
@@ -238,8 +238,8 @@ Time to maturity: 4.16927
 Risk free rating: 0.0162796
 Volatility:       0.343311
 
-Best price: 643.016 for
-Option type:      Put
+Best price: 256.938 for
+Option type:      Call
 Spot price:       638.008
 Strike price:     1274.45
 Time to maturity: 5.35625
@@ -270,8 +270,8 @@ Time to maturity: 6.98855
 Risk free rating: 0.173088
 Volatility:       0.327065
 
-Best price: 242.754 for
-Option type:      Put
+Best price: 24.4302 for
+Option type:      Call
 Spot price:       228.039
 Strike price:     470.792
 Time to maturity: 8.11406
@@ -286,8 +286,8 @@ Time to maturity: 5.22574
 Risk free rating: 0.169165
 Volatility:       0.624337
 
-Best price: 39.6628 for
-Option type:      Put
+Best price: 421.284 for
+Option type:      Call
 Spot price:       737.864
 Strike price:     708.318
 Time to maturity: 5.46033
@@ -302,8 +302,8 @@ Time to maturity: 5.2147
 Risk free rating: 0.0595575
 Volatility:       0.896816
 
-Best price: 704.033 for
-Option type:      Put
+Best price: 274.183 for
+Option type:      Call
 Spot price:       965.765
 Strike price:     1669.08
 Time to maturity: 8.8381
@@ -318,8 +318,8 @@ Time to maturity: 8.57761
 Risk free rating: 0.0868565
 Volatility:       0.804605
 
-Best price: 1328.41 for
-Option type:      Put
+Best price: 498.895 for
+Option type:      Call
 Spot price:       852.419
 Strike price:     2180.83
 Time to maturity: 7.87487
@@ -334,8 +334,8 @@ Time to maturity: 9.73927
 Risk free rating: 0.063945
 Volatility:       0.309559
 
-Best price: 238.77 for
-Option type:      Put
+Best price: 48.6353 for
+Option type:      Call
 Spot price:       490.758
 Strike price:     729.527
 Time to maturity: 9.94513
@@ -350,8 +350,8 @@ Time to maturity: 3.72804
 Risk free rating: 0.151392
 Volatility:       0.662799
 
-Best price: 218.467 for
-Option type:      Put
+Best price: 92.0567 for
+Option type:      Call
 Spot price:       314.98
 Strike price:     533.447
 Time to maturity: 5.13726
@@ -366,8 +366,8 @@ Time to maturity: 4.91875
 Risk free rating: 0.182159
 Volatility:       0.419235
 
-Best price: 327.776 for
-Option type:      Put
+Best price: 164.232 for
+Option type:      Call
 Spot price:       356.578
 Strike price:     684.354
 Time to maturity: 6.72235
@@ -382,8 +382,8 @@ Time to maturity: 7.70868
 Risk free rating: 0.0182847
 Volatility:       0.895368
 
-Best price: 232.002 for
-Option type:      Put
+Best price: 427.3 for
+Option type:      Call
 Spot price:       475.245
 Strike price:     529.914
 Time to maturity: 8.84659
@@ -398,24 +398,24 @@ Time to maturity: 5.7657
 Risk free rating: 0.196263
 Volatility:       0.114044
 
-Best price: 33.9398 for
-Option type:      Put
+Best price: 121.775 for
+Option type:      Call
 Spot price:       312.64
 Strike price:     287.63
 Time to maturity: 2.7579
 Risk free rating: 0.102203
 Volatility:       0.366784
 
-Best price: 35.6298 for
-Option type:      Call
+Best price: 543.918 for
+Option type:      Put
 Spot price:       400.745
 Strike price:     944.663
 Time to maturity: 9.30717
 Risk free rating: 0.0233791
 Volatility:       0.227581
 
-Best price: 218.535 for
-Option type:      Put
+Best price: 118.633 for
+Option type:      Call
 Spot price:       674.432
 Strike price:     869.358
 Time to maturity: 2.61622
@@ -430,8 +430,8 @@ Time to maturity: 7.11822
 Risk free rating: 0.115036
 Volatility:       0.302034
 
-Best price: 27.0906 for
-Option type:      Put
+Best price: 46.3954 for
+Option type:      Call
 Spot price:       425.583
 Strike price:     452.674
 Time to maturity: 6.15399
@@ -446,8 +446,8 @@ Time to maturity: 0.802315
 Risk free rating: 0.0853889
 Volatility:       0.0931532
 
-Best price: 110.638 for
-Option type:      Put
+Best price: 683.965 for
+Option type:      Call
 Spot price:       887.751
 Strike price:     497.812
 Time to maturity: 5.83076
@@ -462,8 +462,8 @@ Time to maturity: 9.82022
 Risk free rating: 0.169397
 Volatility:       0.781344
 
-Best price: 3.24001 for
-Option type:      Put
+Best price: 153.7 for
+Option type:      Call
 Spot price:       257.749
 Strike price:     150.896
 Time to maturity: 3.10233
@@ -478,8 +478,8 @@ Time to maturity: 9.65599
 Risk free rating: 0.0968804
 Volatility:       0.76572
 
-Best price: 81.9823 for
-Option type:      Put
+Best price: 27.8217 for
+Option type:      Call
 Spot price:       202.436
 Strike price:     284.419
 Time to maturity: 7.02517
@@ -494,8 +494,8 @@ Time to maturity: 0.506568
 Risk free rating: 0.085776
 Volatility:       0.418493
 
-Best price: 174.405 for
-Option type:      Put
+Best price: 168.312 for
+Option type:      Call
 Spot price:       746.602
 Strike price:     785.346
 Time to maturity: 1.9249
@@ -510,8 +510,8 @@ Time to maturity: 9.16062
 Risk free rating: 0.0940469
 Volatility:       0.253819
 
-Best price: 18.6506 for
-Option type:      Put
+Best price: 82.5696 for
+Option type:      Call
 Spot price:       102.935
 Strike price:     92.8784
 Time to maturity: 9.35268
@@ -526,8 +526,8 @@ Time to maturity: 7.32739
 Risk free rating: 0.0190661
 Volatility:       0.531132
 
-Best price: 1.08804 for
-Option type:      Put
+Best price: 51.9945 for
+Option type:      Call
 Spot price:       167.06
 Strike price:     127.694
 Time to maturity: 3.48461
@@ -542,8 +542,8 @@ Time to maturity: 1.83577
 Risk free rating: 0.0132606
 Volatility:       0.69886
 
-Best price: 211.812 for
-Option type:      Put
+Best price: 264.846 for
+Option type:      Call
 Spot price:       808.844
 Strike price:     1020.66
 Time to maturity: 4.70027
@@ -574,8 +574,8 @@ Time to maturity: 6.4004
 Risk free rating: 0.16218
 Volatility:       0.625593
 
-Best price: 86.2518 for
-Option type:      Put
+Best price: 491.681 for
+Option type:      Call
 Spot price:       577.633
 Strike price:     452.114
 Time to maturity: 8.13092
@@ -590,8 +590,8 @@ Time to maturity: 2.14618
 Risk free rating: 0.0620526
 Volatility:       0.232401
 
-Best price: 57.3895 for
-Option type:      Put
+Best price: 288.125 for
+Option type:      Call
 Spot price:       383.486
 Strike price:     224.615
 Time to maturity: 6.22071
@@ -606,8 +606,8 @@ Time to maturity: 3.47218
 Risk free rating: 0.059532
 Volatility:       0.471632
 
-Best price: 394.28 for
-Option type:      Put
+Best price: 310.001 for
+Option type:      Call
 Spot price:       695.961
 Strike price:     881.324
 Time to maturity: 9.37282
@@ -622,8 +622,8 @@ Time to maturity: 4.29236
 Risk free rating: 0.118019
 Volatility:       0.539536
 
-Best price: 160.698 for
-Option type:      Put
+Best price: 451.655 for
+Option type:      Call
 Spot price:       734.331
 Strike price:     573.452
 Time to maturity: 2.57516
@@ -638,8 +638,8 @@ Time to maturity: 6.83046
 Risk free rating: 0.150583
 Volatility:       0.252501
 
-Best price: 259.367 for
-Option type:      Put
+Best price: 88.9415 for
+Option type:      Call
 Spot price:       383.952
 Strike price:     643.319
 Time to maturity: 5.01596
@@ -654,8 +654,8 @@ Time to maturity: 9.58956
 Risk free rating: 0.170957
 Volatility:       0.351669
 
-Best price: 946.602 for
-Option type:      Put
+Best price: 40.7893 for
+Option type:      Call
 Spot price:       957.233
 Strike price:     1903.83
 Time to maturity: 4.87696
@@ -670,8 +670,8 @@ Time to maturity: 5.58166
 Risk free rating: 0.0504183
 Volatility:       0.854265
 
-Best price: 196.468 for
-Option type:      Put
+Best price: 744.532 for
+Option type:      Call
 Spot price:       783.483
 Strike price:     587.316
 Time to maturity: 9.3162
@@ -686,8 +686,8 @@ Time to maturity: 5.50457
 Risk free rating: 0.144108
 Volatility:       0.873354
 
-Best price: 927.053 for
-Option type:      Put
+Best price: 428.205 for
+Option type:      Call
 Spot price:       691.15
 Strike price:     1618.2
 Time to maturity: 8.682
@@ -702,24 +702,24 @@ Time to maturity: 8.92978
 Risk free rating: 0.0378549
 Volatility:       0.486327
 
-Best price: 187.627 for
-Option type:      Put
+Best price: 153.155 for
+Option type:      Call
 Spot price:       240.896
 Strike price:     428.523
 Time to maturity: 8.64507
 Risk free rating: 0.177268
 Volatility:       0.251182
 
-Best price: 283.006 for
-Option type:      Call
+Best price: 728.852 for
+Option type:      Put
 Spot price:       908.617
 Strike price:     1637.47
 Time to maturity: 3.56716
 Risk free rating: 0.144554
 Volatility:       0.459417
 
-Best price: 403.874 for
-Option type:      Put
+Best price: 39.6117 for
+Option type:      Call
 Spot price:       384.208
 Strike price:     788.081
 Time to maturity: 2.56237
@@ -734,8 +734,8 @@ Time to maturity: 5.75758
 Risk free rating: 0.150785
 Volatility:       0.702116
 
-Best price: 937.747 for
-Option type:      Put
+Best price: 229.449 for
+Option type:      Call
 Spot price:       824.562
 Strike price:     1762.31
 Time to maturity: 6.84229
@@ -750,8 +750,8 @@ Time to maturity: 5.33086
 Risk free rating: 0.0929038
 Volatility:       0.731793
 
-Best price: 1067.29 for
-Option type:      Put
+Best price: 432.18 for
+Option type:      Call
 Spot price:       978.122
 Strike price:     1685.51
 Time to maturity: 3.2946
@@ -766,8 +766,8 @@ Time to maturity: 6.98457
 Risk free rating: 0.0243326
 Volatility:       0.191283
 
-Best price: 49.802 for
-Option type:      Put
+Best price: 171.203 for
+Option type:      Call
 Spot price:       224.641
 Strike price:     257.862
 Time to maturity: 9.95873
@@ -782,8 +782,8 @@ Time to maturity: 9.59115
 Risk free rating: 0.0209941
 Volatility:       0.385344
 
-Best price: 30.6719 for
-Option type:      Put
+Best price: 24.2131 for
+Option type:      Call
 Spot price:       115.689
 Strike price:     143.275
 Time to maturity: 1.77983
@@ -798,8 +798,8 @@ Time to maturity: 3.66742
 Risk free rating: 0.0593905
 Volatility:       0.435255
 
-Best price: 6.42913 for
-Option type:      Put
+Best price: 16.7835 for
+Option type:      Call
 Spot price:       41.9928
 Strike price:     46.8421
 Time to maturity: 4.17095
@@ -814,8 +814,8 @@ Time to maturity: 9.41127
 Risk free rating: 0.0891614
 Volatility:       0.543988
 
-Best price: 2.78177 for
-Option type:      Put
+Best price: 691.503 for
+Option type:      Call
 Spot price:       919.985
 Strike price:     627.472
 Time to maturity: 8.77895
@@ -830,8 +830,8 @@ Time to maturity: 4.85566
 Risk free rating: 0.197204
 Volatility:       0.370228
 
-Best price: 274.192 for
-Option type:      Put
+Best price: 368.162 for
+Option type:      Call
 Spot price:       752.083
 Strike price:     1026.27
 Time to maturity: 8.30873
@@ -846,8 +846,8 @@ Time to maturity: 0.235352
 Risk free rating: 0.0243182
 Volatility:       0.637957
 
-Best price: 641.166 for
-Option type:      Put
+Best price: 397.725 for
+Option type:      Call
 Spot price:       539.003
 Strike price:     1158.75
 Time to maturity: 9.14034
@@ -878,8 +878,8 @@ Time to maturity: 5.03184
 Risk free rating: 0.10048
 Volatility:       0.756666
 
-Best price: 523.569 for
-Option type:      Put
+Best price: 207.494 for
+Option type:      Call
 Spot price:       314.699
 Strike price:     722.565
 Time to maturity: 9.68294
@@ -894,8 +894,8 @@ Time to maturity: 4.2633
 Risk free rating: 0.159087
 Volatility:       0.593457
 
-Best price: 1199.95 for
-Option type:      Put
+Best price: 478.144 for
+Option type:      Call
 Spot price:       806.994
 Strike price:     2006.94
 Time to maturity: 6.21091
@@ -910,8 +910,8 @@ Time to maturity: 1.00092
 Risk free rating: 0.148015
 Volatility:       0.515329
 
-Best price: 685.988 for
-Option type:      Put
+Best price: 121.37 for
+Option type:      Call
 Spot price:       456.401
 Strike price:     1142.39
 Time to maturity: 3.0498
@@ -926,8 +926,8 @@ Time to maturity: 8.43671
 Risk free rating: 0.156094
 Volatility:       0.106301
 
-Best price: 52.3703 for
-Option type:      Put
+Best price: 14.4442 for
+Option type:      Call
 Spot price:       55.4026
 Strike price:     103.369
 Time to maturity: 3.53939
@@ -942,8 +942,8 @@ Time to maturity: 4.65518
 Risk free rating: 0.121106
 Volatility:       0.390255
 
-Best price: 280.895 for
-Option type:      Put
+Best price: 561.893 for
+Option type:      Call
 Spot price:       700.691
 Strike price:     627.923
 Time to maturity: 6.99536
@@ -958,8 +958,8 @@ Time to maturity: 6.05916
 Risk free rating: 0.0525313
 Volatility:       0.748522
 
-Best price: 100.885 for
-Option type:      Put
+Best price: 21.8047 for
+Option type:      Call
 Spot price:       351.632
 Strike price:     444.731
 Time to maturity: 0.414866
@@ -974,8 +974,8 @@ Time to maturity: 1.37461
 Risk free rating: 0.0727189
 Volatility:       0.323345
 
-Best price: 56.6159 for
-Option type:      Put
+Best price: 32.854 for
+Option type:      Call
 Spot price:       101.368
 Strike price:     157.984
 Time to maturity: 6.90907
@@ -990,8 +990,8 @@ Time to maturity: 8.69618
 Risk free rating: 0.0260582
 Volatility:       0.557686
 
-Best price: 980.674 for
-Option type:      Put
+Best price: 698.634 for
+Option type:      Call
 Spot price:       986.394
 Strike price:     1657.64
 Time to maturity: 9.24801
@@ -1006,24 +1006,24 @@ Time to maturity: 0.71718
 Risk free rating: 0.0380704
 Volatility:       0.163149
 
-Best price: 1244.85 for
-Option type:      Put
+Best price: 419.063 for
+Option type:      Call
 Spot price:       690.294
 Strike price:     1627.55
 Time to maturity: 7.5212
 Risk free rating: 0.0157897
 Volatility:       0.787133
 
-Best price: 12.6692 for
-Option type:      Call
+Best price: 134.78 for
+Option type:      Put
 Spot price:       360.605
 Strike price:     495.385
 Time to maturity: 1.1382
 Risk free rating: 0.150107
 Volatility:       0.204941
 
-Best price: 766.99 for
-Option type:      Put
+Best price: 0.0695647 for
+Option type:      Call
 Spot price:       568.325
 Strike price:     1335.32
 Time to maturity: 0.983123
@@ -1038,8 +1038,8 @@ Time to maturity: 3.61553
 Risk free rating: 0.133276
 Volatility:       0.457645
 
-Best price: 659.554 for
-Option type:      Put
+Best price: 265.777 for
+Option type:      Call
 Spot price:       588.357
 Strike price:     1247.91
 Time to maturity: 5.62165
@@ -1054,8 +1054,8 @@ Time to maturity: 9.00651
 Risk free rating: 0.125435
 Volatility:       0.2577
 
-Best price: 192.617 for
-Option type:      Put
+Best price: 127.865 for
+Option type:      Call
 Spot price:       503.265
 Strike price:     617.389
 Time to maturity: 9.34355
@@ -1070,8 +1070,8 @@ Time to maturity: 8.52309
 Risk free rating: 0.0266986
 Volatility:       0.734985
 
-Best price: 88.4366 for
-Option type:      Put
+Best price: 0.917914 for
+Option type:      Call
 Spot price:       65.097
 Strike price:     153.179
 Time to maturity: 0.611191
@@ -1086,8 +1086,8 @@ Time to maturity: 5.80238
 Risk free rating: 0.184305
 Volatility:       0.054505
 
-Best price: 646.82 for
-Option type:      Put
+Best price: 734.959 for
+Option type:      Call
 Spot price:       975.316
 Strike price:     1540.66
 Time to maturity: 7.25667
@@ -1102,8 +1102,8 @@ Time to maturity: 8.40197
 Risk free rating: 0.0489647
 Volatility:       0.872795
 
-Best price: 225.065 for
-Option type:      Put
+Best price: 551.009 for
+Option type:      Call
 Spot price:       713.843
 Strike price:     670.238
 Time to maturity: 7.38885
@@ -1118,8 +1118,8 @@ Time to maturity: 5.11043
 Risk free rating: 0.187083
 Volatility:       0.322546
 
-Best price: 255.789 for
-Option type:      Put
+Best price: 295.284 for
+Option type:      Call
 Spot price:       597.944
 Strike price:     784.686
 Time to maturity: 4.59725
@@ -1134,8 +1134,8 @@ Time to maturity: 0.969894
 Risk free rating: 0.0363767
 Volatility:       0.0523043
 
-Best price: 67.9069 for
-Option type:      Put
+Best price: 53.838 for
+Option type:      Call
 Spot price:       125.529
 Strike price:     193.436
 Time to maturity: 6.10041
@@ -1150,8 +1150,8 @@ Time to maturity: 4.14433
 Risk free rating: 0.187258
 Volatility:       0.89229
 
-Best price: 71.1904 for
-Option type:      Put
+Best price: 140.309 for
+Option type:      Call
 Spot price:       212.952
 Strike price:     284.142
 Time to maturity: 9.27185
@@ -1182,8 +1182,8 @@ Time to maturity: 4.57429
 Risk free rating: 0.145619
 Volatility:       0.814717
 
-Best price: 431.666 for
-Option type:      Put
+Best price: 183.617 for
+Option type:      Call
 Spot price:       627.861
 Strike price:     1059.53
 Time to maturity: 4.44357
@@ -1198,8 +1198,8 @@ Time to maturity: 0.759529
 Risk free rating: 0.0535148
 Volatility:       0.511422
 
-Best price: 101.519 for
-Option type:      Put
+Best price: 250.131 for
+Option type:      Call
 Spot price:       437.213
 Strike price:     538.731
 Time to maturity: 7.33244
@@ -1214,8 +1214,8 @@ Time to maturity: 7.44046
 Risk free rating: 0.118899
 Volatility:       0.898039
 
-Best price: 796.667 for
-Option type:      Put
+Best price: 83.0978 for
+Option type:      Call
 Spot price:       754.879
 Strike price:     1551.55
 Time to maturity: 7.80786
@@ -1230,8 +1230,8 @@ Time to maturity: 7.57089
 Risk free rating: 0.029554
 Volatility:       0.506009
 
-Best price: 223.659 for
-Option type:      Put
+Best price: 204.322 for
+Option type:      Call
 Spot price:       385.033
 Strike price:     579.629
 Time to maturity: 6.07918
@@ -1246,8 +1246,8 @@ Time to maturity: 7.74163
 Risk free rating: 0.0123186
 Volatility:       0.558676
 
-Best price: 663.161 for
-Option type:      Put
+Best price: 427.625 for
+Option type:      Call
 Spot price:       569.853
 Strike price:     1182.78
 Time to maturity: 6.03039
@@ -1262,8 +1262,8 @@ Time to maturity: 4.29361
 Risk free rating: 0.0647066
 Volatility:       0.572708
 
-Best price: 127.46 for
-Option type:      Put
+Best price: 346.943 for
+Option type:      Call
 Spot price:       912.734
 Strike price:     735.714
 Time to maturity: 1.09787
@@ -1278,8 +1278,8 @@ Time to maturity: 9.19563
 Risk free rating: 0.160116
 Volatility:       0.0695692
 
-Best price: 783.691 for
-Option type:      Put
+Best price: 0.0556221 for
+Option type:      Call
 Spot price:       654.854
 Strike price:     1438.54
 Time to maturity: 3.80691
@@ -1294,8 +1294,8 @@ Time to maturity: 9.11579
 Risk free rating: 0.033334
 Volatility:       0.25052
 
-Best price: 22.7839 for
-Option type:      Put
+Best price: 101.328 for
+Option type:      Call
 Spot price:       173.865
 Strike price:     158.201
 Time to maturity: 8.39116
@@ -1310,24 +1310,24 @@ Time to maturity: 3.85513
 Risk free rating: 0.151407
 Volatility:       0.224743
 
-Best price: 710.311 for
-Option type:      Put
+Best price: 148.616 for
+Option type:      Call
 Spot price:       789.912
 Strike price:     1444.11
 Time to maturity: 1.23125
 Risk free rating: 0.0887559
 Volatility:       0.78399
 
-Best price: 537.825 for
-Option type:      Call
+Best price: 505.419 for
+Option type:      Put
 Spot price:       923.731
 Strike price:     1408.26
 Time to maturity: 4.86029
 Risk free rating: 0.184506
 Volatility:       0.549008
 
-Best price: 64.1195 for
-Option type:      Put
+Best price: 0.142695 for
+Option type:      Call
 Spot price:       42.5182
 Strike price:     106.638
 Time to maturity: 2.55744
@@ -1342,8 +1342,8 @@ Time to maturity: 7.82691
 Risk free rating: 0.0627416
 Volatility:       0.237083
 
-Best price: 157.239 for
-Option type:      Put
+Best price: 149.329 for
+Option type:      Call
 Spot price:       220.554
 Strike price:     360.249
 Time to maturity: 9.75786
@@ -1358,8 +1358,8 @@ Time to maturity: 1.92618
 Risk free rating: 0.0669232
 Volatility:       0.313446
 
-Best price: 218.617 for
-Option type:      Put
+Best price: 217.405 for
+Option type:      Call
 Spot price:       403.345
 Strike price:     580.387
 Time to maturity: 8.01784
@@ -1374,8 +1374,8 @@ Time to maturity: 8.38199
 Risk free rating: 0.121616
 Volatility:       0.299938
 
-Best price: 491.555 for
-Option type:      Put
+Best price: 306.959 for
+Option type:      Call
 Spot price:       716.919
 Strike price:     1190.68
 Time to maturity: 5.39111
@@ -1390,8 +1390,8 @@ Time to maturity: 3.41019
 Risk free rating: 0.0243456
 Volatility:       0.690259
 
-Best price: 424.085 for
-Option type:      Put
+Best price: 191.114 for
+Option type:      Call
 Spot price:       279.579
 Strike price:     691.775
 Time to maturity: 5.31313
@@ -1406,8 +1406,8 @@ Time to maturity: 4.13905
 Risk free rating: 0.114827
 Volatility:       0.265805
 
-Best price: 148.296 for
-Option type:      Put
+Best price: 97.6916 for
+Option type:      Call
 Spot price:       204.152
 Strike price:     329.117
 Time to maturity: 5.99098
@@ -1422,8 +1422,8 @@ Time to maturity: 7.23605
 Risk free rating: 0.16301
 Volatility:       0.890419
 
-Best price: 774.179 for
-Option type:      Put
+Best price: 386.354 for
+Option type:      Call
 Spot price:       607.165
 Strike price:     1381.34
 Time to maturity: 9.63023
@@ -1438,8 +1438,8 @@ Time to maturity: 0.960558
 Risk free rating: 0.130316
 Volatility:       0.675519
 
-Best price: 176.772 for
-Option type:      Put
+Best price: 727.112 for
+Option type:      Call
 Spot price:       849.647
 Strike price:     654.321
 Time to maturity: 8.7768
@@ -1454,8 +1454,8 @@ Time to maturity: 3.42507
 Risk free rating: 0.16677
 Volatility:       0.3586
 
-Best price: 58.2558 for
-Option type:      Put
+Best price: 7.2523 for
+Option type:      Call
 Spot price:       43.8858
 Strike price:     102.142
 Time to maturity: 3.5174
@@ -1486,8 +1486,8 @@ Time to maturity: 7.01857
 Risk free rating: 0.0864845
 Volatility:       0.23532
 
-Best price: 309.05 for
-Option type:      Put
+Best price: 168.751 for
+Option type:      Call
 Spot price:       648.604
 Strike price:     926.043
 Time to maturity: 1.40953
@@ -1502,8 +1502,8 @@ Time to maturity: 5.34365
 Risk free rating: 0.16486
 Volatility:       0.473377
 
-Best price: 29.9547 for
-Option type:      Put
+Best price: 26.4974 for
+Option type:      Call
 Spot price:       76.5036
 Strike price:     106.458
 Time to maturity: 5.0249
@@ -1518,8 +1518,8 @@ Time to maturity: 2.73833
 Risk free rating: 0.149115
 Volatility:       0.263121
 
-Best price: 374.039 for
-Option type:      Put
+Best price: 337.408 for
+Option type:      Call
 Spot price:       636.767
 Strike price:     1010.81
 Time to maturity: 5.77561
@@ -1534,8 +1534,8 @@ Time to maturity: 3.60333
 Risk free rating: 0.192139
 Volatility:       0.206715
 
-Best price: 118.939 for
-Option type:      Put
+Best price: 0.785879 for
+Option type:      Call
 Spot price:       99.4336
 Strike price:     218.373
 Time to maturity: 0.775672
@@ -1550,8 +1550,8 @@ Time to maturity: 6.14301
 Risk free rating: 0.190368
 Volatility:       0.387152
 
-Best price: 185.475 for
-Option type:      Put
+Best price: 549.403 for
+Option type:      Call
 Spot price:       954.546
 Strike price:     760.776
 Time to maturity: 4.88917
@@ -1566,8 +1566,8 @@ Time to maturity: 8.47944
 Risk free rating: 0.191495
 Volatility:       0.181471
 
-Best price: 354.147 for
-Option type:      Put
+Best price: 148.434 for
+Option type:      Call
 Spot price:       627.099
 Strike price:     967.816
 Time to maturity: 3.5094
@@ -1582,8 +1582,8 @@ Time to maturity: 4.65085
 Risk free rating: 0.0244273
 Volatility:       0.116101
 
-Best price: 20.062 for
-Option type:      Put
+Best price: 8.48416e-16 for
+Option type:      Call
 Spot price:       12.316
 Strike price:     32.378
 Time to maturity: 0.152013
@@ -1598,8 +1598,8 @@ Time to maturity: 7.92113
 Risk free rating: 0.141206
 Volatility:       0.493106
 
-Best price: 154.328 for
-Option type:      Put
+Best price: 64.1246 for
+Option type:      Call
 Spot price:       95.8382
 Strike price:     249.944
 Time to maturity: 7.60808
@@ -1614,24 +1614,24 @@ Time to maturity: 9.80771
 Risk free rating: 0.181639
 Volatility:       0.599665
 
-Best price: 148.593 for
-Option type:      Put
+Best price: 461.699 for
+Option type:      Call
 Spot price:       696.243
 Strike price:     427.153
 Time to maturity: 6.73218
 Risk free rating: 0.0183914
 Volatility:       0.550024
 
-Best price: 58.4999 for
-Option type:      Call
+Best price: 722.312 for
+Option type:      Put
 Spot price:       999.36
 Strike price:     1721.67
 Time to maturity: 4.78478
 Risk free rating: 0.0694424
 Volatility:       0.152444
 
-Best price: 160.897 for
-Option type:      Put
+Best price: 279.834 for
+Option type:      Call
 Spot price:       733.713
 Strike price:     677.744
 Time to maturity: 1.24129
@@ -1646,8 +1646,8 @@ Time to maturity: 4.60592
 Risk free rating: 0.109263
 Volatility:       0.597865
 
-Best price: 416.032 for
-Option type:      Put
+Best price: 464.293 for
+Option type:      Call
 Spot price:       653.666
 Strike price:     851.291
 Time to maturity: 5.6507
@@ -1662,8 +1662,8 @@ Time to maturity: 4.10441
 Risk free rating: 0.118761
 Volatility:       0.73338
 
-Best price: 518.93 for
-Option type:      Put
+Best price: 252.247 for
+Option type:      Call
 Spot price:       543.017
 Strike price:     1061.95
 Time to maturity: 7.40477
@@ -1678,8 +1678,8 @@ Time to maturity: 4.67323
 Risk free rating: 0.198165
 Volatility:       0.0502019
 
-Best price: 66.7442 for
-Option type:      Put
+Best price: 7.68332 for
+Option type:      Call
 Spot price:       193.618
 Strike price:     260.362
 Time to maturity: 9.33264
@@ -1694,8 +1694,8 @@ Time to maturity: 0.472208
 Risk free rating: 0.101158
 Volatility:       0.543644
 
-Best price: 116.834 for
-Option type:      Put
+Best price: 30.7632 for
+Option type:      Call
 Spot price:       278.97
 Strike price:     383.928
 Time to maturity: 1.00782
@@ -1710,8 +1710,8 @@ Time to maturity: 4.72638
 Risk free rating: 0.0664305
 Volatility:       0.774899
 
-Best price: 571.872 for
-Option type:      Put
+Best price: 23.8121 for
+Option type:      Call
 Spot price:       718.398
 Strike price:     1290.27
 Time to maturity: 2.84493
@@ -1726,8 +1726,8 @@ Time to maturity: 1.33193
 Risk free rating: 0.191719
 Volatility:       0.728291
 
-Best price: 212.198 for
-Option type:      Put
+Best price: 215.49 for
+Option type:      Call
 Spot price:       266.393
 Strike price:     478.127
 Time to maturity: 9.82507
@@ -1742,8 +1742,8 @@ Time to maturity: 7.45919
 Risk free rating: 0.0223474
 Volatility:       0.391343
 
-Best price: 35.9205 for
-Option type:      Put
+Best price: 211.268 for
+Option type:      Call
 Spot price:       839.447
 Strike price:     845.535
 Time to maturity: 8.32336
@@ -1758,8 +1758,8 @@ Time to maturity: 9.57698
 Risk free rating: 0.166979
 Volatility:       0.730654
 
-Best price: 134.789 for
-Option type:      Put
+Best price: 390.301 for
+Option type:      Call
 Spot price:       633.48
 Strike price:     618.221
 Time to maturity: 5.23078
@@ -1790,8 +1790,8 @@ Time to maturity: 3.97258
 Risk free rating: 0.0618623
 Volatility:       0.455175
 
-Best price: 74.1934 for
-Option type:      Put
+Best price: 1.39954 for
+Option type:      Call
 Spot price:       53.9329
 Strike price:     128.081
 Time to maturity: 0.450681
@@ -1806,8 +1806,8 @@ Time to maturity: 2.60123
 Risk free rating: 0.0109656
 Volatility:       0.641357
 
-Best price: 69.1872 for
-Option type:      Put
+Best price: 44.7571 for
+Option type:      Call
 Spot price:       58.2957
 Strike price:     97.4545
 Time to maturity: 9.62501
@@ -1822,8 +1822,8 @@ Time to maturity: 8.84077
 Risk free rating: 0.108055
 Volatility:       0.820537
 
-Best price: 558.82 for
-Option type:      Put
+Best price: 362.362 for
+Option type:      Call
 Spot price:       575.606
 Strike price:     1126.26
 Time to maturity: 5.48341
@@ -1838,8 +1838,8 @@ Time to maturity: 2.52833
 Risk free rating: 0.0398947
 Volatility:       0.18634
 
-Best price: 189.844 for
-Option type:      Put
+Best price: 243.411 for
+Option type:      Call
 Spot price:       340.669
 Strike price:     349.226
 Time to maturity: 9.30789
@@ -1854,8 +1854,8 @@ Time to maturity: 9.61702
 Risk free rating: 0.0984393
 Volatility:       0.797211
 
-Best price: 19.6804 for
-Option type:      Put
+Best price: 1.54898e-08 for
+Option type:      Call
 Spot price:       15.0937
 Strike price:     34.7742
 Time to maturity: 2.36339
@@ -1870,8 +1870,8 @@ Time to maturity: 2.66101
 Risk free rating: 0.0466952
 Volatility:       0.121483
 
-Best price: 243.766 for
-Option type:      Put
+Best price: 4.53487e-12 for
+Option type:      Call
 Spot price:       333.169
 Strike price:     576.935
 Time to maturity: 1.24685
@@ -1886,8 +1886,8 @@ Time to maturity: 2.9051
 Risk free rating: 0.0135013
 Volatility:       0.417405
 
-Best price: 414.98 for
-Option type:      Put
+Best price: 312.69 for
+Option type:      Call
 Spot price:       841.72
 Strike price:     1147.04
 Time to maturity: 1.87702
@@ -1902,8 +1902,8 @@ Time to maturity: 9.47825
 Risk free rating: 0.0416117
 Volatility:       0.705337
 
-Best price: 455.192 for
-Option type:      Put
+Best price: 83.3927 for
+Option type:      Call
 Spot price:       711.486
 Strike price:     1097.01
 Time to maturity: 0.673413
@@ -1918,24 +1918,24 @@ Time to maturity: 4.51499
 Risk free rating: 0.133039
 Volatility:       0.555236
 
-Best price: 97.7465 for
-Option type:      Put
+Best price: 330.354 for
+Option type:      Call
 Spot price:       389.776
 Strike price:     251.163
 Time to maturity: 8.23298
 Risk free rating: 0.0806484
 Volatility:       0.745968
 
-Best price: 170.872 for
-Option type:      Call
+Best price: 22.7572 for
+Option type:      Put
 Spot price:       259.984
 Strike price:     130.581
 Time to maturity: 1.67349
 Risk free rating: 0.0990225
 Volatility:       0.852658
 
-Best price: 153.335 for
-Option type:      Put
+Best price: 31.2583 for
+Option type:      Call
 Spot price:       111.172
 Strike price:     264.507
 Time to maturity: 5.31754
@@ -1950,8 +1950,8 @@ Time to maturity: 2.37753
 Risk free rating: 0.0349537
 Volatility:       0.787846
 
-Best price: 126.889 for
-Option type:      Put
+Best price: 876.396 for
+Option type:      Call
 Spot price:       963.604
 Strike price:     548.161
 Time to maturity: 7.33957
@@ -1966,8 +1966,8 @@ Time to maturity: 4.47876
 Risk free rating: 0.0692709
 Volatility:       0.322631
 
-Best price: 829.595 for
-Option type:      Put
+Best price: 178.898 for
+Option type:      Call
 Spot price:       727.178
 Strike price:     1556.77
 Time to maturity: 2.08356
@@ -1982,8 +1982,8 @@ Time to maturity: 5.478
 Risk free rating: 0.0402567
 Volatility:       0.223146
 
-Best price: 5.56112e-05 for
-Option type:      Put
+Best price: 49.7303 for
+Option type:      Call
 Spot price:       100.253
 Strike price:     84.0167
 Time to maturity: 4.59157
@@ -1998,8 +1998,8 @@ Time to maturity: 9.12718
 Risk free rating: 0.193827
 Volatility:       0.20764
 
-Best price: 1.11143 for
-Option type:      Put
+Best price: 357.626 for
+Option type:      Call
 Spot price:       467.476
 Strike price:     235.005
 Time to maturity: 6.02344
@@ -2014,8 +2014,8 @@ Time to maturity: 1.69217
 Risk free rating: 0.133789
 Volatility:       0.327037
 
-Best price: 392.205 for
-Option type:      Put
+Best price: 306.648 for
+Option type:      Call
 Spot price:       594.361
 Strike price:     863.692
 Time to maturity: 9.84508
@@ -2030,8 +2030,8 @@ Time to maturity: 9.74953
 Risk free rating: 0.147159
 Volatility:       0.608436
 
-Best price: 1212.01 for
-Option type:      Put
+Best price: 573.135 for
+Option type:      Call
 Spot price:       759.489
 Strike price:     1971.5
 Time to maturity: 9.0874
@@ -2046,8 +2046,8 @@ Time to maturity: 5.75195
 Risk free rating: 0.0134899
 Volatility:       0.460003
 
-Best price: 57.0138 for
-Option type:      Put
+Best price: 154.908 for
+Option type:      Call
 Spot price:       218.246
 Strike price:     275.26
 Time to maturity: 7.78047
@@ -2062,8 +2062,8 @@ Time to maturity: 0.916835
 Risk free rating: 0.166658
 Volatility:       0.354131
 
-Best price: 542.782 for
-Option type:      Put
+Best price: 74.3608 for
+Option type:      Call
 Spot price:       328.874
 Strike price:     871.656
 Time to maturity: 2.0885
@@ -2094,8 +2094,8 @@ Time to maturity: 7.85589
 Risk free rating: 0.126329
 Volatility:       0.461739
 
-Best price: 475.976 for
-Option type:      Put
+Best price: 361.917 for
+Option type:      Call
 Spot price:       664.212
 Strike price:     1140.19
 Time to maturity: 6.01501
@@ -2110,8 +2110,8 @@ Time to maturity: 4.44221
 Risk free rating: 0.147717
 Volatility:       0.554287
 
-Best price: 409.381 for
-Option type:      Put
+Best price: 278.923 for
+Option type:      Call
 Spot price:       653.791
 Strike price:     1016.26
 Time to maturity: 6.19585
@@ -2126,8 +2126,8 @@ Time to maturity: 4.39319
 Risk free rating: 0.0182957
 Volatility:       0.187422
 
-Best price: 28.7269 for
-Option type:      Put
+Best price: 7.54288 for
+Option type:      Call
 Spot price:       30.6525
 Strike price:     59.3794
 Time to maturity: 3.38991
@@ -2142,8 +2142,8 @@ Time to maturity: 2.28356
 Risk free rating: 0.089496
 Volatility:       0.223042
 
-Best price: 334.452 for
-Option type:      Put
+Best price: 727.543 for
+Option type:      Call
 Spot price:       842.048
 Strike price:     743.718
 Time to maturity: 9.61173
@@ -2158,8 +2158,8 @@ Time to maturity: 7.70047
 Risk free rating: 0.105921
 Volatility:       0.511805
 
-Best price: 411.831 for
-Option type:      Put
+Best price: 6.10385 for
+Option type:      Call
 Spot price:       518.856
 Strike price:     930.687
 Time to maturity: 0.391005
@@ -2174,8 +2174,8 @@ Time to maturity: 6.58459
 Risk free rating: 0.198505
 Volatility:       0.291276
 
-Best price: 125.922 for
-Option type:      Put
+Best price: 158.383 for
+Option type:      Call
 Spot price:       365.56
 Strike price:     491.482
 Time to maturity: 4.71155
@@ -2190,8 +2190,8 @@ Time to maturity: 6.05837
 Risk free rating: 0.130183
 Volatility:       0.366921
 
-Best price: 211.482 for
-Option type:      Put
+Best price: 0.257561 for
+Option type:      Call
 Spot price:       517.489
 Strike price:     728.971
 Time to maturity: 0.784415
@@ -2206,8 +2206,8 @@ Time to maturity: 5.83621
 Risk free rating: 0.135898
 Volatility:       0.130972
 
-Best price: 122.418 for
-Option type:      Put
+Best price: 269.564 for
+Option type:      Call
 Spot price:       655.602
 Strike price:     778.02
 Time to maturity: 4.05055
@@ -2222,24 +2222,24 @@ Time to maturity: 4.02693
 Risk free rating: 0.0550353
 Volatility:       0.249473
 
-Best price: 540.081 for
-Option type:      Put
+Best price: 364.47 for
+Option type:      Call
 Spot price:       884.873
 Strike price:     1302.93
 Time to maturity: 3.3758
 Risk free rating: 0.0952677
 Volatility:       0.618982
 
-Best price: 84.1022 for
-Option type:      Call
+Best price: 75.4143 for
+Option type:      Put
 Spot price:       154.299
 Strike price:     229.713
 Time to maturity: 5.92006
 Risk free rating: 0.190231
 Volatility:       0.264649
 
-Best price: 181.782 for
-Option type:      Put
+Best price: 188.357 for
+Option type:      Call
 Spot price:       365.658
 Strike price:     488.003
 Time to maturity: 6.09483
@@ -2254,8 +2254,8 @@ Time to maturity: 4.51905
 Risk free rating: 0.174201
 Volatility:       0.524419
 
-Best price: 19.64 for
-Option type:      Put
+Best price: 335.541 for
+Option type:      Call
 Spot price:       544.507
 Strike price:     313.207
 Time to maturity: 9.86826
@@ -2270,8 +2270,8 @@ Time to maturity: 2.32454
 Risk free rating: 0.044202
 Volatility:       0.125272
 
-Best price: 90.5795 for
-Option type:      Put
+Best price: 51.1812 for
+Option type:      Call
 Spot price:       112.276
 Strike price:     200.556
 Time to maturity: 6.91326
@@ -2286,8 +2286,8 @@ Time to maturity: 3.29899
 Risk free rating: 0.194889
 Volatility:       0.543095
 
-Best price: 169.519 for
-Option type:      Put
+Best price: 19.1274 for
+Option type:      Call
 Spot price:       261.682
 Strike price:     431.202
 Time to maturity: 3.49227
@@ -2302,8 +2302,8 @@ Time to maturity: 9.40422
 Risk free rating: 0.149251
 Volatility:       0.188025
 
-Best price: 243.299 for
-Option type:      Put
+Best price: 48.1373 for
+Option type:      Call
 Spot price:       196.466
 Strike price:     414.115
 Time to maturity: 1.64602
@@ -2318,8 +2318,8 @@ Time to maturity: 9.78845
 Risk free rating: 0.0811164
 Volatility:       0.0648886
 
-Best price: 334.248 for
-Option type:      Put
+Best price: 104.768 for
+Option type:      Call
 Spot price:       251.706
 Strike price:     585.953
 Time to maturity: 8.65963
@@ -2334,8 +2334,8 @@ Time to maturity: 6.04603
 Risk free rating: 0.188766
 Volatility:       0.752813
 
-Best price: 602.418 for
-Option type:      Put
+Best price: 189.551 for
+Option type:      Call
 Spot price:       670.302
 Strike price:     1186.31
 Time to maturity: 3.55088
@@ -2350,8 +2350,8 @@ Time to maturity: 9.93404
 Risk free rating: 0.152961
 Volatility:       0.126909
 
-Best price: 73.4677 for
-Option type:      Put
+Best price: 256.477 for
+Option type:      Call
 Spot price:       295.799
 Strike price:     218.903
 Time to maturity: 6.54007
@@ -2366,8 +2366,8 @@ Time to maturity: 8.79112
 Risk free rating: 0.0702672
 Volatility:       0.788566
 
-Best price: 173.458 for
-Option type:      Put
+Best price: 236.327 for
+Option type:      Call
 Spot price:       381.916
 Strike price:     440.392
 Time to maturity: 6.52584
@@ -2398,8 +2398,8 @@ Time to maturity: 5.05441
 Risk free rating: 0.113049
 Volatility:       0.858757
 
-Best price: 1282.65 for
-Option type:      Put
+Best price: 25.0091 for
+Option type:      Call
 Spot price:       848.696
 Strike price:     2131.35
 Time to maturity: 8.15629
@@ -2414,8 +2414,8 @@ Time to maturity: 4.81929
 Risk free rating: 0.0849294
 Volatility:       0.517002
 
-Best price: 804.923 for
-Option type:      Put
+Best price: 309.57 for
+Option type:      Call
 Spot price:       749.407
 Strike price:     1554.33
 Time to maturity: 5.26022
@@ -2430,8 +2430,8 @@ Time to maturity: 9.55113
 Risk free rating: 0.134392
 Volatility:       0.373063
 
-Best price: 137.479 for
-Option type:      Put
+Best price: 42.0573 for
+Option type:      Call
 Spot price:       205.183
 Strike price:     318.895
 Time to maturity: 2.02613
@@ -2446,8 +2446,8 @@ Time to maturity: 9.3031
 Risk free rating: 0.111129
 Volatility:       0.543792
 
-Best price: 107.542 for
-Option type:      Put
+Best price: 55.6643 for
+Option type:      Call
 Spot price:       98.7301
 Strike price:     205.24
 Time to maturity: 4.05906
@@ -2462,8 +2462,8 @@ Time to maturity: 8.60822
 Risk free rating: 0.161958
 Volatility:       0.206897
 
-Best price: 376.545 for
-Option type:      Put
+Best price: 25.7732 for
+Option type:      Call
 Spot price:       302.326
 Strike price:     678.871
 Time to maturity: 1.93376
@@ -2478,8 +2478,8 @@ Time to maturity: 3.79775
 Risk free rating: 0.110035
 Volatility:       0.145459
 
-Best price: 12.5205 for
-Option type:      Put
+Best price: 7.41212 for
+Option type:      Call
 Spot price:       12.5582
 Strike price:     23.9053
 Time to maturity: 5.20023
@@ -2494,8 +2494,8 @@ Time to maturity: 3.67165
 Risk free rating: 0.182119
 Volatility:       0.704453
 
-Best price: 203.343 for
-Option type:      Put
+Best price: 336.944 for
+Option type:      Call
 Spot price:       561.071
 Strike price:     596.092
 Time to maturity: 3.0904
@@ -2510,8 +2510,8 @@ Time to maturity: 7.6899
 Risk free rating: 0.0384438
 Volatility:       0.410353
 
-Best price: 45.9433 for
-Option type:      Put
+Best price: 116.583 for
+Option type:      Call
 Spot price:       161.454
 Strike price:     164.282
 Time to maturity: 8.70567
@@ -2526,24 +2526,24 @@ Time to maturity: 2.37944
 Risk free rating: 0.0491754
 Volatility:       0.592267
 
-Best price: 235.355 for
-Option type:      Put
+Best price: 0.113454 for
+Option type:      Call
 Spot price:       264.315
 Strike price:     499.67
 Time to maturity: 0.678701
 Risk free rating: 0.0369371
 Volatility:       0.283359
 
-Best price: 273.941 for
-Option type:      Call
+Best price: 639.58 for
+Option type:      Put
 Spot price:       601.076
 Strike price:     1194.25
 Time to maturity: 4.4829
 Risk free rating: 0.0947003
 Volatility:       0.665839
 
-Best price: 7.12713 for
-Option type:      Put
+Best price: 15.8897 for
+Option type:      Call
 Spot price:       25.6629
 Strike price:     32.0888
 Time to maturity: 8.2052
@@ -2558,8 +2558,8 @@ Time to maturity: 2.72246
 Risk free rating: 0.132605
 Volatility:       0.556388
 
-Best price: 143.6 for
-Option type:      Put
+Best price: 151.726 for
+Option type:      Call
 Spot price:       407.176
 Strike price:     532.303
 Time to maturity: 3.50125
@@ -2574,8 +2574,8 @@ Time to maturity: 0.792323
 Risk free rating: 0.131632
 Volatility:       0.280475
 
-Best price: 594.67 for
-Option type:      Put
+Best price: 8.75891 for
+Option type:      Call
 Spot price:       596.884
 Strike price:     1191.55
 Time to maturity: 2.38521
@@ -2590,8 +2590,8 @@ Time to maturity: 3.69315
 Risk free rating: 0.199141
 Volatility:       0.4294
 
-Best price: 264.377 for
-Option type:      Put
+Best price: 35.8158 for
+Option type:      Call
 Spot price:       340.234
 Strike price:     604.611
 Time to maturity: 0.978797
@@ -2606,8 +2606,8 @@ Time to maturity: 4.15383
 Risk free rating: 0.0903109
 Volatility:       0.748535
 
-Best price: 3.03819 for
-Option type:      Put
+Best price: 7.45643 for
+Option type:      Call
 Spot price:       11.2243
 Strike price:     13.0413
 Time to maturity: 9.81424
@@ -2622,8 +2622,8 @@ Time to maturity: 0.298261
 Risk free rating: 0.150064
 Volatility:       0.70331
 
-Best price: 255.029 for
-Option type:      Put
+Best price: 26.0779 for
+Option type:      Call
 Spot price:       251.22
 Strike price:     496.77
 Time to maturity: 1.02
@@ -2638,8 +2638,8 @@ Time to maturity: 5.1177
 Risk free rating: 0.0402678
 Volatility:       0.103643
 
-Best price: 19.4305 for
-Option type:      Put
+Best price: 46.2741 for
+Option type:      Call
 Spot price:       126.473
 Strike price:     126.496
 Time to maturity: 3.48258
@@ -2654,8 +2654,8 @@ Time to maturity: 8.27033
 Risk free rating: 0.0631437
 Volatility:       0.851029
 
-Best price: 170.189 for
-Option type:      Put
+Best price: 669.094 for
+Option type:      Call
 Spot price:       874.603
 Strike price:     748.557
 Time to maturity: 7.88413
@@ -2670,8 +2670,8 @@ Time to maturity: 4.03207
 Risk free rating: 0.112549
 Volatility:       0.583758
 
-Best price: 454.954 for
-Option type:      Put
+Best price: 107.147 for
+Option type:      Call
 Spot price:       677.561
 Strike price:     1132.51
 Time to maturity: 7.24208
@@ -2702,8 +2702,8 @@ Time to maturity: 1.47806
 Risk free rating: 0.18067
 Volatility:       0.754933
 
-Best price: 517.723 for
-Option type:      Put
+Best price: 82.0611 for
+Option type:      Call
 Spot price:       324.356
 Strike price:     842.079
 Time to maturity: 8.26949
@@ -2718,8 +2718,8 @@ Time to maturity: 2.40226
 Risk free rating: 0.0251934
 Volatility:       0.710215
 
-Best price: 105.625 for
-Option type:      Put
+Best price: 89.0125 for
+Option type:      Call
 Spot price:       130.815
 Strike price:     236.44
 Time to maturity: 9.37085
@@ -2734,8 +2734,8 @@ Time to maturity: 0.275109
 Risk free rating: 0.124485
 Volatility:       0.360078
 
-Best price: 299.963 for
-Option type:      Put
+Best price: 44.9353 for
+Option type:      Call
 Spot price:       392.596
 Strike price:     683.813
 Time to maturity: 1.99865
@@ -2750,8 +2750,8 @@ Time to maturity: 3.04381
 Risk free rating: 0.0917641
 Volatility:       0.195065
 
-Best price: 108.638 for
-Option type:      Put
+Best price: 18.0245 for
+Option type:      Call
 Spot price:       83.8835
 Strike price:     186.383
 Time to maturity: 2.72734
@@ -2766,8 +2766,8 @@ Time to maturity: 2.36606
 Risk free rating: 0.0542027
 Volatility:       0.237682
 
-Best price: 183.684 for
-Option type:      Put
+Best price: 143.268 for
+Option type:      Call
 Spot price:       182.015
 Strike price:     353.581
 Time to maturity: 8.49536
@@ -2782,8 +2782,8 @@ Time to maturity: 3.60694
 Risk free rating: 0.109846
 Volatility:       0.45939
 
-Best price: 65.0826 for
-Option type:      Put
+Best price: 57.3591 for
+Option type:      Call
 Spot price:       185.118
 Strike price:     250.201
 Time to maturity: 9.64184
@@ -2798,8 +2798,8 @@ Time to maturity: 5.86327
 Risk free rating: 0.139385
 Volatility:       0.211241
 
-Best price: 131.839 for
-Option type:      Put
+Best price: 376.073 for
+Option type:      Call
 Spot price:       622.759
 Strike price:     754.597
 Time to maturity: 8.3596
@@ -2814,8 +2814,8 @@ Time to maturity: 3.77694
 Risk free rating: 0.0605117
 Volatility:       0.599177
 
-Best price: 204.837 for
-Option type:      Put
+Best price: 186.274 for
+Option type:      Call
 Spot price:       504.34
 Strike price:     547.332
 Time to maturity: 1.57745
@@ -2830,24 +2830,24 @@ Time to maturity: 8.12579
 Risk free rating: 0.126675
 Volatility:       0.78063
 
-Best price: 642.703 for
-Option type:      Put
+Best price: 21.642 for
+Option type:      Call
 Spot price:       398.47
 Strike price:     1037.49
 Time to maturity: 1.41814
 Risk free rating: 0.0294084
 Volatility:       0.609888
 
-Best price: 87.4236 for
-Option type:      Call
+Best price: 1235.1 for
+Option type:      Put
 Spot price:       943.403
 Strike price:     2150.53
 Time to maturity: 0.856527
 Risk free rating: 0.0630799
 Volatility:       0.840771
 
-Best price: 317.473 for
-Option type:      Put
+Best price: 112.66 for
+Option type:      Call
 Spot price:       260.528
 Strike price:     578.001
 Time to maturity: 8.26881
@@ -2862,8 +2862,8 @@ Time to maturity: 8.90497
 Risk free rating: 0.0956177
 Volatility:       0.800091
 
-Best price: 191.925 for
-Option type:      Put
+Best price: 6.76498e-07 for
+Option type:      Call
 Spot price:       114.637
 Strike price:     306.562
 Time to maturity: 4.4884
@@ -2878,8 +2878,8 @@ Time to maturity: 8.04109
 Risk free rating: 0.0300198
 Volatility:       0.0802352
 
-Best price: 296.406 for
-Option type:      Put
+Best price: 387.73 for
+Option type:      Call
 Spot price:       513.493
 Strike price:     694.608
 Time to maturity: 4.67327
@@ -2894,8 +2894,8 @@ Time to maturity: 3.61293
 Risk free rating: 0.0883049
 Volatility:       0.517174
 
-Best price: 117.323 for
-Option type:      Put
+Best price: 459.864 for
+Option type:      Call
 Spot price:       832.229
 Strike price:     541.921
 Time to maturity: 4.30054
@@ -2910,8 +2910,8 @@ Time to maturity: 2.35564
 Risk free rating: 0.195438
 Volatility:       0.617248
 
-Best price: 10.7969 for
-Option type:      Put
+Best price: 10.6118 for
+Option type:      Call
 Spot price:       20.3234
 Strike price:     21.5816
 Time to maturity: 2.68106
@@ -2926,8 +2926,8 @@ Time to maturity: 3.28993
 Risk free rating: 0.0337944
 Volatility:       0.453186
 
-Best price: 83.4105 for
-Option type:      Put
+Best price: 87.9139 for
+Option type:      Call
 Spot price:       122.817
 Strike price:     192.729
 Time to maturity: 9.21094
@@ -2942,8 +2942,8 @@ Time to maturity: 1.197
 Risk free rating: 0.123721
 Volatility:       0.13076
 
-Best price: 271.463 for
-Option type:      Put
+Best price: 38.2764 for
+Option type:      Call
 Spot price:       382.233
 Strike price:     653.696
 Time to maturity: 3.94766
@@ -2958,8 +2958,8 @@ Time to maturity: 5.01087
 Risk free rating: 0.0124158
 Volatility:       0.893553
 
-Best price: 320.88 for
-Option type:      Put
+Best price: 423.012 for
+Option type:      Call
 Spot price:       674.74
 Strike price:     807.819
 Time to maturity: 8.80476
@@ -2974,8 +2974,8 @@ Time to maturity: 9.78613
 Risk free rating: 0.152156
 Volatility:       0.524141
 
-Best price: 0.921514 for
-Option type:      Put
+Best price: 118.557 for
+Option type:      Call
 Spot price:       188.789
 Strike price:     116.764
 Time to maturity: 3.26859
@@ -3006,8 +3006,8 @@ Time to maturity: 6.15821
 Risk free rating: 0.0301268
 Volatility:       0.178834
 
-Best price: 79.1483 for
-Option type:      Put
+Best price: 32.8185 for
+Option type:      Call
 Spot price:       102.819
 Strike price:     181.968
 Time to maturity: 8.78367
@@ -3022,8 +3022,8 @@ Time to maturity: 7.44295
 Risk free rating: 0.177476
 Volatility:       0.286217
 
-Best price: 308.594 for
-Option type:      Put
+Best price: 107.692 for
+Option type:      Call
 Spot price:       202.014
 Strike price:     492.025
 Time to maturity: 6.60985
@@ -3038,8 +3038,8 @@ Time to maturity: 6.91005
 Risk free rating: 0.0812994
 Volatility:       0.507891
 
-Best price: 722.345 for
-Option type:      Put
+Best price: 225.141 for
+Option type:      Call
 Spot price:       528.918
 Strike price:     1251.26
 Time to maturity: 8.41564
@@ -3054,8 +3054,8 @@ Time to maturity: 6.81595
 Risk free rating: 0.15369
 Volatility:       0.765675
 
-Best price: 309.69 for
-Option type:      Put
+Best price: 72.5243 for
+Option type:      Call
 Spot price:       475.616
 Strike price:     763.131
 Time to maturity: 1.33467
@@ -3070,8 +3070,8 @@ Time to maturity: 1.46445
 Risk free rating: 0.135978
 Volatility:       0.0515979
 
-Best price: 3.14143 for
-Option type:      Put
+Best price: 92.2893 for
+Option type:      Call
 Spot price:       186.589
 Strike price:     105.228
 Time to maturity: 1.75216
@@ -3086,8 +3086,8 @@ Time to maturity: 5.15009
 Risk free rating: 0.147447
 Volatility:       0.138517
 
-Best price: 244.022 for
-Option type:      Put
+Best price: 4.32242 for
+Option type:      Call
 Spot price:       233.184
 Strike price:     477.206
 Time to maturity: 0.622759
@@ -3102,8 +3102,8 @@ Time to maturity: 3.28887
 Risk free rating: 0.130933
 Volatility:       0.17665
 
-Best price: 1001.99 for
-Option type:      Put
+Best price: 507.876 for
+Option type:      Call
 Spot price:       698.461
 Strike price:     1495.43
 Time to maturity: 9.82149
@@ -3118,8 +3118,8 @@ Time to maturity: 1.31153
 Risk free rating: 0.149746
 Volatility:       0.250479
 
-Best price: 52.9297 for
-Option type:      Put
+Best price: 332.705 for
+Option type:      Call
 Spot price:       377.708
 Strike price:     240.824
 Time to maturity: 8.03353
@@ -3134,24 +3134,24 @@ Time to maturity: 6.41178
 Risk free rating: 0.104272
 Volatility:       0.201515
 
-Best price: 1178.65 for
-Option type:      Put
+Best price: 535.097 for
+Option type:      Call
 Spot price:       689.052
 Strike price:     1846.99
 Time to maturity: 7.49747
 Risk free rating: 0.150597
 Volatility:       0.857766
 
-Best price: 139.943 for
-Option type:      Call
+Best price: 223.508 for
+Option type:      Put
 Spot price:       210.907
 Strike price:     367.866
 Time to maturity: 9.7985
 Risk free rating: 0.0414059
 Volatility:       0.645214
 
-Best price: 494.295 for
-Option type:      Put
+Best price: 453.892 for
+Option type:      Call
 Spot price:       589.952
 Strike price:     1056.16
 Time to maturity: 7.00694
@@ -3166,8 +3166,8 @@ Time to maturity: 2.33286
 Risk free rating: 0.0816137
 Volatility:       0.442473
 
-Best price: 270.778 for
-Option type:      Put
+Best price: 383.531 for
+Option type:      Call
 Spot price:       486.097
 Strike price:     708.436
 Time to maturity: 9.3798
@@ -3182,8 +3182,8 @@ Time to maturity: 9.10296
 Risk free rating: 0.15824
 Volatility:       0.0559748
 
-Best price: 21.1908 for
-Option type:      Put
+Best price: 27.8433 for
+Option type:      Call
 Spot price:       66.7074
 Strike price:     66.4067
 Time to maturity: 1.40036
@@ -3198,8 +3198,8 @@ Time to maturity: 2.89918
 Risk free rating: 0.018473
 Volatility:       0.0808445
 
-Best price: 45.1801 for
-Option type:      Put
+Best price: 220.6 for
+Option type:      Call
 Spot price:       282.963
 Strike price:     313.055
 Time to maturity: 7.89255
@@ -3214,8 +3214,8 @@ Time to maturity: 2.75458
 Risk free rating: 0.0397125
 Volatility:       0.775126
 
-Best price: 48.3777 for
-Option type:      Put
+Best price: 12.8574 for
+Option type:      Call
 Spot price:       56.0356
 Strike price:     104.413
 Time to maturity: 5.66373
@@ -3230,8 +3230,8 @@ Time to maturity: 2.44416
 Risk free rating: 0.149165
 Volatility:       0.516072
 
-Best price: 196.955 for
-Option type:      Put
+Best price: 64.8868 for
+Option type:      Call
 Spot price:       136.708
 Strike price:     333.664
 Time to maturity: 3.99513
@@ -3246,8 +3246,8 @@ Time to maturity: 9.79755
 Risk free rating: 0.0375434
 Volatility:       0.666382
 
-Best price: 98.1715 for
-Option type:      Put
+Best price: 128.02 for
+Option type:      Call
 Spot price:       199.279
 Strike price:     247.938
 Time to maturity: 3.15612
@@ -3262,8 +3262,8 @@ Time to maturity: 7.22808
 Risk free rating: 0.0894181
 Volatility:       0.125514
 
-Best price: 517.264 for
-Option type:      Put
+Best price: 315.85 for
+Option type:      Call
 Spot price:       686.917
 Strike price:     1167.23
 Time to maturity: 9.80712
@@ -3278,8 +3278,8 @@ Time to maturity: 5.5335
 Risk free rating: 0.126451
 Volatility:       0.242225
 
-Best price: 375.852 for
-Option type:      Put
+Best price: 46.2605 for
+Option type:      Call
 Spot price:       848.45
 Strike price:     1224.3
 Time to maturity: 1.4955
@@ -3310,8 +3310,8 @@ Time to maturity: 8.73414
 Risk free rating: 0.113521
 Volatility:       0.694661
 
-Best price: 0.00365862 for
-Option type:      Put
+Best price: 416.565 for
+Option type:      Call
 Spot price:       756.567
 Strike price:     408.153
 Time to maturity: 1.34991
@@ -3326,8 +3326,8 @@ Time to maturity: 5.6458
 Risk free rating: 0.152639
 Volatility:       0.524284
 
-Best price: 39.7272 for
-Option type:      Put
+Best price: 276.763 for
+Option type:      Call
 Spot price:       556.988
 Strike price:     393.866
 Time to maturity: 3.50227
@@ -3342,8 +3342,8 @@ Time to maturity: 4.5718
 Risk free rating: 0.0855025
 Volatility:       0.129397
 
-Best price: 59.8042 for
-Option type:      Put
+Best price: 110.971 for
+Option type:      Call
 Spot price:       446.661
 Strike price:     415.547
 Time to maturity: 1.94856
@@ -3358,8 +3358,8 @@ Time to maturity: 3.19226
 Risk free rating: 0.132108
 Volatility:       0.216465
 
-Best price: 578.681 for
-Option type:      Put
+Best price: 155.468 for
+Option type:      Call
 Spot price:       897.988
 Strike price:     1476.67
 Time to maturity: 4.53127
@@ -3374,8 +3374,8 @@ Time to maturity: 8.98214
 Risk free rating: 0.0420823
 Volatility:       0.480993
 
-Best price: 71.2913 for
-Option type:      Put
+Best price: 457.557 for
+Option type:      Call
 Spot price:       602.132
 Strike price:     345.289
 Time to maturity: 3.70056
@@ -3390,8 +3390,8 @@ Time to maturity: 9.68078
 Risk free rating: 0.172806
 Volatility:       0.149997
 
-Best price: 150.892 for
-Option type:      Put
+Best price: 421.339 for
+Option type:      Call
 Spot price:       742.333
 Strike price:     893.225
 Time to maturity: 9.88532
@@ -3406,8 +3406,8 @@ Time to maturity: 9.97107
 Risk free rating: 0.196159
 Volatility:       0.607714
 
-Best price: 151.15 for
-Option type:      Put
+Best price: 14.1536 for
+Option type:      Call
 Spot price:       138.528
 Strike price:     278.593
 Time to maturity: 1.021
@@ -3422,8 +3422,8 @@ Time to maturity: 9.73723
 Risk free rating: 0.0739997
 Volatility:       0.302016
 
-Best price: 193.744 for
-Option type:      Put
+Best price: 837.787 for
+Option type:      Call
 Spot price:       919.026
 Strike price:     683.43
 Time to maturity: 7.61987
@@ -3438,24 +3438,24 @@ Time to maturity: 2.61779
 Risk free rating: 0.165658
 Volatility:       0.797849
 
-Best price: 154.577 for
-Option type:      Put
+Best price: 150.155 for
+Option type:      Call
 Spot price:       530.181
 Strike price:     550.088
 Time to maturity: 1.21814
 Risk free rating: 0.0265641
 Volatility:       0.661216
 
-Best price: 186.253 for
-Option type:      Call
+Best price: 668.236 for
+Option type:      Put
 Spot price:       425.918
 Strike price:     1061.3
 Time to maturity: 7.42275
 Risk free rating: 0.0463395
 Volatility:       0.571711
 
-Best price: 385.244 for
-Option type:      Put
+Best price: 348.411 for
+Option type:      Call
 Spot price:       441.15
 Strike price:     780.814
 Time to maturity: 7.40688
@@ -3470,8 +3470,8 @@ Time to maturity: 7.41902
 Risk free rating: 0.0302053
 Volatility:       0.317682
 
-Best price: 14.8977 for
-Option type:      Put
+Best price: 4.43844 for
+Option type:      Call
 Spot price:       13.779
 Strike price:     27.5534
 Time to maturity: 1.75461
@@ -3486,8 +3486,8 @@ Time to maturity: 3.46976
 Risk free rating: 0.174613
 Volatility:       0.2332
 
-Best price: 79.9792 for
-Option type:      Put
+Best price: 301.341 for
+Option type:      Call
 Spot price:       366.774
 Strike price:     238.664
 Time to maturity: 7.65524
@@ -3502,8 +3502,8 @@ Time to maturity: 8.09322
 Risk free rating: 0.0212278
 Volatility:       0.81402
 
-Best price: 931.209 for
-Option type:      Put
+Best price: 2.8722e-12 for
+Option type:      Call
 Spot price:       654.261
 Strike price:     1585.47
 Time to maturity: 0.101865
@@ -3518,8 +3518,8 @@ Time to maturity: 3.87796
 Risk free rating: 0.0344813
 Volatility:       0.400847
 
-Best price: 445.562 for
-Option type:      Put
+Best price: 1.57606e-27 for
+Option type:      Call
 Spot price:       804.331
 Strike price:     1249.89
 Time to maturity: 0.278201
@@ -3534,8 +3534,8 @@ Time to maturity: 7.10611
 Risk free rating: 0.194828
 Volatility:       0.752133
 
-Best price: 945.897 for
-Option type:      Put
+Best price: 470.018 for
+Option type:      Call
 Spot price:       702.322
 Strike price:     1648.22
 Time to maturity: 9.81981
@@ -3550,8 +3550,8 @@ Time to maturity: 6.38738
 Risk free rating: 0.09547
 Volatility:       0.235677
 
-Best price: 15.6978 for
-Option type:      Put
+Best price: 64.7372 for
+Option type:      Call
 Spot price:       129.045
 Strike price:     83.9243
 Time to maturity: 2.70683
@@ -3566,8 +3566,8 @@ Time to maturity: 0.834985
 Risk free rating: 0.0530068
 Volatility:       0.670709
 
-Best price: 8.83786 for
-Option type:      Put
+Best price: 522.39 for
+Option type:      Call
 Spot price:       602.82
 Strike price:     386.939
 Time to maturity: 8.78467
@@ -3582,8 +3582,8 @@ Time to maturity: 6.29914
 Risk free rating: 0.11095
 Volatility:       0.762429
 
-Best price: 140.837 for
-Option type:      Put
+Best price: 107.649 for
+Option type:      Call
 Spot price:       292.437
 Strike price:     422.339
 Time to maturity: 2.75099
@@ -3614,8 +3614,8 @@ Time to maturity: 0.91385
 Risk free rating: 0.183029
 Volatility:       0.444768
 
-Best price: 82.2508 for
-Option type:      Put
+Best price: 56.1289 for
+Option type:      Call
 Spot price:       146.149
 Strike price:     182.656
 Time to maturity: 1.73176
@@ -3630,8 +3630,8 @@ Time to maturity: 6.4321
 Risk free rating: 0.138521
 Volatility:       0.161939
 
-Best price: 297.672 for
-Option type:      Put
+Best price: 64.769 for
+Option type:      Call
 Spot price:       241.843
 Strike price:     539.515
 Time to maturity: 9.71059
@@ -3646,8 +3646,8 @@ Time to maturity: 2.76269
 Risk free rating: 0.0873247
 Volatility:       0.807758
 
-Best price: 0.0198489 for
-Option type:      Put
+Best price: 10.398 for
+Option type:      Call
 Spot price:       12.8918
 Strike price:     7.57375
 Time to maturity: 6.08031
@@ -3662,8 +3662,8 @@ Time to maturity: 4.78242
 Risk free rating: 0.128279
 Volatility:       0.449282
 
-Best price: 351.754 for
-Option type:      Put
+Best price: 314.842 for
+Option type:      Call
 Spot price:       452.993
 Strike price:     699.166
 Time to maturity: 5.94959
@@ -3678,8 +3678,8 @@ Time to maturity: 8.45485
 Risk free rating: 0.0641325
 Volatility:       0.443424
 
-Best price: 80.861 for
-Option type:      Put
+Best price: 117.02 for
+Option type:      Call
 Spot price:       444.153
 Strike price:     435.591
 Time to maturity: 4.02829
@@ -3694,8 +3694,8 @@ Time to maturity: 8.20025
 Risk free rating: 0.111004
 Volatility:       0.797883
 
-Best price: 72.3022 for
-Option type:      Put
+Best price: 359.786 for
+Option type:      Call
 Spot price:       579.032
 Strike price:     327.309
 Time to maturity: 6.78666
@@ -3710,8 +3710,8 @@ Time to maturity: 3.95974
 Risk free rating: 0.148673
 Volatility:       0.79992
 
-Best price: 315.113 for
-Option type:      Put
+Best price: 459.966 for
+Option type:      Call
 Spot price:       674.234
 Strike price:     720.069
 Time to maturity: 6.77862
@@ -3726,8 +3726,8 @@ Time to maturity: 8.64252
 Risk free rating: 0.0103997
 Volatility:       0.659936
 
-Best price: 161.829 for
-Option type:      Put
+Best price: 665.828 for
+Option type:      Call
 Spot price:       831.292
 Strike price:     489.821
 Time to maturity: 8.72882
@@ -3742,24 +3742,24 @@ Time to maturity: 1.01362
 Risk free rating: 0.123301
 Volatility:       0.517146
 
-Best price: 356.078 for
-Option type:      Put
+Best price: 312.287 for
+Option type:      Call
 Spot price:       901.318
 Strike price:     1252.23
 Time to maturity: 3.2787
 Risk free rating: 0.152472
 Volatility:       0.400774
 
-Best price: 406.759 for
-Option type:      Call
+Best price: 599.087 for
+Option type:      Put
 Spot price:       649.635
 Strike price:     1248.72
 Time to maturity: 8.89159
 Risk free rating: 0.123752
 Volatility:       0.476831
 
-Best price: 19.3731 for
-Option type:      Put
+Best price: 62.5084 for
+Option type:      Call
 Spot price:       147.483
 Strike price:     111.294
 Time to maturity: 1.62778
@@ -3774,8 +3774,8 @@ Time to maturity: 8.30728
 Risk free rating: 0.19834
 Volatility:       0.747011
 
-Best price: 523.111 for
-Option type:      Put
+Best price: 138.788 for
+Option type:      Call
 Spot price:       697.934
 Strike price:     1166.58
 Time to maturity: 4.54365
@@ -3790,8 +3790,8 @@ Time to maturity: 2.23891
 Risk free rating: 0.0986555
 Volatility:       0.744215
 
-Best price: 27.0224 for
-Option type:      Put
+Best price: 28.1739 for
+Option type:      Call
 Spot price:       76.7107
 Strike price:     103.733
 Time to maturity: 8.53323
@@ -3806,8 +3806,8 @@ Time to maturity: 5.94383
 Risk free rating: 0.052993
 Volatility:       0.376604
 
-Best price: 566.339 for
-Option type:      Put
+Best price: 311.966 for
+Option type:      Call
 Spot price:       455.622
 Strike price:     808.45
 Time to maturity: 7.61758
@@ -3822,8 +3822,8 @@ Time to maturity: 0.371461
 Risk free rating: 0.0846651
 Volatility:       0.496941
 
-Best price: 237.595 for
-Option type:      Put
+Best price: 348.313 for
+Option type:      Call
 Spot price:       516.565
 Strike price:     446.509
 Time to maturity: 6.49283
@@ -3838,8 +3838,8 @@ Time to maturity: 5.22067
 Risk free rating: 0.081993
 Volatility:       0.0557038
 
-Best price: 613.12 for
-Option type:      Put
+Best price: 211.391 for
+Option type:      Call
 Spot price:       392.016
 Strike price:     878.815
 Time to maturity: 6.00029
@@ -3854,8 +3854,8 @@ Time to maturity: 5.84419
 Risk free rating: 0.116341
 Volatility:       0.13947
 
-Best price: 287.854 for
-Option type:      Put
+Best price: 25.6908 for
+Option type:      Call
 Spot price:       175.686
 Strike price:     463.54
 Time to maturity: 2.36202
@@ -3870,8 +3870,8 @@ Time to maturity: 2.16775
 Risk free rating: 0.185871
 Volatility:       0.402028
 
-Best price: 75.9013 for
-Option type:      Put
+Best price: 29.5993 for
+Option type:      Call
 Spot price:       401.48
 Strike price:     477.381
 Time to maturity: 1.55591
@@ -3886,8 +3886,8 @@ Time to maturity: 3.81056
 Risk free rating: 0.100061
 Volatility:       0.427509
 
-Best price: 696.276 for
-Option type:      Put
+Best price: 0.744605 for
+Option type:      Call
 Spot price:       994.909
 Strike price:     1691.19
 Time to maturity: 0.973197
@@ -3918,8 +3918,8 @@ Time to maturity: 1.85399
 Risk free rating: 0.106415
 Volatility:       0.625779
 
-Best price: 339.202 for
-Option type:      Put
+Best price: 77.555 for
+Option type:      Call
 Spot price:       242.687
 Strike price:     564.857
 Time to maturity: 5.49379
@@ -3934,8 +3934,8 @@ Time to maturity: 8.18589
 Risk free rating: 0.0493887
 Volatility:       0.71503
 
-Best price: 177.828 for
-Option type:      Put
+Best price: 331.923 for
+Option type:      Call
 Spot price:       737.232
 Strike price:     855.983
 Time to maturity: 3.32565
@@ -3950,8 +3950,8 @@ Time to maturity: 8.54032
 Risk free rating: 0.145068
 Volatility:       0.820901
 
-Best price: 115.739 for
-Option type:      Put
+Best price: 52.7806 for
+Option type:      Call
 Spot price:       141.049
 Strike price:     254.541
 Time to maturity: 6.03129
@@ -3966,8 +3966,8 @@ Time to maturity: 5.53829
 Risk free rating: 0.0209708
 Volatility:       0.628643
 
-Best price: 18.9403 for
-Option type:      Put
+Best price: 433.409 for
+Option type:      Call
 Spot price:       472.114
 Strike price:     271.85
 Time to maturity: 9.69912
@@ -3982,8 +3982,8 @@ Time to maturity: 4.97012
 Risk free rating: 0.067465
 Volatility:       0.467705
 
-Best price: 484.273 for
-Option type:      Put
+Best price: 327.506 for
+Option type:      Call
 Spot price:       527.22
 Strike price:     916.29
 Time to maturity: 4.46811
@@ -3998,8 +3998,8 @@ Time to maturity: 8.95508
 Risk free rating: 0.0966361
 Volatility:       0.426937
 
-Best price: 661.761 for
-Option type:      Put
+Best price: 496.731 for
+Option type:      Call
 Spot price:       606.096
 Strike price:     1091.64
 Time to maturity: 8.08523
@@ -4014,8 +4014,8 @@ Time to maturity: 6.43796
 Risk free rating: 0.0667026
 Volatility:       0.254325
 
-Best price: 22.7464 for
-Option type:      Put
+Best price: 21.9206 for
+Option type:      Call
 Spot price:       318.78
 Strike price:     338.96
 Time to maturity: 0.404821
@@ -4030,8 +4030,8 @@ Time to maturity: 9.29965
 Risk free rating: 0.0158044
 Volatility:       0.791241
 
-Best price: 474.289 for
-Option type:      Put
+Best price: 255.17 for
+Option type:      Call
 Spot price:       531.954
 Strike price:     1006.24
 Time to maturity: 6.48026
@@ -4046,24 +4046,24 @@ Time to maturity: 7.9546
 Risk free rating: 0.198204
 Volatility:       0.220553
 
-Best price: 0.0331815 for
-Option type:      Put
+Best price: 302.411 for
+Option type:      Call
 Spot price:       994.702
 Strike price:     693.891
 Time to maturity: 0.122944
 Risk free rating: 0.0183908
 Volatility:       0.340515
 
-Best price: 237.533 for
-Option type:      Call
+Best price: 3.96973 for
+Option type:      Put
 Spot price:       636.577
 Strike price:     414.962
 Time to maturity: 0.156092
 Risk free rating: 0.188047
 Volatility:       0.748638
 
-Best price: 1179.3 for
-Option type:      Put
+Best price: 166.468 for
+Option type:      Call
 Spot price:       811.091
 Strike price:     1983.71
 Time to maturity: 7.03034
@@ -4078,8 +4078,8 @@ Time to maturity: 6.90532
 Risk free rating: 0.0146547
 Volatility:       0.310217
 
-Best price: 493.07 for
-Option type:      Put
+Best price: 98.7239 for
+Option type:      Call
 Spot price:       553.639
 Strike price:     1046.71
 Time to maturity: 5.8127
@@ -4094,8 +4094,8 @@ Time to maturity: 6.84931
 Risk free rating: 0.031457
 Volatility:       0.765763
 
-Best price: 146.902 for
-Option type:      Put
+Best price: 56.3091 for
+Option type:      Call
 Spot price:       249.809
 Strike price:     387.746
 Time to maturity: 1.53745
@@ -4110,8 +4110,8 @@ Time to maturity: 4.07293
 Risk free rating: 0.0655779
 Volatility:       0.17948
 
-Best price: 12.4906 for
-Option type:      Put
+Best price: 224.687 for
+Option type:      Call
 Spot price:       273.506
 Strike price:     150.007
 Time to maturity: 5.87425
@@ -4126,8 +4126,8 @@ Time to maturity: 2.22482
 Risk free rating: 0.0890631
 Volatility:       0.69567
 
-Best price: 240.557 for
-Option type:      Put
+Best price: 145.646 for
+Option type:      Call
 Spot price:       195.964
 Strike price:     408.3
 Time to maturity: 8.68264
@@ -4142,8 +4142,8 @@ Time to maturity: 5.31016
 Risk free rating: 0.0980028
 Volatility:       0.249455
 
-Best price: 212.007 for
-Option type:      Put
+Best price: 212.711 for
+Option type:      Call
 Spot price:       310.162
 Strike price:     352.944
 Time to maturity: 5.67656
@@ -4158,8 +4158,8 @@ Time to maturity: 1.67038
 Risk free rating: 0.177579
 Volatility:       0.750211
 
-Best price: 127.541 for
-Option type:      Put
+Best price: 130.624 for
+Option type:      Call
 Spot price:       724.504
 Strike price:     795.074
 Time to maturity: 4.08422
@@ -4174,8 +4174,8 @@ Time to maturity: 5.97551
 Risk free rating: 0.180188
 Volatility:       0.545777
 
-Best price: 416.644 for
-Option type:      Put
+Best price: 380.219 for
+Option type:      Call
 Spot price:       472.298
 Strike price:     589.814
 Time to maturity: 9.41044
@@ -4190,8 +4190,8 @@ Time to maturity: 5.69335
 Risk free rating: 0.174644
 Volatility:       0.536038
 
-Best price: 1538.28 for
-Option type:      Put
+Best price: 454.313 for
+Option type:      Call
 Spot price:       908.128
 Strike price:     2338.03
 Time to maturity: 4.28161
@@ -4222,8 +4222,8 @@ Time to maturity: 1.38305
 Risk free rating: 0.138461
 Volatility:       0.852385
 
-Best price: 150.819 for
-Option type:      Put
+Best price: 157.146 for
+Option type:      Call
 Spot price:       276.278
 Strike price:     427.097
 Time to maturity: 6.37996
@@ -4238,8 +4238,8 @@ Time to maturity: 8.67162
 Risk free rating: 0.100434
 Volatility:       0.144331
 
-Best price: 762.963 for
-Option type:      Put
+Best price: 1.43986e-24 for
+Option type:      Call
 Spot price:       638.08
 Strike price:     1401.04
 Time to maturity: 0.128524
@@ -4254,8 +4254,8 @@ Time to maturity: 7.22457
 Risk free rating: 0.0805207
 Volatility:       0.789299
 
-Best price: 678.179 for
-Option type:      Put
+Best price: 318.188 for
+Option type:      Call
 Spot price:       733.191
 Strike price:     1411.37
 Time to maturity: 7.98278
@@ -4270,8 +4270,8 @@ Time to maturity: 1.34467
 Risk free rating: 0.150048
 Volatility:       0.878403
 
-Best price: 61.7276 for
-Option type:      Put
+Best price: 3.598 for
+Option type:      Call
 Spot price:       61.6766
 Strike price:     123.404
 Time to maturity: 4.73473
@@ -4286,8 +4286,8 @@ Time to maturity: 8.25076
 Risk free rating: 0.158583
 Volatility:       0.512235
 
-Best price: 112.226 for
-Option type:      Put
+Best price: 42.1128 for
+Option type:      Call
 Spot price:       108.868
 Strike price:     219.228
 Time to maturity: 2.4947
@@ -4302,8 +4302,8 @@ Time to maturity: 0.411076
 Risk free rating: 0.149878
 Volatility:       0.330706
 
-Best price: 78.6241 for
-Option type:      Put
+Best price: 634.621 for
+Option type:      Call
 Spot price:       907.005
 Strike price:     985.629
 Time to maturity: 7.27608
@@ -4318,8 +4318,8 @@ Time to maturity: 4.6037
 Risk free rating: 0.060778
 Volatility:       0.236835
 
-Best price: 195.576 for
-Option type:      Put
+Best price: 20.4319 for
+Option type:      Call
 Spot price:       140.203
 Strike price:     334.48
 Time to maturity: 5.79602
@@ -4334,8 +4334,8 @@ Time to maturity: 4.41153
 Risk free rating: 0.0730989
 Volatility:       0.340533
 
-Best price: 189.393 for
-Option type:      Put
+Best price: 506.256 for
+Option type:      Call
 Spot price:       741.636
 Strike price:     735.095
 Time to maturity: 6.45441
@@ -4350,24 +4350,24 @@ Time to maturity: 8.80463
 Risk free rating: 0.13836
 Volatility:       0.514919
 
-Best price: 693.045 for
-Option type:      Put
+Best price: 9.80548 for
+Option type:      Call
 Spot price:       831.465
 Strike price:     1524.51
 Time to maturity: 2.98233
 Risk free rating: 0.049348
 Volatility:       0.179479
 
-Best price: 555.691 for
-Option type:      Call
+Best price: 956.558 for
+Option type:      Put
 Spot price:       900.461
 Strike price:     1857.02
 Time to maturity: 9.38005
 Risk free rating: 0.124625
 Volatility:       0.452391
 
-Best price: 67.572 for
-Option type:      Put
+Best price: 30.3592 for
+Option type:      Call
 Spot price:       69.1193
 Strike price:     136.691
 Time to maturity: 5.86387
@@ -4382,8 +4382,8 @@ Time to maturity: 6.48145
 Risk free rating: 0.116646
 Volatility:       0.710389
 
-Best price: 239.635 for
-Option type:      Put
+Best price: 154.4 for
+Option type:      Call
 Spot price:       212.931
 Strike price:     446.385
 Time to maturity: 6.23537
@@ -4398,8 +4398,8 @@ Time to maturity: 9.81837
 Risk free rating: 0.11018
 Volatility:       0.820458
 
-Best price: 157.464 for
-Option type:      Put
+Best price: 111.055 for
+Option type:      Call
 Spot price:       172.242
 Strike price:     329.706
 Time to maturity: 8.11762
@@ -4414,8 +4414,8 @@ Time to maturity: 0.700226
 Risk free rating: 0.1411
 Volatility:       0.636582
 
-Best price: 612.46 for
-Option type:      Put
+Best price: 103.109 for
+Option type:      Call
 Spot price:       931.301
 Strike price:     1484.57
 Time to maturity: 2.37948
@@ -4430,8 +4430,8 @@ Time to maturity: 3.60725
 Risk free rating: 0.190324
 Volatility:       0.867964
 
-Best price: 963.944 for
-Option type:      Put
+Best price: 122.799 for
+Option type:      Call
 Spot price:       624.7
 Strike price:     1588.64
 Time to maturity: 7.63246
@@ -4446,8 +4446,8 @@ Time to maturity: 8.65322
 Risk free rating: 0.101453
 Volatility:       0.813023
 
-Best price: 67.8916 for
-Option type:      Put
+Best price: 522.469 for
+Option type:      Call
 Spot price:       677.605
 Strike price:     543.032
 Time to maturity: 9.95032
@@ -4462,8 +4462,8 @@ Time to maturity: 6.40173
 Risk free rating: 0.104665
 Volatility:       0.395673
 
-Best price: 789.474 for
-Option type:      Put
+Best price: 376.528 for
+Option type:      Call
 Spot price:       953.49
 Strike price:     1572.86
 Time to maturity: 2.26926
@@ -4478,8 +4478,8 @@ Time to maturity: 0.228993
 Risk free rating: 0.0126961
 Volatility:       0.754983
 
-Best price: 518.218 for
-Option type:      Put
+Best price: 578.591 for
+Option type:      Call
 Spot price:       734.801
 Strike price:     941.347
 Time to maturity: 7.01328
@@ -4494,8 +4494,8 @@ Time to maturity: 8.5568
 Risk free rating: 0.156887
 Volatility:       0.3135
 
-Best price: 145.391 for
-Option type:      Put
+Best price: 197.816 for
+Option type:      Call
 Spot price:       239.719
 Strike price:     361.525
 Time to maturity: 7.83535
@@ -4526,8 +4526,8 @@ Time to maturity: 2.61283
 Risk free rating: 0.0567034
 Volatility:       0.39235
 
-Best price: 258.795 for
-Option type:      Put
+Best price: 804.17 for
+Option type:      Call
 Spot price:       895.696
 Strike price:     448.721
 Time to maturity: 9.02369
@@ -4542,8 +4542,8 @@ Time to maturity: 5.17593
 Risk free rating: 0.101494
 Volatility:       0.590127
 
-Best price: 0.0202077 for
-Option type:      Put
+Best price: 46.2693 for
+Option type:      Call
 Spot price:       99.8145
 Strike price:     57.0699
 Time to maturity: 0.671259
@@ -4558,8 +4558,8 @@ Time to maturity: 3.9246
 Risk free rating: 0.11903
 Volatility:       0.403263
 
-Best price: 1260.4 for
-Option type:      Put
+Best price: 468.988 for
+Option type:      Call
 Spot price:       848.799
 Strike price:     2109.2
 Time to maturity: 8.78582
@@ -4574,8 +4574,8 @@ Time to maturity: 2.36407
 Risk free rating: 0.191701
 Volatility:       0.175951
 
-Best price: 146.947 for
-Option type:      Put
+Best price: 412.101 for
+Option type:      Call
 Spot price:       682.754
 Strike price:     679.176
 Time to maturity: 4.37067
@@ -4590,8 +4590,8 @@ Time to maturity: 8.41263
 Risk free rating: 0.0373247
 Volatility:       0.415587
 
-Best price: 1238.87 for
-Option type:      Put
+Best price: 450.904 for
+Option type:      Call
 Spot price:       904.72
 Strike price:     2135.93
 Time to maturity: 4.06932
@@ -4606,8 +4606,8 @@ Time to maturity: 2.12416
 Risk free rating: 0.0585087
 Volatility:       0.30134
 
-Best price: 13.163 for
-Option type:      Put
+Best price: 401.114 for
+Option type:      Call
 Spot price:       597.864
 Strike price:     342.087
 Time to maturity: 6.39682
@@ -4622,8 +4622,8 @@ Time to maturity: 1.04103
 Risk free rating: 0.167082
 Volatility:       0.0904951
 
-Best price: 877.27 for
-Option type:      Put
+Best price: 216.219 for
+Option type:      Call
 Spot price:       729.482
 Strike price:     1606.75
 Time to maturity: 3.59077
@@ -4638,8 +4638,8 @@ Time to maturity: 2.97129
 Risk free rating: 0.186892
 Volatility:       0.38305
 
-Best price: 417.702 for
-Option type:      Put
+Best price: 120.639 for
+Option type:      Call
 Spot price:       551.234
 Strike price:     920.807
 Time to maturity: 5.94527
@@ -4654,24 +4654,24 @@ Time to maturity: 2.11543
 Risk free rating: 0.0119172
 Volatility:       0.42186
 
-Best price: 92.9259 for
-Option type:      Put
+Best price: 498.948 for
+Option type:      Call
 Spot price:       883.907
 Strike price:     542.88
 Time to maturity: 1.99208
 Risk free rating: 0.0689161
 Volatility:       0.671966
 
-Best price: 522.099 for
-Option type:      Call
+Best price: 448.193 for
+Option type:      Put
 Spot price:       644.229
 Strike price:     911.634
 Time to maturity: 7.61478
 Risk free rating: 0.12583
 Volatility:       0.811635
 
-Best price: 173.912 for
-Option type:      Put
+Best price: 194.177 for
+Option type:      Call
 Spot price:       819.846
 Strike price:     865.914
 Time to maturity: 2.78724
@@ -4686,8 +4686,8 @@ Time to maturity: 2.28284
 Risk free rating: 0.154872
 Volatility:       0.5111
 
-Best price: 53.3633 for
-Option type:      Put
+Best price: 47.0801 for
+Option type:      Call
 Spot price:       158.105
 Strike price:     211.469
 Time to maturity: 4.20325
@@ -4702,8 +4702,8 @@ Time to maturity: 2.76158
 Risk free rating: 0.129402
 Volatility:       0.459587
 
-Best price: 606.192 for
-Option type:      Put
+Best price: 114.686 for
+Option type:      Call
 Spot price:       368.093
 Strike price:     952.72
 Time to maturity: 6.35838
@@ -4718,8 +4718,8 @@ Time to maturity: 1.80368
 Risk free rating: 0.19476
 Volatility:       0.431492
 
-Best price: 0.617333 for
-Option type:      Put
+Best price: 41.714 for
+Option type:      Call
 Spot price:       167.435
 Strike price:     150.094
 Time to maturity: 1.07253
@@ -4734,8 +4734,8 @@ Time to maturity: 3.51158
 Risk free rating: 0.015863
 Volatility:       0.094111
 
-Best price: 9.93198 for
-Option type:      Put
+Best price: 45.2554 for
+Option type:      Call
 Spot price:       150.749
 Strike price:     146.146
 Time to maturity: 6.68495
@@ -4750,8 +4750,8 @@ Time to maturity: 4.40971
 Risk free rating: 0.114369
 Volatility:       0.315186
 
-Best price: 299.764 for
-Option type:      Put
+Best price: 103.781 for
+Option type:      Call
 Spot price:       487.675
 Strike price:     787.44
 Time to maturity: 3.93365
@@ -4766,8 +4766,8 @@ Time to maturity: 7.99572
 Risk free rating: 0.127023
 Volatility:       0.766786
 
-Best price: 78.0316 for
-Option type:      Put
+Best price: 51.2711 for
+Option type:      Call
 Spot price:       106.539
 Strike price:     184.287
 Time to maturity: 5.06077
@@ -4782,8 +4782,8 @@ Time to maturity: 3.15746
 Risk free rating: 0.10163
 Volatility:       0.150719
 
-Best price: 1345.07 for
-Option type:      Put
+Best price: 727.694 for
+Option type:      Call
 Spot price:       961.898
 Strike price:     1992.77
 Time to maturity: 9.52942
@@ -4798,8 +4798,8 @@ Time to maturity: 6.28779
 Risk free rating: 0.0701444
 Volatility:       0.743949
 
-Best price: 68.2807 for
-Option type:      Put
+Best price: 373.203 for
+Option type:      Call
 Spot price:       506.5
 Strike price:     332.245
 Time to maturity: 3.19735
@@ -4830,8 +4830,8 @@ Time to maturity: 6.0945
 Risk free rating: 0.056955
 Volatility:       0.352477
 
-Best price: 28.7052 for
-Option type:      Put
+Best price: 19.7455 for
+Option type:      Call
 Spot price:       93.0803
 Strike price:     114.826
 Time to maturity: 6.80766
@@ -4846,8 +4846,8 @@ Time to maturity: 7.87013
 Risk free rating: 0.149362
 Volatility:       0.148762
 
-Best price: 961.432 for
-Option type:      Put
+Best price: 355.621 for
+Option type:      Call
 Spot price:       783.186
 Strike price:     1744.62
 Time to maturity: 6.05092
@@ -4862,8 +4862,8 @@ Time to maturity: 0.213659
 Risk free rating: 0.0955221
 Volatility:       0.880539
 
-Best price: 79.0377 for
-Option type:      Put
+Best price: 55.7237 for
+Option type:      Call
 Spot price:       112.09
 Strike price:     191.128
 Time to maturity: 9.79168
@@ -4878,8 +4878,8 @@ Time to maturity: 5.24507
 Risk free rating: 0.024068
 Volatility:       0.56466
 
-Best price: 603.559 for
-Option type:      Put
+Best price: 297.778 for
+Option type:      Call
 Spot price:       521.622
 Strike price:     1110.2
 Time to maturity: 6.34393
@@ -4894,8 +4894,8 @@ Time to maturity: 1.8039
 Risk free rating: 0.185849
 Volatility:       0.108084
 
-Best price: 500.079 for
-Option type:      Put
+Best price: 115.773 for
+Option type:      Call
 Spot price:       436.071
 Strike price:     885.553
 Time to maturity: 4.63442
@@ -4910,8 +4910,8 @@ Time to maturity: 3.79527
 Risk free rating: 0.117095
 Volatility:       0.433084
 
-Best price: 529.345 for
-Option type:      Put
+Best price: 0.32091 for
+Option type:      Call
 Spot price:       675.335
 Strike price:     1204.68
 Time to maturity: 5.30499
@@ -4926,8 +4926,8 @@ Time to maturity: 4.54594
 Risk free rating: 0.126329
 Volatility:       0.231122
 
-Best price: 17.309 for
-Option type:      Put
+Best price: 769.644 for
+Option type:      Call
 Spot price:       939.667
 Strike price:     483.647
 Time to maturity: 7.74578
@@ -4942,8 +4942,8 @@ Time to maturity: 3.91757
 Risk free rating: 0.187891
 Volatility:       0.510692
 
-Best price: 314.75 for
-Option type:      Put
+Best price: 742.312 for
+Option type:      Call
 Spot price:       940.255
 Strike price:     926.211
 Time to maturity: 7.28469
@@ -4958,24 +4958,24 @@ Time to maturity: 5.0306
 Risk free rating: 0.151137
 Volatility:       0.327988
 
-Best price: 156.013 for
-Option type:      Put
+Best price: 803.553 for
+Option type:      Call
 Spot price:       891.156
 Strike price:     610.855
 Time to maturity: 8.09117
 Risk free rating: 0.173651
 Volatility:       0.744664
 
-Best price: 318.213 for
-Option type:      Call
+Best price: 354.45 for
+Option type:      Put
 Spot price:       517.599
 Strike price:     757.996
 Time to maturity: 9.963
 Risk free rating: 0.0535427
 Volatility:       0.514845
 
-Best price: 722.505 for
-Option type:      Put
+Best price: 196.288 for
+Option type:      Call
 Spot price:       673.969
 Strike price:     1376.18
 Time to maturity: 2.11984
@@ -4990,8 +4990,8 @@ Time to maturity: 0.39209
 Risk free rating: 0.0776345
 Volatility:       0.0634412
 
-Best price: 129.955 for
-Option type:      Put
+Best price: 2.13943 for
+Option type:      Call
 Spot price:       86.3737
 Strike price:     216.329
 Time to maturity: 3.61312
@@ -5006,8 +5006,8 @@ Time to maturity: 3.78478
 Risk free rating: 0.0732766
 Volatility:       0.80222
 
-Best price: 228.103 for
-Option type:      Put
+Best price: 101.137 for
+Option type:      Call
 Spot price:       389.451
 Strike price:     617.554
 Time to maturity: 2.90472
@@ -5022,8 +5022,8 @@ Time to maturity: 9.87783
 Risk free rating: 0.0653842
 Volatility:       0.705131
 
-Best price: 203.66 for
-Option type:      Put
+Best price: 351.218 for
+Option type:      Call
 Spot price:       433.221
 Strike price:     413.153
 Time to maturity: 8.01722
@@ -5038,8 +5038,8 @@ Time to maturity: 0.446578
 Risk free rating: 0.159601
 Volatility:       0.399639
 
-Best price: 800.792 for
-Option type:      Put
+Best price: 514.011 for
+Option type:      Call
 Spot price:       874.986
 Strike price:     1665.53
 Time to maturity: 8.35307
@@ -5054,8 +5054,8 @@ Time to maturity: 4.25196
 Risk free rating: 0.105015
 Volatility:       0.717333
 
-Best price: 126.144 for
-Option type:      Put
+Best price: 351.475 for
+Option type:      Call
 Spot price:       602.857
 Strike price:     568.143
 Time to maturity: 5.9433
@@ -5070,8 +5070,8 @@ Time to maturity: 2.88228
 Risk free rating: 0.145462
 Volatility:       0.0597686
 
-Best price: 635.661 for
-Option type:      Put
+Best price: 37.8687 for
+Option type:      Call
 Spot price:       414.689
 Strike price:     1050.35
 Time to maturity: 1.20762
@@ -5086,8 +5086,8 @@ Time to maturity: 7.2336
 Risk free rating: 0.167033
 Volatility:       0.429271
 
-Best price: 69.9519 for
-Option type:      Put
+Best price: 676.444 for
+Option type:      Call
 Spot price:       807.786
 Strike price:     418.047
 Time to maturity: 9.25315
@@ -5102,8 +5102,8 @@ Time to maturity: 0.858694
 Risk free rating: 0.175801
 Volatility:       0.753899
 
-Best price: 286.706 for
-Option type:      Put
+Best price: 101.998 for
+Option type:      Call
 Spot price:       223.9
 Strike price:     510.606
 Time to maturity: 7.88494
@@ -5134,8 +5134,8 @@ Time to maturity: 4.20371
 Risk free rating: 0.0125177
 Volatility:       0.301551
 
-Best price: 239.635 for
-Option type:      Put
+Best price: 250.261 for
+Option type:      Call
 Spot price:       464.597
 Strike price:     652.483
 Time to maturity: 7.2471
@@ -5150,8 +5150,8 @@ Time to maturity: 8.64343
 Risk free rating: 0.111059
 Volatility:       0.721017
 
-Best price: 249.53 for
-Option type:      Put
+Best price: 126.266 for
+Option type:      Call
 Spot price:       303.819
 Strike price:     513.762
 Time to maturity: 3.51778
@@ -5166,8 +5166,8 @@ Time to maturity: 6.38293
 Risk free rating: 0.120607
 Volatility:       0.150653
 
-Best price: 48.246 for
-Option type:      Put
+Best price: 25.7836 for
+Option type:      Call
 Spot price:       219.775
 Strike price:     260.259
 Time to maturity: 1.75262
@@ -5182,8 +5182,8 @@ Time to maturity: 5.76193
 Risk free rating: 0.197387
 Volatility:       0.402525
 
-Best price: 1118.06 for
-Option type:      Put
+Best price: 438.713 for
+Option type:      Call
 Spot price:       756.326
 Strike price:     1828.22
 Time to maturity: 6.82189
@@ -5198,8 +5198,8 @@ Time to maturity: 5.51218
 Risk free rating: 0.119328
 Volatility:       0.0688203
 
-Best price: 976.473 for
-Option type:      Put
+Best price: 413.962 for
+Option type:      Call
 Spot price:       945.663
 Strike price:     1922.14
 Time to maturity: 5.00747
@@ -5214,8 +5214,8 @@ Time to maturity: 1.23143
 Risk free rating: 0.155312
 Volatility:       0.627063
 
-Best price: 1260.6 for
-Option type:      Put
+Best price: 563.359 for
+Option type:      Call
 Spot price:       775.257
 Strike price:     2010.37
 Time to maturity: 7.78724
@@ -5230,8 +5230,8 @@ Time to maturity: 8.86764
 Risk free rating: 0.0521611
 Volatility:       0.657445
 
-Best price: 978.876 for
-Option type:      Put
+Best price: 471.377 for
+Option type:      Call
 Spot price:       882.748
 Strike price:     1861.62
 Time to maturity: 7.00303
@@ -5246,8 +5246,8 @@ Time to maturity: 1.36113
 Risk free rating: 0.0642467
 Volatility:       0.501841
 
-Best price: 672.834 for
-Option type:      Put
+Best price: 0.00718572 for
+Option type:      Call
 Spot price:       515.456
 Strike price:     1188.29
 Time to maturity: 4.10523
@@ -5262,24 +5262,24 @@ Time to maturity: 0.253532
 Risk free rating: 0.0633676
 Volatility:       0.226763
 
-Best price: 34.0243 for
-Option type:      Put
+Best price: 18.5282 for
+Option type:      Call
 Spot price:       51.5656
 Strike price:     80.1521
 Time to maturity: 1.89906
 Risk free rating: 0.151185
 Volatility:       0.770739
 
-Best price: 314.249 for
-Option type:      Call
+Best price: 962.697 for
+Option type:      Put
 Spot price:       550.129
 Strike price:     1463.21
 Time to maturity: 4.55974
 Risk free rating: 0.10754
 Volatility:       0.890835
 
-Best price: 376.457 for
-Option type:      Put
+Best price: 2.89619e-30 for
+Option type:      Call
 Spot price:       239.233
 Strike price:     615.69
 Time to maturity: 0.524092
@@ -5294,8 +5294,8 @@ Time to maturity: 7.09568
 Risk free rating: 0.0811513
 Volatility:       0.36406
 
-Best price: 36.0441 for
-Option type:      Put
+Best price: 44.5259 for
+Option type:      Call
 Spot price:       54.8661
 Strike price:     69.6733
 Time to maturity: 9.29996
@@ -5310,8 +5310,8 @@ Time to maturity: 6.35669
 Risk free rating: 0.0281206
 Volatility:       0.138127
 
-Best price: 45.6467 for
-Option type:      Put
+Best price: 21.3093 for
+Option type:      Call
 Spot price:       58.1711
 Strike price:     103.442
 Time to maturity: 4.3181
@@ -5326,8 +5326,8 @@ Time to maturity: 7.60917
 Risk free rating: 0.0127794
 Volatility:       0.226156
 
-Best price: 303.294 for
-Option type:      Put
+Best price: 316.819 for
+Option type:      Call
 Spot price:       716.104
 Strike price:     967.144
 Time to maturity: 6.65859
@@ -5342,8 +5342,8 @@ Time to maturity: 6.09358
 Risk free rating: 0.092301
 Volatility:       0.708157
 
-Best price: 614.153 for
-Option type:      Put
+Best price: 358.407 for
+Option type:      Call
 Spot price:       854.059
 Strike price:     1444.75
 Time to maturity: 7.60685
@@ -5358,8 +5358,8 @@ Time to maturity: 5.9262
 Risk free rating: 0.0452208
 Volatility:       0.559806
 
-Best price: 1217.56 for
-Option type:      Put
+Best price: 494.442 for
+Option type:      Call
 Spot price:       862.899
 Strike price:     2080.45
 Time to maturity: 7.27101
@@ -5374,8 +5374,8 @@ Time to maturity: 4.49421
 Risk free rating: 0.0956475
 Volatility:       0.864723
 
-Best price: 353.5 for
-Option type:      Put
+Best price: 266.102 for
+Option type:      Call
 Spot price:       436.776
 Strike price:     746.255
 Time to maturity: 5.37919
@@ -5390,8 +5390,8 @@ Time to maturity: 8.27659
 Risk free rating: 0.0979918
 Volatility:       0.286689
 
-Best price: 863.698 for
-Option type:      Put
+Best price: 37.1907 for
+Option type:      Call
 Spot price:       658.162
 Strike price:     1521.86
 Time to maturity: 0.725089
@@ -5406,8 +5406,8 @@ Time to maturity: 7.88841
 Risk free rating: 0.156996
 Volatility:       0.685663
 
-Best price: 34.5065 for
-Option type:      Put
+Best price: 70.1637 for
+Option type:      Call
 Spot price:       159.102
 Strike price:     155.587
 Time to maturity: 4.6935
@@ -5438,8 +5438,8 @@ Time to maturity: 7.50525
 Risk free rating: 0.164416
 Volatility:       0.650812
 
-Best price: 1276.29 for
-Option type:      Put
+Best price: 802.869 for
+Option type:      Call
 Spot price:       967.591
 Strike price:     2243.49
 Time to maturity: 9.04063
@@ -5454,8 +5454,8 @@ Time to maturity: 4.71168
 Risk free rating: 0.118521
 Volatility:       0.308426
 
-Best price: 524.605 for
-Option type:      Put
+Best price: 194.723 for
+Option type:      Call
 Spot price:       324.923
 Strike price:     849.529
 Time to maturity: 8.92794
@@ -5470,8 +5470,8 @@ Time to maturity: 3.19074
 Risk free rating: 0.0129912
 Volatility:       0.0645773
 
-Best price: 1002.18 for
-Option type:      Put
+Best price: 143.85 for
+Option type:      Call
 Spot price:       917.437
 Strike price:     1884
 Time to maturity: 3.15866
@@ -5486,8 +5486,8 @@ Time to maturity: 4.20667
 Risk free rating: 0.0864436
 Volatility:       0.382005
 
-Best price: 71.1104 for
-Option type:      Put
+Best price: 27.9171 for
+Option type:      Call
 Spot price:       78.635
 Strike price:     149.745
 Time to maturity: 7.35674
@@ -5502,8 +5502,8 @@ Time to maturity: 8.69727
 Risk free rating: 0.0820343
 Volatility:       0.365763
 
-Best price: 557.648 for
-Option type:      Put
+Best price: 207.896 for
+Option type:      Call
 Spot price:       622.342
 Strike price:     1177.94
 Time to maturity: 4.74592
@@ -5518,8 +5518,8 @@ Time to maturity: 9.40532
 Risk free rating: 0.105761
 Volatility:       0.856821
 
-Best price: 737.874 for
-Option type:      Put
+Best price: 652.606 for
+Option type:      Call
 Spot price:       834.504
 Strike price:     1082.64
 Time to maturity: 8.65005
@@ -5534,8 +5534,8 @@ Time to maturity: 6.47814
 Risk free rating: 0.195107
 Volatility:       0.109331
 
-Best price: 640.299 for
-Option type:      Put
+Best price: 130.641 for
+Option type:      Call
 Spot price:       559.141
 Strike price:     1199.44
 Time to maturity: 8.12156
@@ -5550,8 +5550,8 @@ Time to maturity: 4.58382
 Risk free rating: 0.190261
 Volatility:       0.101514
 
-Best price: 13.1986 for
-Option type:      Put
+Best price: 379.235 for
+Option type:      Call
 Spot price:       688.541
 Strike price:     382.089
 Time to maturity: 1.7972
@@ -5566,24 +5566,24 @@ Time to maturity: 6.42642
 Risk free rating: 0.191172
 Volatility:       0.799373
 
-Best price: 941.807 for
-Option type:      Put
+Best price: 278.734 for
+Option type:      Call
 Spot price:       588.655
 Strike price:     1374.12
 Time to maturity: 6.46152
 Risk free rating: 0.024926
 Volatility:       0.67948
 
-Best price: 12.5078 for
-Option type:      Call
+Best price: 84.0789 for
+Option type:      Put
 Spot price:       103.959
 Strike price:     187.853
 Time to maturity: 7.05614
 Risk free rating: 0.0226402
 Volatility:       0.246175
 
-Best price: 785.276 for
-Option type:      Put
+Best price: 239.046 for
+Option type:      Call
 Spot price:       916.516
 Strike price:     1700.95
 Time to maturity: 2.53823
@@ -5598,8 +5598,8 @@ Time to maturity: 6.86619
 Risk free rating: 0.0813338
 Volatility:       0.730062
 
-Best price: 157.724 for
-Option type:      Put
+Best price: 419.365 for
+Option type:      Call
 Spot price:       885.737
 Strike price:     686.876
 Time to maturity: 2.08547
@@ -5614,8 +5614,8 @@ Time to maturity: 9.41366
 Risk free rating: 0.157423
 Volatility:       0.158746
 
-Best price: 238.279 for
-Option type:      Put
+Best price: 218.823 for
+Option type:      Call
 Spot price:       354.032
 Strike price:     516.131
 Time to maturity: 4.02002
@@ -5630,8 +5630,8 @@ Time to maturity: 7.91515
 Risk free rating: 0.0890814
 Volatility:       0.1929
 
-Best price: 79.5969 for
-Option type:      Put
+Best price: 315.466 for
+Option type:      Call
 Spot price:       480.201
 Strike price:     298.44
 Time to maturity: 9.4296
@@ -5646,8 +5646,8 @@ Time to maturity: 1.74362
 Risk free rating: 0.031742
 Volatility:       0.0574002
 
-Best price: 0.871539 for
-Option type:      Put
+Best price: 51.199 for
+Option type:      Call
 Spot price:       164.016
 Strike price:     156.799
 Time to maturity: 6.34275
@@ -5662,8 +5662,8 @@ Time to maturity: 3.6016
 Risk free rating: 0.067471
 Volatility:       0.879067
 
-Best price: 345.841 for
-Option type:      Put
+Best price: 124.92 for
+Option type:      Call
 Spot price:       178.414
 Strike price:     441.776
 Time to maturity: 7.79035
@@ -5678,8 +5678,8 @@ Time to maturity: 8.31021
 Risk free rating: 0.144268
 Volatility:       0.574636
 
-Best price: 91.7272 for
-Option type:      Put
+Best price: 60.8875 for
+Option type:      Call
 Spot price:       164.421
 Strike price:     255.295
 Time to maturity: 7.8275
@@ -5694,8 +5694,8 @@ Time to maturity: 8.76652
 Risk free rating: 0.0939318
 Volatility:       0.886599
 
-Best price: 431.243 for
-Option type:      Put
+Best price: 6.90888 for
+Option type:      Call
 Spot price:       401.751
 Strike price:     832.994
 Time to maturity: 2.891
@@ -5710,8 +5710,8 @@ Time to maturity: 9.91855
 Risk free rating: 0.136198
 Volatility:       0.219359
 
-Best price: 14.6024 for
-Option type:      Put
+Best price: 45.6141 for
+Option type:      Call
 Spot price:       54.5118
 Strike price:     42.4093
 Time to maturity: 5.6693
@@ -5742,8 +5742,8 @@ Time to maturity: 5.18712
 Risk free rating: 0.181627
 Volatility:       0.806401
 
-Best price: 708.267 for
-Option type:      Put
+Best price: 621.862 for
+Option type:      Call
 Spot price:       819.678
 Strike price:     1329.78
 Time to maturity: 7.38877
@@ -5758,8 +5758,8 @@ Time to maturity: 9.33
 Risk free rating: 0.150904
 Volatility:       0.287504
 
-Best price: 193.714 for
-Option type:      Put
+Best price: 10.7294 for
+Option type:      Call
 Spot price:       140.337
 Strike price:     334.051
 Time to maturity: 1.73649
@@ -5774,8 +5774,8 @@ Time to maturity: 6.07812
 Risk free rating: 0.119557
 Volatility:       0.524951
 
-Best price: 467.332 for
-Option type:      Put
+Best price: 153.505 for
+Option type:      Call
 Spot price:       377.458
 Strike price:     841.133
 Time to maturity: 2.6027
@@ -5790,8 +5790,8 @@ Time to maturity: 5.77491
 Risk free rating: 0.0741534
 Volatility:       0.890243
 
-Best price: 10.6173 for
-Option type:      Put
+Best price: 21.1787 for
+Option type:      Call
 Spot price:       34.985
 Strike price:     36.9379
 Time to maturity: 5.24873
@@ -5806,8 +5806,8 @@ Time to maturity: 6.04279
 Risk free rating: 0.0201677
 Volatility:       0.370051
 
-Best price: 53.7732 for
-Option type:      Put
+Best price: 83.2094 for
+Option type:      Call
 Spot price:       239.735
 Strike price:     259.828
 Time to maturity: 5.58794
@@ -5822,8 +5822,8 @@ Time to maturity: 9.45219
 Risk free rating: 0.125889
 Volatility:       0.835844
 
-Best price: 628.697 for
-Option type:      Put
+Best price: 1.5569 for
+Option type:      Call
 Spot price:       787.955
 Strike price:     1416.65
 Time to maturity: 0.163709
@@ -5838,8 +5838,8 @@ Time to maturity: 5.17793
 Risk free rating: 0.143776
 Volatility:       0.844896
 
-Best price: 417.508 for
-Option type:      Put
+Best price: 207.652 for
+Option type:      Call
 Spot price:       382.047
 Strike price:     786.202
 Time to maturity: 4.80931
@@ -5854,8 +5854,8 @@ Time to maturity: 2.34474
 Risk free rating: 0.137306
 Volatility:       0.448081
 
-Best price: 268.31 for
-Option type:      Put
+Best price: 596.27 for
+Option type:      Call
 Spot price:       775.817
 Strike price:     598.529
 Time to maturity: 6.30059
@@ -5870,24 +5870,24 @@ Time to maturity: 7.98047
 Risk free rating: 0.153209
 Volatility:       0.233176
 
-Best price: 179.719 for
-Option type:      Put
+Best price: 219.218 for
+Option type:      Call
 Spot price:       342.647
 Strike price:     522.366
 Time to maturity: 7.75647
 Risk free rating: 0.183844
 Volatility:       0.210768
 
-Best price: 4.75514 for
-Option type:      Call
+Best price: 951.184 for
+Option type:      Put
 Spot price:       923.144
 Strike price:     1874.33
 Time to maturity: 6.14663
 Risk free rating: 0.0479698
 Volatility:       0.0971963
 
-Best price: 577.126 for
-Option type:      Put
+Best price: 184.832 for
+Option type:      Call
 Spot price:       572.78
 Strike price:     1107.38
 Time to maturity: 2.18674
@@ -5902,8 +5902,8 @@ Time to maturity: 3.72227
 Risk free rating: 0.0704294
 Volatility:       0.687012
 
-Best price: 10.2317 for
-Option type:      Put
+Best price: 211.778 for
+Option type:      Call
 Spot price:       436.801
 Strike price:     302.532
 Time to maturity: 2.89973
@@ -5918,8 +5918,8 @@ Time to maturity: 0.510842
 Risk free rating: 0.131048
 Volatility:       0.557699
 
-Best price: 127.549 for
-Option type:      Put
+Best price: 342.481 for
+Option type:      Call
 Spot price:       656.85
 Strike price:     606.326
 Time to maturity: 3.02698
@@ -5934,8 +5934,8 @@ Time to maturity: 9.13802
 Risk free rating: 0.0745563
 Volatility:       0.437276
 
-Best price: 579.783 for
-Option type:      Put
+Best price: 309.963 for
+Option type:      Call
 Spot price:       681.333
 Strike price:     1154.62
 Time to maturity: 3.53417
@@ -5950,8 +5950,8 @@ Time to maturity: 3.20032
 Risk free rating: 0.171412
 Volatility:       0.125641
 
-Best price: 684.532 for
-Option type:      Put
+Best price: 782.192 for
+Option type:      Call
 Spot price:       991.779
 Strike price:     1676.31
 Time to maturity: 9.84997
@@ -5966,8 +5966,8 @@ Time to maturity: 2.47589
 Risk free rating: 0.144925
 Volatility:       0.282008
 
-Best price: 169.59 for
-Option type:      Put
+Best price: 26.6731 for
+Option type:      Call
 Spot price:       348.011
 Strike price:     517.601
 Time to maturity: 9.141
@@ -5982,8 +5982,8 @@ Time to maturity: 6.51041
 Risk free rating: 0.0618777
 Volatility:       0.200614
 
-Best price: 24.1849 for
-Option type:      Put
+Best price: 257.001 for
+Option type:      Call
 Spot price:       301.324
 Strike price:     226.762
 Time to maturity: 9.42118
@@ -5998,8 +5998,8 @@ Time to maturity: 7.19949
 Risk free rating: 0.172665
 Volatility:       0.353253
 
-Best price: 257.214 for
-Option type:      Put
+Best price: 207.374 for
+Option type:      Call
 Spot price:       759.89
 Strike price:     873.234
 Time to maturity: 3.05869
@@ -6014,8 +6014,8 @@ Time to maturity: 6.07759
 Risk free rating: 0.173996
 Volatility:       0.74912
 
-Best price: 124.249 for
-Option type:      Put
+Best price: 51.8648 for
+Option type:      Call
 Spot price:       181.61
 Strike price:     284.909
 Time to maturity: 1.25754
@@ -6046,8 +6046,8 @@ Time to maturity: 5.27912
 Risk free rating: 0.142941
 Volatility:       0.399229
 
-Best price: 889.802 for
-Option type:      Put
+Best price: 26.0877 for
+Option type:      Call
 Spot price:       564.974
 Strike price:     1454.16
 Time to maturity: 0.919067
@@ -6062,8 +6062,8 @@ Time to maturity: 3.67926
 Risk free rating: 0.0275119
 Volatility:       0.547317
 
-Best price: 344.124 for
-Option type:      Put
+Best price: 146.075 for
+Option type:      Call
 Spot price:       234.012
 Strike price:     578.136
 Time to maturity: 7.85665
@@ -6078,8 +6078,8 @@ Time to maturity: 8.74378
 Risk free rating: 0.160004
 Volatility:       0.685937
 
-Best price: 23.6083 for
-Option type:      Put
+Best price: 270.16 for
+Option type:      Call
 Spot price:       565.643
 Strike price:     589.251
 Time to maturity: 4.29312
@@ -6094,8 +6094,8 @@ Time to maturity: 1.52866
 Risk free rating: 0.0319833
 Volatility:       0.0731625
 
-Best price: 17.7432 for
-Option type:      Put
+Best price: 369.626 for
+Option type:      Call
 Spot price:       528.351
 Strike price:     517.874
 Time to maturity: 9.89537
@@ -6110,8 +6110,8 @@ Time to maturity: 7.47728
 Risk free rating: 0.0245236
 Volatility:       0.811502
 
-Best price: 2.38943 for
-Option type:      Put
+Best price: 169.15 for
+Option type:      Call
 Spot price:       795.99
 Strike price:     675.213
 Time to maturity: 0.61268
@@ -6126,8 +6126,8 @@ Time to maturity: 9.13764
 Risk free rating: 0.117481
 Volatility:       0.205272
 
-Best price: 113.855 for
-Option type:      Put
+Best price: 79.588 for
+Option type:      Call
 Spot price:       148.203
 Strike price:     262.058
 Time to maturity: 7.64265
@@ -6142,8 +6142,8 @@ Time to maturity: 6.82407
 Risk free rating: 0.024548
 Volatility:       0.407647
 
-Best price: 956.466 for
-Option type:      Put
+Best price: 125.925 for
+Option type:      Call
 Spot price:       605.665
 Strike price:     1551.5
 Time to maturity: 3.18684
@@ -6158,8 +6158,8 @@ Time to maturity: 9.28821
 Risk free rating: 0.170524
 Volatility:       0.240385
 
-Best price: 256.395 for
-Option type:      Put
+Best price: 138.357 for
+Option type:      Call
 Spot price:       246.751
 Strike price:     401.479
 Time to maturity: 7.75836
@@ -6174,24 +6174,24 @@ Time to maturity: 6.84539
 Risk free rating: 0.188635
 Volatility:       0.089768
 
-Best price: 151.472 for
-Option type:      Put
+Best price: 256.154 for
+Option type:      Call
 Spot price:       326.456
 Strike price:     477.927
 Time to maturity: 9.00268
 Risk free rating: 0.19283
 Volatility:       0.427498
 
-Best price: 114.949 for
-Option type:      Call
+Best price: 503.934 for
+Option type:      Put
 Spot price:       752.528
 Strike price:     1256.46
 Time to maturity: 5.42405
 Risk free rating: 0.0628389
 Volatility:       0.234413
 
-Best price: 213.648 for
-Option type:      Put
+Best price: 0.000143942 for
+Option type:      Call
 Spot price:       295.125
 Strike price:     508.773
 Time to maturity: 0.388636
@@ -6206,8 +6206,8 @@ Time to maturity: 7.13014
 Risk free rating: 0.0281885
 Volatility:       0.32004
 
-Best price: 74.7618 for
-Option type:      Put
+Best price: 361.111 for
+Option type:      Call
 Spot price:       968.988
 Strike price:     1043.75
 Time to maturity: 3.1992
@@ -6222,8 +6222,8 @@ Time to maturity: 3.23421
 Risk free rating: 0.0642829
 Volatility:       0.127668
 
-Best price: 23.7122 for
-Option type:      Put
+Best price: 239.792 for
+Option type:      Call
 Spot price:       321.678
 Strike price:     191.307
 Time to maturity: 7.83154
@@ -6238,8 +6238,8 @@ Time to maturity: 0.179785
 Risk free rating: 0.189203
 Volatility:       0.251573
 
-Best price: 138.667 for
-Option type:      Put
+Best price: 14.6491 for
+Option type:      Call
 Spot price:       116.538
 Strike price:     255.205
 Time to maturity: 5.05473
@@ -6254,8 +6254,8 @@ Time to maturity: 9.02567
 Risk free rating: 0.0508889
 Volatility:       0.801702
 
-Best price: 745.739 for
-Option type:      Put
+Best price: 223.423 for
+Option type:      Call
 Spot price:       563.811
 Strike price:     1309.55
 Time to maturity: 7.15718
@@ -6270,8 +6270,8 @@ Time to maturity: 8.5862
 Risk free rating: 0.165881
 Volatility:       0.424487
 
-Best price: 87.6376 for
-Option type:      Put
+Best price: 96.2294 for
+Option type:      Call
 Spot price:       141.081
 Strike price:     189.183
 Time to maturity: 6.2315
@@ -6286,8 +6286,8 @@ Time to maturity: 4.65054
 Risk free rating: 0.0918869
 Volatility:       0.308819
 
-Best price: 22.8568 for
-Option type:      Put
+Best price: 160.333 for
+Option type:      Call
 Spot price:       206.115
 Strike price:     132.846
 Time to maturity: 8.88248
@@ -6302,8 +6302,8 @@ Time to maturity: 1.39196
 Risk free rating: 0.11743
 Volatility:       0.425914
 
-Best price: 1012.35 for
-Option type:      Put
+Best price: 502.321 for
+Option type:      Call
 Spot price:       799.239
 Strike price:     1673.06
 Time to maturity: 6.93502
@@ -6318,8 +6318,8 @@ Time to maturity: 3.42267
 Risk free rating: 0.0245934
 Volatility:       0.249745
 
-Best price: 1319.44 for
-Option type:      Put
+Best price: 17.6922 for
+Option type:      Call
 Spot price:       831.849
 Strike price:     2151.29
 Time to maturity: 3.11556
@@ -6350,8 +6350,8 @@ Time to maturity: 7.00739
 Risk free rating: 0.0791814
 Volatility:       0.531283
 
-Best price: 2.60693 for
-Option type:      Put
+Best price: 12.6025 for
+Option type:      Call
 Spot price:       16.1949
 Strike price:     10.3024
 Time to maturity: 5.40014
@@ -6366,8 +6366,8 @@ Time to maturity: 2.02503
 Risk free rating: 0.0277073
 Volatility:       0.398921
 
-Best price: 6.06544 for
-Option type:      Put
+Best price: 35.1475 for
+Option type:      Call
 Spot price:       171.703
 Strike price:     169.629
 Time to maturity: 3.24379
@@ -6382,8 +6382,8 @@ Time to maturity: 0.600536
 Risk free rating: 0.129027
 Volatility:       0.294228
 
-Best price: 123.699 for
-Option type:      Put
+Best price: 225.766 for
+Option type:      Call
 Spot price:       286.949
 Strike price:     353.06
 Time to maturity: 6.66168
@@ -6398,8 +6398,8 @@ Time to maturity: 6.96868
 Risk free rating: 0.115025
 Volatility:       0.233813
 
-Best price: 99.1905 for
-Option type:      Put
+Best price: 175.923 for
+Option type:      Call
 Spot price:       216.502
 Strike price:     249.424
 Time to maturity: 9.11695
@@ -6414,8 +6414,8 @@ Time to maturity: 1.3431
 Risk free rating: 0.042546
 Volatility:       0.753253
 
-Best price: 454.237 for
-Option type:      Put
+Best price: 478.515 for
+Option type:      Call
 Spot price:       588.99
 Strike price:     731.862
 Time to maturity: 8.04823
@@ -6430,8 +6430,8 @@ Time to maturity: 3.18793
 Risk free rating: 0.0332012
 Volatility:       0.144467
 
-Best price: 978.782 for
-Option type:      Put
+Best price: 254.176 for
+Option type:      Call
 Spot price:       651.624
 Strike price:     1580.36
 Time to maturity: 7.92615
@@ -6446,8 +6446,8 @@ Time to maturity: 6.59822
 Risk free rating: 0.111679
 Volatility:       0.11972
 
-Best price: 74.7979 for
-Option type:      Put
+Best price: 0.00492591 for
+Option type:      Call
 Spot price:       44.5899
 Strike price:     119.388
 Time to maturity: 0.397211
@@ -6462,8 +6462,8 @@ Time to maturity: 3.58287
 Risk free rating: 0.154718
 Volatility:       0.48102
 
-Best price: 1069.66 for
-Option type:      Put
+Best price: 240.762 for
+Option type:      Call
 Spot price:       641.523
 Strike price:     1711.19
 Time to maturity: 7.70325
@@ -6478,24 +6478,24 @@ Time to maturity: 5.05704
 Risk free rating: 0.132524
 Volatility:       0.0700026
 
-Best price: 135.183 for
-Option type:      Put
+Best price: 102.002 for
+Option type:      Call
 Spot price:       435.327
 Strike price:     484.808
 Time to maturity: 1.37883
 Risk free rating: 0.0289138
 Volatility:       0.562713
 
-Best price: 205.717 for
-Option type:      Call
+Best price: 51.6424 for
+Option type:      Put
 Spot price:       528.365
 Strike price:     558.949
 Time to maturity: 4.76241
 Risk free rating: 0.103524
 Volatility:       0.215758
 
-Best price: 798.502 for
-Option type:      Put
+Best price: 361.984 for
+Option type:      Call
 Spot price:       655.572
 Strike price:     1454.07
 Time to maturity: 7.93549
@@ -6510,8 +6510,8 @@ Time to maturity: 1.02339
 Risk free rating: 0.193126
 Volatility:       0.164818
 
-Best price: 233.506 for
-Option type:      Put
+Best price: 69.6093 for
+Option type:      Call
 Spot price:       160.258
 Strike price:     393.764
 Time to maturity: 9.44489
@@ -6526,8 +6526,8 @@ Time to maturity: 1.51961
 Risk free rating: 0.0134934
 Volatility:       0.444457
 
-Best price: 202.913 for
-Option type:      Put
+Best price: 508.257 for
+Option type:      Call
 Spot price:       943.631
 Strike price:     1144.06
 Time to maturity: 6.64529
@@ -6542,8 +6542,8 @@ Time to maturity: 1.30787
 Risk free rating: 0.143263
 Volatility:       0.146425
 
-Best price: 19.9026 for
-Option type:      Put
+Best price: 471.248 for
+Option type:      Call
 Spot price:       996.94
 Strike price:     900.83
 Time to maturity: 5.982
@@ -6558,8 +6558,8 @@ Time to maturity: 8.0869
 Risk free rating: 0.169983
 Volatility:       0.460306
 
-Best price: 795.512 for
-Option type:      Put
+Best price: 457.826 for
+Option type:      Call
 Spot price:       779.681
 Strike price:     1543.97
 Time to maturity: 7.27012
@@ -6574,8 +6574,8 @@ Time to maturity: 8.07919
 Risk free rating: 0.122483
 Volatility:       0.191016
 
-Best price: 10.2643 for
-Option type:      Put
+Best price: 17.0062 for
+Option type:      Call
 Spot price:       34.4373
 Strike price:     44.7016
 Time to maturity: 5.51229
@@ -6590,8 +6590,8 @@ Time to maturity: 1.59181
 Risk free rating: 0.171803
 Volatility:       0.892736
 
-Best price: 894.813 for
-Option type:      Put
+Best price: 376.599 for
+Option type:      Call
 Spot price:       729.57
 Strike price:     1624.38
 Time to maturity: 9.94471
@@ -6606,8 +6606,8 @@ Time to maturity: 5.85383
 Risk free rating: 0.0581908
 Volatility:       0.692884
 
-Best price: 139.313 for
-Option type:      Put
+Best price: 7.64762 for
+Option type:      Call
 Spot price:       90.8506
 Strike price:     230.164
 Time to maturity: 3.32565
@@ -6622,8 +6622,8 @@ Time to maturity: 9.03678
 Risk free rating: 0.16908
 Volatility:       0.158264
 
-Best price: 174.101 for
-Option type:      Put
+Best price: 73.7496 for
+Option type:      Call
 Spot price:       135.008
 Strike price:     309.109
 Time to maturity: 9.25012
@@ -6654,8 +6654,8 @@ Time to maturity: 8.9546
 Risk free rating: 0.166485
 Volatility:       0.81397
 
-Best price: 766.893 for
-Option type:      Put
+Best price: 314.377 for
+Option type:      Call
 Spot price:       557.581
 Strike price:     1275.17
 Time to maturity: 3.90202
@@ -6670,8 +6670,8 @@ Time to maturity: 4.85247
 Risk free rating: 0.0362229
 Volatility:       0.118883
 
-Best price: 1370.98 for
-Option type:      Put
+Best price: 0.00166311 for
+Option type:      Call
 Spot price:       831.426
 Strike price:     2202.4
 Time to maturity: 4.10678
@@ -6686,8 +6686,8 @@ Time to maturity: 3.26827
 Risk free rating: 0.100528
 Volatility:       0.320558
 
-Best price: 687.368 for
-Option type:      Put
+Best price: 163.769 for
+Option type:      Call
 Spot price:       494.145
 Strike price:     1181.51
 Time to maturity: 5.96378
@@ -6702,8 +6702,8 @@ Time to maturity: 1.28366
 Risk free rating: 0.118802
 Volatility:       0.268232
 
-Best price: 760.434 for
-Option type:      Put
+Best price: 586.618 for
+Option type:      Call
 Spot price:       806.055
 Strike price:     1158.35
 Time to maturity: 9.94737
@@ -6718,8 +6718,8 @@ Time to maturity: 3.14455
 Risk free rating: 0.10349
 Volatility:       0.727032
 
-Best price: 26.4268 for
-Option type:      Put
+Best price: 121.655 for
+Option type:      Call
 Spot price:       240.216
 Strike price:     239.561
 Time to maturity: 5.5554
@@ -6734,8 +6734,8 @@ Time to maturity: 7.73797
 Risk free rating: 0.133861
 Volatility:       0.757555
 
-Best price: 530.147 for
-Option type:      Put
+Best price: 7.36144 for
+Option type:      Call
 Spot price:       975.718
 Strike price:     1505.69
 Time to maturity: 0.760269
@@ -6750,8 +6750,8 @@ Time to maturity: 2.79069
 Risk free rating: 0.0858417
 Volatility:       0.558806
 
-Best price: 5.26314 for
-Option type:      Put
+Best price: 475.227 for
+Option type:      Call
 Spot price:       656.42
 Strike price:     550.489
 Time to maturity: 9.77261
@@ -6766,8 +6766,8 @@ Time to maturity: 9.08658
 Risk free rating: 0.199347
 Volatility:       0.645367
 
-Best price: 402.91 for
-Option type:      Put
+Best price: 624.764 for
+Option type:      Call
 Spot price:       772.743
 Strike price:     959.798
 Time to maturity: 9.42161
@@ -6782,24 +6782,24 @@ Time to maturity: 8.34872
 Risk free rating: 0.0675733
 Volatility:       0.871565
 
-Best price: 977.715 for
-Option type:      Put
+Best price: 142.968 for
+Option type:      Call
 Spot price:       631.838
 Strike price:     1609.55
 Time to maturity: 6.79344
 Risk free rating: 0.0683754
 Volatility:       0.364521
 
-Best price: 61.8675 for
-Option type:      Call
+Best price: 687.067 for
+Option type:      Put
 Spot price:       554.967
 Strike price:     1242.03
 Time to maturity: 3.24803
 Risk free rating: 0.120149
 Volatility:       0.343781
 
-Best price: 430.719 for
-Option type:      Put
+Best price: 0.000412695 for
+Option type:      Call
 Spot price:       817.612
 Strike price:     1248.33
 Time to maturity: 0.859556
@@ -6814,8 +6814,8 @@ Time to maturity: 1.22999
 Risk free rating: 0.188799
 Volatility:       0.791757
 
-Best price: 763.573 for
-Option type:      Put
+Best price: 1.38006e-06 for
+Option type:      Call
 Spot price:       457.566
 Strike price:     1221.14
 Time to maturity: 0.101847
@@ -6830,8 +6830,8 @@ Time to maturity: 4.60829
 Risk free rating: 0.0888425
 Volatility:       0.670919
 
-Best price: 26.2262 for
-Option type:      Put
+Best price: 48.33 for
+Option type:      Call
 Spot price:       144.002
 Strike price:     134.614
 Time to maturity: 1.88713
@@ -6846,8 +6846,8 @@ Time to maturity: 3.04388
 Risk free rating: 0.0408822
 Volatility:       0.624278
 
-Best price: 41.2142 for
-Option type:      Put
+Best price: 0.724649 for
+Option type:      Call
 Spot price:       47.7054
 Strike price:     88.9196
 Time to maturity: 7.01216
@@ -6862,8 +6862,8 @@ Time to maturity: 1.25313
 Risk free rating: 0.0583096
 Volatility:       0.301148
 
-Best price: 530.64 for
-Option type:      Put
+Best price: 28.3576 for
+Option type:      Call
 Spot price:       534.671
 Strike price:     1065.31
 Time to maturity: 5.96843
@@ -6878,8 +6878,8 @@ Time to maturity: 8.71238
 Risk free rating: 0.0805938
 Volatility:       0.57224
 
-Best price: 107.156 for
-Option type:      Put
+Best price: 176.244 for
+Option type:      Call
 Spot price:       528.427
 Strike price:     635.207
 Time to maturity: 4.75216
@@ -6894,8 +6894,8 @@ Time to maturity: 9.1663
 Risk free rating: 0.0783609
 Volatility:       0.310926
 
-Best price: 201.758 for
-Option type:      Put
+Best price: 44.5366 for
+Option type:      Call
 Spot price:       203.245
 Strike price:     405.003
 Time to maturity: 3.29869
@@ -6910,8 +6910,8 @@ Time to maturity: 8.03667
 Risk free rating: 0.0992085
 Volatility:       0.409258
 
-Best price: 237.839 for
-Option type:      Put
+Best price: 834.024 for
+Option type:      Call
 Spot price:       995.681
 Strike price:     520.827
 Time to maturity: 8.96115
@@ -6926,8 +6926,8 @@ Time to maturity: 8.75136
 Risk free rating: 0.0124524
 Volatility:       0.242687
 
-Best price: 166.466 for
-Option type:      Put
+Best price: 51.1055 for
+Option type:      Call
 Spot price:       571.224
 Strike price:     727.392
 Time to maturity: 6.14274
@@ -6958,8 +6958,8 @@ Time to maturity: 2.25993
 Risk free rating: 0.187722
 Volatility:       0.446199
 
-Best price: 0.00623825 for
-Option type:      Put
+Best price: 297.205 for
+Option type:      Call
 Spot price:       450.933
 Strike price:     239.918
 Time to maturity: 2.54926
@@ -6974,8 +6974,8 @@ Time to maturity: 4.83552
 Risk free rating: 0.013994
 Volatility:       0.746668
 
-Best price: 1019.23 for
-Option type:      Put
+Best price: 197.728 for
+Option type:      Call
 Spot price:       826.605
 Strike price:     1845.84
 Time to maturity: 2.9053
@@ -6990,8 +6990,8 @@ Time to maturity: 0.222176
 Risk free rating: 0.0371626
 Volatility:       0.68095
 
-Best price: 233.919 for
-Option type:      Put
+Best price: 156.096 for
+Option type:      Call
 Spot price:       251.72
 Strike price:     457.028
 Time to maturity: 3.91252
@@ -7006,8 +7006,8 @@ Time to maturity: 2.02221
 Risk free rating: 0.100143
 Volatility:       0.056234
 
-Best price: 25.4988 for
-Option type:      Put
+Best price: 15.2373 for
+Option type:      Call
 Spot price:       35.5513
 Strike price:     61.0501
 Time to maturity: 5.25245
@@ -7022,8 +7022,8 @@ Time to maturity: 9.18368
 Risk free rating: 0.157784
 Volatility:       0.748988
 
-Best price: 684.898 for
-Option type:      Put
+Best price: 358.283 for
+Option type:      Call
 Spot price:       903.736
 Strike price:     1495.48
 Time to maturity: 4.56681
@@ -7038,8 +7038,8 @@ Time to maturity: 9.37559
 Risk free rating: 0.196966
 Volatility:       0.727012
 
-Best price: 825.461 for
-Option type:      Put
+Best price: 105.06 for
+Option type:      Call
 Spot price:       759.191
 Strike price:     1516.28
 Time to maturity: 1.74414
@@ -7054,8 +7054,8 @@ Time to maturity: 9.28771
 Risk free rating: 0.0273167
 Volatility:       0.293015
 
-Best price: 90.3266 for
-Option type:      Put
+Best price: 200.894 for
+Option type:      Call
 Spot price:       675.666
 Strike price:     590.343
 Time to maturity: 0.648617
@@ -7070,8 +7070,8 @@ Time to maturity: 5.83823
 Risk free rating: 0.0142215
 Volatility:       0.890259
 
-Best price: 83.11 for
-Option type:      Put
+Best price: 9.4521 for
+Option type:      Call
 Spot price:       51.0138
 Strike price:     134.124
 Time to maturity: 5.54366
@@ -7086,24 +7086,24 @@ Time to maturity: 0.604651
 Risk free rating: 0.127331
 Volatility:       0.226616
 
-Best price: 33.2605 for
-Option type:      Put
+Best price: 354.415 for
+Option type:      Call
 Spot price:       591.82
 Strike price:     442.209
 Time to maturity: 3.38667
 Risk free rating: 0.15851
 Volatility:       0.421494
 
-Best price: 400.889 for
-Option type:      Call
+Best price: 678.218 for
+Option type:      Put
 Spot price:       631.468
 Strike price:     1215.2
 Time to maturity: 8.45317
 Risk free rating: 0.0717353
 Volatility:       0.634201
 
-Best price: 1092.08 for
-Option type:      Put
+Best price: 506.54 for
+Option type:      Call
 Spot price:       962
 Strike price:     2026.49
 Time to maturity: 4.94972
@@ -7118,8 +7118,8 @@ Time to maturity: 2.02826
 Risk free rating: 0.163989
 Volatility:       0.281753
 
-Best price: 254.193 for
-Option type:      Put
+Best price: 93.3843 for
+Option type:      Call
 Spot price:       734.247
 Strike price:     968.225
 Time to maturity: 5.26665
@@ -7134,8 +7134,8 @@ Time to maturity: 6.55752
 Risk free rating: 0.0973325
 Volatility:       0.624397
 
-Best price: 473.531 for
-Option type:      Put
+Best price: 53.0468 for
+Option type:      Call
 Spot price:       622.424
 Strike price:     1089.75
 Time to maturity: 0.685853
@@ -7150,8 +7150,8 @@ Time to maturity: 7.32872
 Risk free rating: 0.11864
 Volatility:       0.418944
 
-Best price: 86.7504 for
-Option type:      Put
+Best price: 61.5928 for
+Option type:      Call
 Spot price:       136.294
 Strike price:     190.811
 Time to maturity: 3.60833
@@ -7166,8 +7166,8 @@ Time to maturity: 9.39278
 Risk free rating: 0.0764723
 Volatility:       0.257232
 
-Best price: 10.5011 for
-Option type:      Put
+Best price: 144.065 for
+Option type:      Call
 Spot price:       659.344
 Strike price:     618.063
 Time to maturity: 3.2186
@@ -7182,8 +7182,8 @@ Time to maturity: 4.78297
 Risk free rating: 0.0182299
 Volatility:       0.644439
 
-Best price: 393.088 for
-Option type:      Put
+Best price: 74.1907 for
+Option type:      Call
 Spot price:       337.255
 Strike price:     721.194
 Time to maturity: 4.18279
@@ -7198,8 +7198,8 @@ Time to maturity: 3.24132
 Risk free rating: 0.183272
 Volatility:       0.101789
 
-Best price: 243.685 for
-Option type:      Put
+Best price: 438.517 for
+Option type:      Call
 Spot price:       697.077
 Strike price:     628.8
 Time to maturity: 3.25855
@@ -7214,8 +7214,8 @@ Time to maturity: 3.25503
 Risk free rating: 0.0298884
 Volatility:       0.159307
 
-Best price: 0.431985 for
-Option type:      Put
+Best price: 233.082 for
+Option type:      Call
 Spot price:       578.112
 Strike price:     366.514
 Time to maturity: 0.406216
@@ -7230,8 +7230,8 @@ Time to maturity: 6.45666
 Risk free rating: 0.0623519
 Volatility:       0.470343
 
-Best price: 115.311 for
-Option type:      Put
+Best price: 58.6518 for
+Option type:      Call
 Spot price:       130.478
 Strike price:     234.053
 Time to maturity: 3.22917
@@ -7262,8 +7262,8 @@ Time to maturity: 8.33225
 Risk free rating: 0.043692
 Volatility:       0.664611
 
-Best price: 876.505 for
-Option type:      Put
+Best price: 112.972 for
+Option type:      Call
 Spot price:       774.944
 Strike price:     1606.29
 Time to maturity: 5.83188
@@ -7278,8 +7278,8 @@ Time to maturity: 8.64845
 Risk free rating: 0.0686724
 Volatility:       0.299505
 
-Best price: 112.314 for
-Option type:      Put
+Best price: 182.157 for
+Option type:      Call
 Spot price:       273.338
 Strike price:     336.784
 Time to maturity: 5.61831
@@ -7294,8 +7294,8 @@ Time to maturity: 8.17918
 Risk free rating: 0.0135996
 Volatility:       0.67553
 
-Best price: 0.122927 for
-Option type:      Put
+Best price: 107.518 for
+Option type:      Call
 Spot price:       216.316
 Strike price:     171.417
 Time to maturity: 6.42104
@@ -7310,8 +7310,8 @@ Time to maturity: 9.04191
 Risk free rating: 0.0146774
 Volatility:       0.228037
 
-Best price: 277.476 for
-Option type:      Put
+Best price: 217.733 for
+Option type:      Call
 Spot price:       422.1
 Strike price:     542.169
 Time to maturity: 9.12609
@@ -7326,8 +7326,8 @@ Time to maturity: 6.24168
 Risk free rating: 0.162713
 Volatility:       0.121166
 
-Best price: 127.273 for
-Option type:      Put
+Best price: 92.6813 for
+Option type:      Call
 Spot price:       392.08
 Strike price:     518.598
 Time to maturity: 8.87425
@@ -7342,8 +7342,8 @@ Time to maturity: 1.90633
 Risk free rating: 0.19339
 Volatility:       0.413956
 
-Best price: 697.645 for
-Option type:      Put
+Best price: 14.243 for
+Option type:      Call
 Spot price:       635.699
 Strike price:     1333.34
 Time to maturity: 3.73292
@@ -7358,8 +7358,8 @@ Time to maturity: 4.04298
 Risk free rating: 0.0112948
 Volatility:       0.494896
 
-Best price: 1186.6 for
-Option type:      Put
+Best price: 483.014 for
+Option type:      Call
 Spot price:       922.298
 Strike price:     2108.9
 Time to maturity: 8.26959
@@ -7374,8 +7374,8 @@ Time to maturity: 6.61139
 Risk free rating: 0.131898
 Volatility:       0.0717343
 
-Best price: 1174.98 for
-Option type:      Put
+Best price: 0.676579 for
+Option type:      Call
 Spot price:       790.09
 Strike price:     1965.07
 Time to maturity: 2.74741
@@ -7390,24 +7390,24 @@ Time to maturity: 5.50464
 Risk free rating: 0.185979
 Volatility:       0.790618
 
-Best price: 557.434 for
-Option type:      Put
+Best price: 612.257 for
+Option type:      Call
 Spot price:       787.233
 Strike price:     867.638
 Time to maturity: 9.127
 Risk free rating: 0.0285265
 Volatility:       0.77533
 
-Best price: 197.74 for
-Option type:      Call
+Best price: 8.82413 for
+Option type:      Put
 Spot price:       334.878
 Strike price:     207.055
 Time to maturity: 6.72663
 Risk free rating: 0.0539432
 Volatility:       0.257035
 
-Best price: 17.0678 for
-Option type:      Put
+Best price: 133.645 for
+Option type:      Call
 Spot price:       312.987
 Strike price:     200.345
 Time to maturity: 1.85356
@@ -7422,8 +7422,8 @@ Time to maturity: 2.43267
 Risk free rating: 0.189279
 Volatility:       0.790564
 
-Best price: 362.698 for
-Option type:      Put
+Best price: 215.591 for
+Option type:      Call
 Spot price:       296.546
 Strike price:     659.245
 Time to maturity: 8.05212
@@ -7438,8 +7438,8 @@ Time to maturity: 6.2873
 Risk free rating: 0.131287
 Volatility:       0.311074
 
-Best price: 1387.07 for
-Option type:      Put
+Best price: 0.347155 for
+Option type:      Call
 Spot price:       861.083
 Strike price:     2248.15
 Time to maturity: 2.25535
@@ -7454,8 +7454,8 @@ Time to maturity: 6.39687
 Risk free rating: 0.0863407
 Volatility:       0.541154
 
-Best price: 224.321 for
-Option type:      Put
+Best price: 275.265 for
+Option type:      Call
 Spot price:       314.795
 Strike price:     487.883
 Time to maturity: 7.95132
@@ -7470,8 +7470,8 @@ Time to maturity: 4.74102
 Risk free rating: 0.144071
 Volatility:       0.833863
 
-Best price: 28.427 for
-Option type:      Put
+Best price: 24.5184 for
+Option type:      Call
 Spot price:       150.574
 Strike price:     176.071
 Time to maturity: 1.47854
@@ -7486,8 +7486,8 @@ Time to maturity: 3.56298
 Risk free rating: 0.173874
 Volatility:       0.248112
 
-Best price: 962.816 for
-Option type:      Put
+Best price: 538.212 for
+Option type:      Call
 Spot price:       698.236
 Strike price:     1316.3
 Time to maturity: 8.6485
@@ -7502,8 +7502,8 @@ Time to maturity: 9.124
 Risk free rating: 0.0520883
 Volatility:       0.0977377
 
-Best price: 181.026 for
-Option type:      Put
+Best price: 25.8469 for
+Option type:      Call
 Spot price:       263.083
 Strike price:     436.886
 Time to maturity: 1.7988
@@ -7518,8 +7518,8 @@ Time to maturity: 4.21703
 Risk free rating: 0.0219947
 Volatility:       0.387242
 
-Best price: 256.182 for
-Option type:      Put
+Best price: 301.662 for
+Option type:      Call
 Spot price:       479.266
 Strike price:     715.442
 Time to maturity: 8.70483
@@ -7534,8 +7534,8 @@ Time to maturity: 8.96106
 Risk free rating: 0.172116
 Volatility:       0.622515
 
-Best price: 29.2319 for
-Option type:      Put
+Best price: 26.3611 for
+Option type:      Call
 Spot price:       145.988
 Strike price:     161.917
 Time to maturity: 0.556024
@@ -7566,8 +7566,8 @@ Time to maturity: 2.88579
 Risk free rating: 0.166223
 Volatility:       0.689921
 
-Best price: 1137.8 for
-Option type:      Put
+Best price: 382.825 for
+Option type:      Call
 Spot price:       735.531
 Strike price:     1785.59
 Time to maturity: 7.25557
@@ -7582,8 +7582,8 @@ Time to maturity: 0.822736
 Risk free rating: 0.151365
 Volatility:       0.654351
 
-Best price: 278.147 for
-Option type:      Put
+Best price: 34.8928 for
+Option type:      Call
 Spot price:       242.154
 Strike price:     520.301
 Time to maturity: 9.18662
@@ -7598,8 +7598,8 @@ Time to maturity: 6.28417
 Risk free rating: 0.0254212
 Volatility:       0.434372
 
-Best price: 765.119 for
-Option type:      Put
+Best price: 587.798 for
+Option type:      Call
 Spot price:       741.701
 Strike price:     1491.06
 Time to maturity: 8.16921
@@ -7614,8 +7614,8 @@ Time to maturity: 5.39617
 Risk free rating: 0.0171626
 Volatility:       0.736858
 
-Best price: 274.099 for
-Option type:      Put
+Best price: 157.023 for
+Option type:      Call
 Spot price:       327.517
 Strike price:     569.01
 Time to maturity: 2.86651
@@ -7630,8 +7630,8 @@ Time to maturity: 2.74404
 Risk free rating: 0.111586
 Volatility:       0.779947
 
-Best price: 560.595 for
-Option type:      Put
+Best price: 38.5037 for
+Option type:      Call
 Spot price:       332.623
 Strike price:     864.45
 Time to maturity: 1.30661
@@ -7646,8 +7646,8 @@ Time to maturity: 9.51883
 Risk free rating: 0.036034
 Volatility:       0.506947
 
-Best price: 85.5967 for
-Option type:      Put
+Best price: 4.78036 for
+Option type:      Call
 Spot price:       193.071
 Strike price:     278.397
 Time to maturity: 0.708109
@@ -7662,8 +7662,8 @@ Time to maturity: 8.09787
 Risk free rating: 0.150108
 Volatility:       0.506485
 
-Best price: 207.462 for
-Option type:      Put
+Best price: 599.941 for
+Option type:      Call
 Spot price:       841.598
 Strike price:     1049.06
 Time to maturity: 7.1181
@@ -7678,8 +7678,8 @@ Time to maturity: 9.1665
 Risk free rating: 0.146407
 Volatility:       0.291067
 
-Best price: 100.769 for
-Option type:      Put
+Best price: 271.198 for
+Option type:      Call
 Spot price:       333.019
 Strike price:     181.718
 Time to maturity: 7.63277
@@ -7694,24 +7694,24 @@ Time to maturity: 4.81761
 Risk free rating: 0.150197
 Volatility:       0.168152
 
-Best price: 358.97 for
-Option type:      Put
+Best price: 143.784 for
+Option type:      Call
 Spot price:       445.67
 Strike price:     696.259
 Time to maturity: 2.20163
 Risk free rating: 0.0319561
 Volatility:       0.760958
 
-Best price: 460.138 for
-Option type:      Call
+Best price: 25.1638 for
+Option type:      Put
 Spot price:       507.441
 Strike price:     269.775
 Time to maturity: 8.04951
 Risk free rating: 0.196351
 Volatility:       0.565037
 
-Best price: 728.679 for
-Option type:      Put
+Best price: 321.503 for
+Option type:      Call
 Spot price:       508.671
 Strike price:     1237.35
 Time to maturity: 9.52992
@@ -7726,8 +7726,8 @@ Time to maturity: 2.02331
 Risk free rating: 0.0949682
 Volatility:       0.755348
 
-Best price: 367.956 for
-Option type:      Put
+Best price: 229.797 for
+Option type:      Call
 Spot price:       658.178
 Strike price:     924.509
 Time to maturity: 6.66729
@@ -7742,8 +7742,8 @@ Time to maturity: 1.94102
 Risk free rating: 0.190656
 Volatility:       0.228413
 
-Best price: 441.482 for
-Option type:      Put
+Best price: 193.094 for
+Option type:      Call
 Spot price:       268.309
 Strike price:     706.5
 Time to maturity: 7.37361
@@ -7758,8 +7758,8 @@ Time to maturity: 5.08652
 Risk free rating: 0.167539
 Volatility:       0.48192
 
-Best price: 375.75 for
-Option type:      Put
+Best price: 349.649 for
+Option type:      Call
 Spot price:       624.039
 Strike price:     967.905
 Time to maturity: 4.83377
@@ -7774,8 +7774,8 @@ Time to maturity: 5.35798
 Risk free rating: 0.151686
 Volatility:       0.75205
 
-Best price: 1072.45 for
-Option type:      Put
+Best price: 442.208 for
+Option type:      Call
 Spot price:       699.596
 Strike price:     1772.05
 Time to maturity: 8.22121
@@ -7790,8 +7790,8 @@ Time to maturity: 8.26559
 Risk free rating: 0.140874
 Volatility:       0.519146
 
-Best price: 129.065 for
-Option type:      Put
+Best price: 190.267 for
+Option type:      Call
 Spot price:       249.42
 Strike price:     358.465
 Time to maturity: 9.68065
@@ -7806,8 +7806,8 @@ Time to maturity: 5.30822
 Risk free rating: 0.154269
 Volatility:       0.655766
 
-Best price: 123.668 for
-Option type:      Put
+Best price: 79.7088 for
+Option type:      Call
 Spot price:       201.228
 Strike price:     309.264
 Time to maturity: 4.7779
@@ -7822,8 +7822,8 @@ Time to maturity: 4.18243
 Risk free rating: 0.0237326
 Volatility:       0.539418
 
-Best price: 936.894 for
-Option type:      Put
+Best price: 14.0356 for
+Option type:      Call
 Spot price:       855.118
 Strike price:     1792.01
 Time to maturity: 3.6679
@@ -7838,8 +7838,8 @@ Time to maturity: 5.48533
 Risk free rating: 0.0540038
 Volatility:       0.771585
 
-Best price: 26.4261 for
-Option type:      Put
+Best price: 180.42 for
+Option type:      Call
 Spot price:       403.299
 Strike price:     419.516
 Time to maturity: 8.14203
@@ -7870,8 +7870,8 @@ Time to maturity: 8.91334
 Risk free rating: 0.0318322
 Volatility:       0.0532616
 
-Best price: 417.03 for
-Option type:      Put
+Best price: 79.1021 for
+Option type:      Call
 Spot price:       506.988
 Strike price:     903.9
 Time to maturity: 5.83176
@@ -7886,8 +7886,8 @@ Time to maturity: 8.739
 Risk free rating: 0.0265508
 Volatility:       0.464277
 
-Best price: 59.488 for
-Option type:      Put
+Best price: 436.45 for
+Option type:      Call
 Spot price:       694.502
 Strike price:     747.182
 Time to maturity: 6.27998
@@ -7902,8 +7902,8 @@ Time to maturity: 3.0624
 Risk free rating: 0.0918631
 Volatility:       0.315363
 
-Best price: 911.18 for
-Option type:      Put
+Best price: 591.567 for
+Option type:      Call
 Spot price:       727.86
 Strike price:     1639.04
 Time to maturity: 8.34608
@@ -7918,8 +7918,8 @@ Time to maturity: 5.49149
 Risk free rating: 0.017803
 Volatility:       0.683101
 
-Best price: 4.97885 for
-Option type:      Put
+Best price: 225.056 for
+Option type:      Call
 Spot price:       451.496
 Strike price:     245.637
 Time to maturity: 0.718819
@@ -7934,8 +7934,8 @@ Time to maturity: 4.85491
 Risk free rating: 0.135724
 Volatility:       0.236257
 
-Best price: 108.68 for
-Option type:      Put
+Best price: 20.0167 for
+Option type:      Call
 Spot price:       121.715
 Strike price:     220.566
 Time to maturity: 4.89843
@@ -7950,8 +7950,8 @@ Time to maturity: 4.0182
 Risk free rating: 0.126499
 Volatility:       0.734762
 
-Best price: 495.774 for
-Option type:      Put
+Best price: 144.393 for
+Option type:      Call
 Spot price:       306.672
 Strike price:     802.445
 Time to maturity: 5.40278
@@ -7966,8 +7966,8 @@ Time to maturity: 4.34477
 Risk free rating: 0.0202186
 Volatility:       0.068773
 
-Best price: 214.778 for
-Option type:      Put
+Best price: 175.524 for
+Option type:      Call
 Spot price:       364.382
 Strike price:     449.667
 Time to maturity: 3.93818
@@ -7982,8 +7982,8 @@ Time to maturity: 4.97439
 Risk free rating: 0.143164
 Volatility:       0.777218
 
-Best price: 145.588 for
-Option type:      Put
+Best price: 302.692 for
+Option type:      Call
 Spot price:       424.108
 Strike price:     500.748
 Time to maturity: 9.37357
