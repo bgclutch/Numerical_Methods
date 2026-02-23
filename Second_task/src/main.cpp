@@ -2,15 +2,28 @@
 #include "option_parameters.hpp"
 #include "utils.hpp"
 #include <iostream>
-
-
+#include <fstream>
+#include <vector>
 
 int main() {
-    financial::OptionParameters optParams{100, 100, 1, 0.05, 0.1, finutils::OptionType::Call};
-    financial::BinominalCalculation calcOpt(1000);
+    std::vector<financial::OptionParameters> data = finutils::dataGenerator();
+    std::vector<double> prices;
+    prices.reserve(finutils::OPTIONS_AMOUNT);
 
-    auto result = calcOpt.calcPrice(optParams);
-    std::cout << "Best price: " << result << "\n" << "For option: \n" << optParams << std::endl;
+    for (auto& elem : data) {
+        financial::BinominalCalculation calcOpt(finutils::DEFAULT_STEPS);
+
+        prices.push_back(calcOpt.calcPrice(elem));
+    }
+
+    std::ofstream writeFile;
+    writeFile.open("options.txt");
+
+    for (size_t i = 0; i < finutils::OPTIONS_AMOUNT; ++i) {
+        writeFile << "Best price: " << prices[i] << " for\n" << data[i] << "\n" << std::endl;
+    }
+
+    writeFile.close();
 
     return EXIT_SUCCESS;
 }

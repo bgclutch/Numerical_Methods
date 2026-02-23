@@ -13,6 +13,7 @@ target_include_directories(option PRIVATE
 
 target_sources(option PRIVATE
     src/main.cpp
+    src/data_generator.cpp
 )
 
 target_compile_options(option PRIVATE

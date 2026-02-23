@@ -1,9 +1,11 @@
 #pragma once
 #include <fstream>
 #include <iostream>
+#include <vector>
 
 namespace finutils {
-static const int OPTIONS_AMOUNT = 1;
+static const int OPTIONS_AMOUNT = 1000;
+static const int DEFAULT_STEPS  = 1000;
 
 enum class OptionType {
     Call,
@@ -15,13 +17,4 @@ inline std::ostream& operator<<(std::ostream& outStream, const finutils::OptionT
     outStream << res;
     return outStream;
 }
-
-// void dataGenerator() {
-
-
-// }
-
-// void getOptionParameters() {
-
-// }
 } // namespace finutils

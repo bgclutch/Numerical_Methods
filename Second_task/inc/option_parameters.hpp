@@ -4,6 +4,7 @@
 #include <algorithm>
 #include <iostream>
 #include <string>
+#include <random>
 
 namespace financial {
 struct OptionParameters {
@@ -52,3 +53,8 @@ inline std::ostream& operator<<(std::ostream& outStream, const AmericanParameter
 }
 
 } // namespace financial
+
+
+namespace finutils {
+std::vector<financial::OptionParameters> dataGenerator();
+} // namespace finutils
