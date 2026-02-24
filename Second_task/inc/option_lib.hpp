@@ -51,9 +51,7 @@ inline std::ostream& operator<<(std::ostream& outStream, const AmericanParameter
 
     return outStream;
 }
-
 } // namespace financial
-
 
 namespace finutils {
 std::vector<financial::OptionParameters> dataGenerator();
