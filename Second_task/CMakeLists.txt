@@ -19,6 +19,7 @@ target_include_directories(option PRIVATE
 target_sources(option PRIVATE
     src/main.cpp
     src/data_generator.cpp
+    src/european_option.cpp
 )
 
 target_compile_options(option PRIVATE

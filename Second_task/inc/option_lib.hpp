@@ -32,6 +32,9 @@ struct AmericanParameters {
         discountFactor(std::exp(-params.riskFreeRate_ * timeStep)) {}
 };
 
+double calcCDF(const double num);
+double calcBSPrice(const OptionParameters&);
+
 inline std::ostream& operator<<(std::ostream& outStream, const OptionParameters& params) {
     outStream << "Option type:      " << params.optionType_     << "\n"
               << "Spot price:       " << params.spotPrice_      << "\n"
@@ -43,7 +46,7 @@ inline std::ostream& operator<<(std::ostream& outStream, const OptionParameters&
     return outStream;
 }
 
-inline std::ostream& operator<<(std::ostream& outStream, const AmericanParameters params) {
+inline std::ostream& operator<<(std::ostream& outStream, const AmericanParameters& params) {
     outStream << "Time step:       " << params.timeStep   << "\n"
               << "Up factor:       " << params.upFactor   << "\n"
               << "Down factor:     " << params.downFactor << "\n"

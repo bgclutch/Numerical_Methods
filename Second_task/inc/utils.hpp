@@ -2,10 +2,12 @@
 #include <fstream>
 #include <iostream>
 #include <vector>
+#include <cmath>
 
 namespace finutils {
 static const int OPTIONS_AMOUNT = 1000;
 static const int DEFAULT_STEPS  = 1000;
+static const double SQRT_2 = std::sqrt(2);
 
 enum class OptionType {
     Call,
