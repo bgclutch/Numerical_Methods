@@ -18,7 +18,7 @@ void runBenchmark(std::ofstream& output, size_t iterations, const std::string& t
     #pragma omp parallel
     {
         std::random_device rd;
-        std::mt19937 genUni(rd() + static_cast<ElemType>(omp_get_thread_num()));
+        std::mt19937 genUni(rd() + static_cast<unsigned int>(omp_get_thread_num()));
         std::uniform_real_distribution<ElemType> distUni(ZERO, ONE);
 
         #pragma omp for reduction(+:inCircleUni)

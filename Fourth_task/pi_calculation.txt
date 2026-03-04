@@ -1,4 +1,4 @@
 [float32 on uniform_real_distribution]
-  Calculated Pi: 3.141527652740479
+  Calculated Pi: 3.141431570053101
 [float64 on uniform_real_distribution]
-  Calculated Pi: 3.142023920000000
+  Calculated Pi: 3.141520920000000
