@@ -25,7 +25,6 @@ int main() {
     std::ofstream writeFile;
     writeFile.open("options.txt");
 
-
     for (size_t i = 0; i < finutils::OPTIONS_AMOUNT; ++i) {
         writeFile << "Best price for American (via Binomial): " << americanPrices[i]
                   << "\nPrice for European (via Black-Scholes): " << europeanPrices[i]

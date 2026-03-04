@@ -1,1 +1,0 @@
-/usr/bin/c++ -g -fsanitize=address CMakeFiles/crit_error.dir/src/main.cpp.o -o crit_error
