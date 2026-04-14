@@ -38,8 +38,8 @@
 namespace matrix
 {
 static const int SEED    = 42;
-static const int MIN_POW = 8;
-static const int MAX_POW = 8;
+static const int MIN_POW = 6;
+static const int MAX_POW = 6;
 static const int SRC_NUM = 3;
 
 template <typename ElemType>

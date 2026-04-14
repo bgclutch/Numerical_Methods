@@ -55,10 +55,6 @@ int main()
             "1. Naive Mult", [&]() { matSet.naiveMult(); }, total_flops);
         std::vector<float> naiveResult = matSet.getResult();
 
-        // 2. vectorized multiplication
-        measureCycles(
-            "2. Auto-vectorized", [&]() { matSet.vectMult(); }, total_flops);
-        std::vector<float> vecResult = matSet.getResult();
 
         // 3. AVX multiplication
         measureCycles(
@@ -75,12 +71,24 @@ int main()
         // 4. GPU multiplication
         measureCycles(
             "4. OpenCL GPU Mult", [&]() { matSet.GPUMult(); }, total_flops);
+        #endif
+        // 2. vectorized multiplication
+        measureCycles(
+            "2. Auto-vectorized", [&]() { matSet.vectMult(); }, total_flops);
+        std::vector<float> vecResult = matSet.getResult();
+
+        // 3.3. AVX twice improved && tiled multiplication
+        measureCycles(
+            "3.3. AVX twice improved && Tiled Intrinsic Mult", [&]() { matSet.intrinsicMultAbsolute(); }, total_flops);
+        std::vector<float> AVXResult = matSet.getResult();
+
+        std::cout << "--------------------------------------------------\n";
 
         bool isCorrect = true;
-        for (size_t i = 0; i != naiveResult.size(); ++i)
+        for (size_t i = 0; i != vecResult.size(); ++i)
         {
-            float diff = std::abs(naiveResult[i] - vecResult[i]);
-            float ref  = std::abs(naiveResult[i]);
+            float diff = std::abs(AVXResult[i] - vecResult[i]);
+            float ref  = std::abs(vecResult[i]);
 
             if (diff > 0.005f * ref && diff > 0.5f)
             {
@@ -90,16 +98,10 @@ int main()
         }
 
         if (isCorrect)
-            std::cout << "SUCCESS: Functional correctness verified (Naive == Auto-Vectorised)!\n";
+            std::cout << "SUCCESS: Functional correctness verified (AVX 3.3 == Auto-Vectorised)!\n";
         else
             std::cout << "WARNING: Results mismatch!\n";
-        #endif
 
-        // 3.3. AVX twice improved && tiled multiplication
-        measureCycles(
-            "3.3. AVX twice improved && Tiled Intrinsic Mult", [&]() { matSet.intrinsicMultAbsolute(); }, total_flops);
-
-        std::cout << "--------------------------------------------------\n";
     }
     catch (const std::exception& e)
     {
