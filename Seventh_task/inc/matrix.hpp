@@ -1,9 +1,11 @@
 #pragma once
-#include "utils.hpp"
-#include <vector>
-#include <random>
 #include <immintrin.h>
+
 #include <cstdlib>
+#include <random>
+#include <vector>
+
+#include "utils.hpp"
 
 /*  448 KiB common L1d cache size
     For my Intel Core i7-1260P:
@@ -16,32 +18,34 @@
 */
 
 #if defined(__AVX512F__)
-    #define VEC_WIDTH 16
-    #define ALIGNMENT 64
-    #define VEC_TYPE __m512
-    #define VEC_LOAD _mm512_load_ps
-    #define VEC_STORE _mm512_store_ps
-    #define VEC_SET1 _mm512_set1_ps
-    #define VEC_FMA _mm512_fmadd_ps
+#define VEC_WIDTH 16
+#define ALIGNMENT 64
+#define VEC_TYPE __m512
+#define VEC_LOAD _mm512_load_ps
+#define VEC_STORE _mm512_store_ps
+#define VEC_SET1 _mm512_set1_ps
+#define VEC_FMA _mm512_fmadd_ps
 #else
-    #define VEC_WIDTH 8
-    #define ALIGNMENT 32
-    #define VEC_TYPE __m256
-    #define VEC_LOAD _mm256_loadu_ps
-    #define VEC_STORE _mm256_storeu_ps
-    #define VEC_SET1 _mm256_set1_ps
-    #define VEC_FMA _mm256_fmadd_ps
+#define VEC_WIDTH 8
+#define ALIGNMENT 32
+#define VEC_TYPE __m256
+#define VEC_LOAD _mm256_loadu_ps
+#define VEC_STORE _mm256_storeu_ps
+#define VEC_SET1 _mm256_set1_ps
+#define VEC_FMA _mm256_fmadd_ps
 #endif
 
-namespace matrix {
-static const int SEED   = 42;
-static const int MIN_POW = 10;
-static const int MAX_POW = 10;
+namespace matrix
+{
+static const int SEED    = 42;
+static const int MIN_POW = 8;
+static const int MAX_POW = 8;
 static const int SRC_NUM = 3;
 
 template <typename ElemType>
-class MatrixSet {
- private:
+class MatrixSet
+{
+private:
     size_t firstRows;
     size_t firstCols;
     size_t secondCols;
@@ -50,56 +54,57 @@ class MatrixSet {
     std::vector<ElemType> secondSrc;
     std::vector<ElemType> result;
 
- private:
-    std::vector<ElemType> fillMatrix(const size_t size) {
+private:
+    std::vector<ElemType> fillMatrix(const size_t size)
+    {
         std::mt19937 dataUni(SEED);
         std::uniform_real_distribution<ElemType> distUni(-100, 100);
 
         std::vector<ElemType> data(size);
 
-        for (size_t i = 0; i != size; ++i)
-            data[i] = distUni(dataUni);
+        for (size_t i = 0; i != size; ++i) data[i] = distUni(dataUni);
 
         return data;
     }
 
-    size_t setMatrixSize() {
+    size_t setMatrixSize()
+    {
         std::random_device rd;
         static std::mt19937 gen(rd());
         std::uniform_int_distribution<int> dist(MIN_POW, MAX_POW);
         return 1ull << dist(gen);
     }
 
- public:
-    MatrixSet() :
-        firstRows{setMatrixSize()}, firstCols{setMatrixSize()}, secondCols{setMatrixSize()},
-        firstSrc{fillMatrix(firstRows * firstCols)},
-        secondSrc{fillMatrix(firstCols * secondCols)},
-        result{std::vector<ElemType>(firstRows * secondCols, 0)} {}
-
-    size_t getRows_1() const noexcept {
-        return firstRows;
+public:
+    MatrixSet()
+        : firstRows{setMatrixSize()},
+          firstCols{setMatrixSize()},
+          secondCols{setMatrixSize()},
+          firstSrc{fillMatrix(firstRows * firstCols)},
+          secondSrc{fillMatrix(firstCols * secondCols)},
+          result{std::vector<ElemType>(firstRows * secondCols, 0)}
+    {
     }
 
-    size_t getCols_1() const noexcept {
-        return firstCols;
-    }
+    size_t getRows_1() const noexcept { return firstRows; }
 
-    size_t getCols_2() const noexcept {
-        return secondCols;
-    }
+    size_t getCols_1() const noexcept { return firstCols; }
 
-    std::vector<ElemType> getResult() const {
-        return result;
-    }
+    size_t getCols_2() const noexcept { return secondCols; }
+
+    std::vector<ElemType> getResult() const { return result; }
 
     // 1. naive multiplication
-    void naiveMult() {
+    void naiveMult()
+    {
         std::fill(result.begin(), result.end(), 0.0f);
-        for (size_t i = 0; i != firstRows; ++i) {
-            for (size_t j = 0; j != secondCols; ++j) {
+        for (size_t i = 0; i != firstRows; ++i)
+        {
+            for (size_t j = 0; j != secondCols; ++j)
+            {
                 ElemType sum = 0;
-                for (size_t k = 0; k != firstCols; ++k) {
+                for (size_t k = 0; k != firstCols; ++k)
+                {
                     sum += firstSrc[i * firstCols + k] * secondSrc[k * secondCols + j];
                 }
                 result[i * secondCols + j] = sum;
@@ -108,12 +113,16 @@ class MatrixSet {
     }
 
     // 2. vectorised multiplication
-    void vectMult() {
+    void vectMult()
+    {
         std::fill(result.begin(), result.end(), 0.0f);
-        for (size_t i = 0; i != firstRows; ++i) {
-            for (size_t k = 0; k != firstCols; ++k) {
+        for (size_t i = 0; i != firstRows; ++i)
+        {
+            for (size_t k = 0; k != firstCols; ++k)
+            {
                 ElemType factor = firstSrc[i * firstCols + k];
-                for (size_t j = 0; j != secondCols; ++j) {
+                for (size_t j = 0; j != secondCols; ++j)
+                {
                     result[i * secondCols + j] += factor * secondSrc[k * secondCols + j];
                 }
             }
@@ -121,15 +130,19 @@ class MatrixSet {
     }
 
     // 3. AVX multiplication
-    void intrinsicMult() {
+    void intrinsicMult()
+    {
         std::fill(result.begin(), result.end(), 0.0f);
-        for (size_t i = 0; i != firstRows; ++i) {
-            for (size_t k = 0; k != firstCols; ++k) {
+        for (size_t i = 0; i != firstRows; ++i)
+        {
+            for (size_t k = 0; k != firstCols; ++k)
+            {
                 VEC_TYPE vFirst = VEC_SET1(firstSrc[i * firstCols + k]);
 
-                for (size_t j = 0; j != secondCols; j += VEC_WIDTH) {
+                for (size_t j = 0; j != secondCols; j += VEC_WIDTH)
+                {
                     VEC_TYPE vSecond = VEC_LOAD(&secondSrc[k * secondCols + j]);
-                    VEC_TYPE vRes = VEC_LOAD(&result[i * secondCols + j]);
+                    VEC_TYPE vRes    = VEC_LOAD(&result[i * secondCols + j]);
 
                     vRes = VEC_FMA(vFirst, vSecond, vRes);
                     VEC_STORE(&result[i * secondCols + j], vRes);
@@ -139,16 +152,20 @@ class MatrixSet {
     }
 
     // 3.1 AVX multiplication improved version
-    void intrinsicMultImproved() {
+    void intrinsicMultImproved()
+    {
         std::fill(result.begin(), result.end(), 0.0f);
-        for (size_t i = 0; i < firstRows; ++i) {
-            for (size_t j = 0; j < secondCols; j += VEC_WIDTH) {
+        for (size_t i = 0; i < firstRows; ++i)
+        {
+            for (size_t j = 0; j < secondCols; j += VEC_WIDTH)
+            {
                 VEC_TYPE vSum = VEC_SET1(0.0f);
 
-                for (size_t k = 0; k < firstCols; ++k) {
-                    VEC_TYPE vFirst = VEC_SET1(firstSrc[i * firstCols + k]);
+                for (size_t k = 0; k < firstCols; ++k)
+                {
+                    VEC_TYPE vFirst  = VEC_SET1(firstSrc[i * firstCols + k]);
                     VEC_TYPE vSecond = VEC_LOAD(&secondSrc[k * secondCols + j]);
-                    vSum = VEC_FMA(vFirst, vSecond, vSum);
+                    vSum             = VEC_FMA(vFirst, vSecond, vSum);
                 }
 
                 VEC_STORE(&result[i * secondCols + j], vSum);
@@ -157,19 +174,26 @@ class MatrixSet {
     }
 
     // 3.2 AVX multiplication improved && tiled version
-    void intrinsicMultTiled() {
+    void intrinsicMultTiled()
+    {
         std::fill(result.begin(), result.end(), 0.0f);
         const size_t BS = 64;
-        for (size_t ii = 0; ii < firstRows; ii += BS) {
+        for (size_t ii = 0; ii < firstRows; ii += BS)
+        {
             size_t i_end = std::min(ii + BS, firstRows);
-            for (size_t kk = 0; kk < firstCols; kk += BS) {
+            for (size_t kk = 0; kk < firstCols; kk += BS)
+            {
                 size_t k_end = std::min(kk + BS, firstCols);
-                for (size_t jj = 0; jj < secondCols; jj += BS) {
+                for (size_t jj = 0; jj < secondCols; jj += BS)
+                {
                     size_t j_end = std::min(jj + BS, secondCols);
-                    for (size_t i = ii; i < i_end; ++i) {
-                        for (size_t k = kk; k < k_end; ++k) {
+                    for (size_t i = ii; i < i_end; ++i)
+                    {
+                        for (size_t k = kk; k < k_end; ++k)
+                        {
                             VEC_TYPE vA = VEC_SET1(firstSrc[i * firstCols + k]);
-                            for (size_t j = jj; j < j_end; j += VEC_WIDTH) {
+                            for (size_t j = jj; j < j_end; j += VEC_WIDTH)
+                            {
                                 VEC_TYPE vB = VEC_LOAD(&secondSrc[k * secondCols + j]);
                                 VEC_TYPE vC = VEC_LOAD(&result[i * secondCols + j]);
 
@@ -184,17 +208,23 @@ class MatrixSet {
     }
 
     // 3.3 AVX multiplication twice improved && tiled version
-    void intrinsicMultAbsolute() {
+    void intrinsicMultAbsolute()
+    {
         std::fill(result.begin(), result.end(), 0.0f);
         const size_t BS = 64;
-        for (size_t ii = 0; ii < firstRows; ii += BS) {
+        for (size_t ii = 0; ii < firstRows; ii += BS)
+        {
             size_t i_end = std::min(ii + BS, firstRows);
-            for (size_t kk = 0; kk < firstCols; kk += BS) {
+            for (size_t kk = 0; kk < firstCols; kk += BS)
+            {
                 size_t k_end = std::min(kk + BS, firstCols);
-                for (size_t jj = 0; jj < secondCols; jj += BS) {
+                for (size_t jj = 0; jj < secondCols; jj += BS)
+                {
                     size_t j_end = std::min(jj + BS, secondCols);
-                    for (size_t i = ii; i < i_end; i += 2) {
-                        for (size_t j = jj; j < j_end; j += VEC_WIDTH * 4) {
+                    for (size_t i = ii; i < i_end; i += 2)
+                    {
+                        for (size_t j = jj; j < j_end; j += VEC_WIDTH * 4)
+                        {
                             VEC_TYPE vC0  = VEC_LOAD(&result[i * secondCols + j + VEC_WIDTH * 0]);
                             VEC_TYPE vC1  = VEC_LOAD(&result[i * secondCols + j + VEC_WIDTH * 1]);
                             VEC_TYPE vC2  = VEC_LOAD(&result[i * secondCols + j + VEC_WIDTH * 2]);
@@ -209,10 +239,11 @@ class MatrixSet {
                             VEC_TYPE vB2 = VEC_LOAD(&secondSrc[kk * secondCols + j + VEC_WIDTH * 2]);
                             VEC_TYPE vB3 = VEC_LOAD(&secondSrc[kk * secondCols + j + VEC_WIDTH * 3]);
 
-                            for (size_t k = kk; k < k_end; ++k) {
+                            for (size_t k = kk; k < k_end; ++k)
+                            {
                                 VEC_TYPE vA0 = VEC_SET1(firstSrc[i * firstCols + k]);
-                                vC0 = VEC_FMA(vA0, vB0, vC0);
-                                vC1 = VEC_FMA(vA0, vB1, vC1);
+                                vC0          = VEC_FMA(vA0, vB0, vC0);
+                                vC1          = VEC_FMA(vA0, vB1, vC1);
 
                                 VEC_TYPE vA1 = VEC_SET1(firstSrc[(i + 1) * firstCols + k]);
 
@@ -222,7 +253,8 @@ class MatrixSet {
                                 vC10 = VEC_FMA(vA1, vB0, vC10);
                                 vC11 = VEC_FMA(vA1, vB1, vC11);
 
-                                if (k + 1 < k_end) {
+                                if (k + 1 < k_end)
+                                {
                                     vB0 = VEC_LOAD(&secondSrc[(k + 1) * secondCols + j + VEC_WIDTH * 0]);
                                     vB1 = VEC_LOAD(&secondSrc[(k + 1) * secondCols + j + VEC_WIDTH * 1]);
                                 }
@@ -230,7 +262,8 @@ class MatrixSet {
                                 vC12 = VEC_FMA(vA1, vB2, vC12);
                                 vC13 = VEC_FMA(vA1, vB3, vC13);
 
-                                if (k + 1 < k_end) {
+                                if (k + 1 < k_end)
+                                {
                                     vB2 = VEC_LOAD(&secondSrc[(k + 1) * secondCols + j + VEC_WIDTH * 2]);
                                     vB3 = VEC_LOAD(&secondSrc[(k + 1) * secondCols + j + VEC_WIDTH * 3]);
                                 }
@@ -252,12 +285,13 @@ class MatrixSet {
     }
 
     // 4. OpenCL GPU multiplication
-    void GPUMult() {
+    void GPUMult()
+    {
         ocl_utils::Environment env("matmul.cl", "matMul");
 
-        cl::Context& context = env.get_context();
+        cl::Context& context    = env.get_context();
         cl::CommandQueue& queue = env.get_queue();
-        cl::Kernel& kernel = env.get_kernel();
+        cl::Kernel& kernel      = env.get_kernel();
 
         size_t sizeA = firstRows * firstCols * sizeof(ElemType);
         size_t sizeB = firstCols * secondCols * sizeof(ElemType);
@@ -279,4 +313,4 @@ class MatrixSet {
         queue.enqueueReadBuffer(bufferC, CL_TRUE, 0, sizeC, result.data());
     }
 };
-} // namespace matrix
+}  // namespace matrix
