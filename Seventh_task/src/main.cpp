@@ -59,6 +59,11 @@ int main() {
             matSet.intrinsicMultTiled();
         }, total_flops);
 
+        // 3.2. AVX improved && tiled multiplication
+        measureCycles("3.3. AVX twice improved && Tiled Intrinsic Mult", [&]() {
+            matSet.intrinsicMultAbsolute();
+        }, total_flops);
+
         // 4. GPU multiplication
         measureCycles("4. OpenCL GPU Mult", [&]() {
             matSet.GPUMult();

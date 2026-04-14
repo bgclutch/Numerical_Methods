@@ -35,8 +35,8 @@
 
 namespace matrix {
 static const int SEED   = 42;
-static const int MIN_POW = 6;
-static const int MAX_POW = 6;
+static const int MIN_POW = 10;
+static const int MAX_POW = 10;
 static const int SRC_NUM = 3;
 
 template <typename ElemType>
@@ -176,6 +176,63 @@ class MatrixSet {
                                 vC = VEC_FMA(vA, vB, vC);
                                 VEC_STORE(&result[i * secondCols + j], vC);
                             }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // 3.3 AVX multiplication twice improved && tiled version
+    void intrinsicMultAbsolute() {
+        std::fill(result.begin(), result.end(), 0.0f);
+        const size_t BS = 64;
+        for (size_t ii = 0; ii < firstRows; ii += BS) {
+            size_t i_end = std::min(ii + BS, firstRows);
+            for (size_t kk = 0; kk < firstCols; kk += BS) {
+                size_t k_end = std::min(kk + BS, firstCols);
+                for (size_t jj = 0; jj < secondCols; jj += BS) {
+                    size_t j_end = std::min(jj + BS, secondCols);
+                    for (size_t i = 0; i < i_end; i += 2) { // FIXME
+                        for (size_t j = 0; j < j_end; j += VEC_WIDTH * 4) {
+                            VEC_TYPE vC0  = VEC_LOAD(&result[i * secondCols + j + VEC_WIDTH * 0]);
+                            VEC_TYPE vC1  = VEC_LOAD(&result[i * secondCols + j + VEC_WIDTH * 1]);
+                            VEC_TYPE vC2  = VEC_LOAD(&result[i * secondCols + j + VEC_WIDTH * 2]);
+                            VEC_TYPE vC3  = VEC_LOAD(&result[i * secondCols + j + VEC_WIDTH * 3]);
+                            VEC_TYPE vC10 = VEC_LOAD(&result[(i + 1) * secondCols + j + VEC_WIDTH * 0]);
+                            VEC_TYPE vC11 = VEC_LOAD(&result[(i + 1) * secondCols + j + VEC_WIDTH * 1]);
+                            VEC_TYPE vC12 = VEC_LOAD(&result[(i + 1) * secondCols + j + VEC_WIDTH * 2]);
+                            VEC_TYPE vC13 = VEC_LOAD(&result[(i + 1) * secondCols + j + VEC_WIDTH * 3]);
+
+                            for (size_t k = 0; k < k_end; ++k) {
+                                VEC_TYPE vA0 = VEC_SET1(firstSrc[(i - 1) * firstCols + k]);
+                                VEC_TYPE vA1 = VEC_SET1(firstSrc[i * firstCols + k]);
+
+                                VEC_TYPE vB0 = VEC_LOAD(&secondSrc[k * secondCols + j + VEC_WIDTH * 0]);
+                                VEC_TYPE vB1 = VEC_LOAD(&secondSrc[k * secondCols + j + VEC_WIDTH * 1]);
+                                VEC_TYPE vB2 = VEC_LOAD(&secondSrc[k * secondCols + j + VEC_WIDTH * 2]);
+                                VEC_TYPE vB3 = VEC_LOAD(&secondSrc[k * secondCols + j + VEC_WIDTH * 3]);
+
+
+                                vC0 = VEC_FMA(vA0, vB0, vC0);
+                                vC1 = VEC_FMA(vA0, vB1, vC1);
+                                vC2 = VEC_FMA(vA0, vB2, vC2);
+                                vC3 = VEC_FMA(vA0, vB3, vC3);
+
+                                vC10 = VEC_FMA(vA1, vB0, vC10);
+                                vC11 = VEC_FMA(vA1, vB1, vC11);
+                                vC12 = VEC_FMA(vA1, vB2, vC12);
+                                vC13 = VEC_FMA(vA1, vB3, vC13);
+                            }
+
+                            VEC_STORE(&result[i * secondCols + j + VEC_WIDTH * 0], vC0);
+                            VEC_STORE(&result[i * secondCols + j + VEC_WIDTH * 0], vC1);
+                            VEC_STORE(&result[i * secondCols + j + VEC_WIDTH * 0], vC2);
+                            VEC_STORE(&result[i * secondCols + j + VEC_WIDTH * 0], vC3);
+                            VEC_STORE(&result[(i + 1) * secondCols + j + VEC_WIDTH * 0], vC10);
+                            VEC_STORE(&result[(i + 1) * secondCols + j + VEC_WIDTH * 1], vC11);
+                            VEC_STORE(&result[(i + 1) * secondCols + j + VEC_WIDTH * 2], vC12);
+                            VEC_STORE(&result[(i + 1) * secondCols + j + VEC_WIDTH * 3], vC13);
                         }
                     }
                 }
