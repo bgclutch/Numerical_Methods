@@ -26,12 +26,12 @@ int main() {
         csv << "MT19937," << run << ","
             << rng::chiSquaredTest(mtSample) << ","
             << rng::ksTest(mtSample) << ","
-            << rng::autocorrelationTest(mtSample) << "\n";
+            << rng::autocorrelationTestUpd(mtSample) << "\n";
 
         csv << "LowDiscrepancy," << run << ","
             << rng::chiSquaredTest(badSample) << ","
             << rng::ksTest(badSample) << ","
-            << rng::autocorrelationTest(badSample) << "\n";
+            << rng::autocorrelationTestUpd(mtSample) << "\n";
     }
 
     return 0;

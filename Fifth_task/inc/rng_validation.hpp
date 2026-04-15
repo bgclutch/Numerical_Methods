@@ -4,6 +4,7 @@
 #include <algorithm>
 #include <numeric>
 #include <iostream>
+#include <numbers>
 
 namespace rng {
 /*  Q*
@@ -65,6 +66,45 @@ double autocorrelationTest(const std::vector<ElemType>& sample, size_t lag = 1) 
     }
     return num / den;
 }
+
+// Q2. Upgraded Autocorrelation
+template <typename ElemType>
+double autocorrelationTestUpd(const std::vector<ElemType>& sample, size_t lag = 1) {
+    size_t elemBitSize   = sizeof(ElemType) * 8;
+    size_t sampleBitSize = sample.size() * elemBitSize;
+
+    size_t compsNum = sampleBitSize - lag;
+    int sum = 0;
+
+    const unsigned char* tmpSample = reinterpret_cast<const unsigned char*>(sample.data());
+
+    auto getBit = [&](size_t i){ // getting needed bit from i_th element in sample
+        size_t index = i / elemBitSize;
+        size_t indexOffset = i % elemBitSize;
+
+        return (tmpSample[index] >> indexOffset) & 1;
+    };
+
+    for (size_t i = 0; i != compsNum; ++i) {
+        int bit_i = getBit(i);
+        int bit_i_lag = getBit(i + lag);
+        sum += bit_i ^ bit_i_lag;
+    }
+
+    /*  Результат нужно валидировать: в идеальном случае у нас коэффициент автокорреляции будет
+        равен compsNum / 2 -- это наше матожидание.
+        Дисперсия будет равна compsNum / 4, тк распределение биномиальное
+        Стандартное отклонение это корень из дисперсии
+        Тогда получим доверительный интервал, он должен быть не более трех стандартных отклонений (сигм)
+        Далее этот интервал мы должны обработать и понять, действительно ли генератору можно доверять, то есть с
+        какой вероятностью он работает хорошо (тут чем меньше число - тем ниже доверие)
+    */
+
+    double trustInt = std::abs(2. * static_cast<double>(sum) - static_cast<double>(compsNum)) / std::sqrt(compsNum);
+    double res = std::erfc(trustInt / std::numbers::sqrt2);
+    return res;
+}
+
 
 // Q2. KS-test
 template <typename ElemType>
