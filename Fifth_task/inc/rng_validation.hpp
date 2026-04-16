@@ -128,7 +128,6 @@ double autocorrelationTestUpd(const std::vector<ElemType>& sample, size_t lag = 
 
     double trustInt = std::abs(2. * static_cast<double>(sum) - static_cast<double>(compsNum)) / std::sqrt(compsNum);
     double res = std::erfc(trustInt / std::numbers::sqrt2);
-    std::cerr << "sum: " << sum << "\n" << "trust interval: " << trustInt << "\n" << "result: " << res << "\n";
     return res;
 }
 #endif
