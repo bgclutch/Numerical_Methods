@@ -7,6 +7,7 @@
 #include <numbers>
 #include <bit>
 #include <cstdint>
+#include <type_traits>
 
 namespace rng {
 /*  Q*
@@ -14,14 +15,25 @@ namespace rng {
     It will perfectly fill [0, 1] and pass KS-test perfectly too
     Howewer, it will lose autocorrelation test due to its non-random realisation
 */
+
 class BadGenerator {
     double current = 0.0;
     double step;
 public:
     BadGenerator(double s = 0.001) : step(s) {}
-    double next() {
-        current = std::fmod(current + step, 1.0);
-        return current;
+    template <typename Type>
+    Type next() {
+        if constexpr (std::is_floating_point_v<Type>) {
+                current = std::fmod(current + step, 1.0);
+                return current;
+        }
+        else if constexpr (std::is_integral_v<Type>) {
+            current = std::fmod(current + step, 1.0);
+            return current * std::numeric_limits<Type>::max();
+        }
+        else {
+            throw std::runtime_error("unsupported type");
+        }
     }
 };
 

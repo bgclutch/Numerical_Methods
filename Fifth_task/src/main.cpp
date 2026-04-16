@@ -18,12 +18,14 @@ int main() {
         std::vector<double> mtSample(SAMPLE_SIZE);
         std::vector<double> badSample(SAMPLE_SIZE);
         std::vector<uint32_t> bitSample(SAMPLE_SIZE);
+        std::vector<uint32_t> badBitSample(SAMPLE_SIZE);
 
 
         for (size_t i = 0; i != SAMPLE_SIZE; ++i) {
             mtSample[i]  = dist(mtGen);
-            badSample[i] = badGen.next();
+            badSample[i] = badGen.next<double>();
             bitSample[i] = mtGen();
+            badBitSample[i] = badGen.next<uint32_t>();
         }
 
         csv << "MT19937," << run << ","
@@ -33,7 +35,9 @@ int main() {
 
         csv << "LowDiscrepancy," << run << ","
             << rng::chiSquaredTest(badSample) << ","
-            << rng::ksTest(badSample) << "\n";
+            << rng::ksTest(badSample) << ","
+            << rng::autocorrelationTestUpd(badBitSample) << "\n";
+
     }
 
     return 0;
