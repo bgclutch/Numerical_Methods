@@ -18,7 +18,6 @@ int main()
 
     auto stdexp = [](double x) { return std::exp(x); };
 
-
     std::cout << "stdlog res: "
               << "\n";
     benchlib::funcLatencyTest(stdlog, data);

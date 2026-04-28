@@ -14,6 +14,7 @@ namespace benchlib
 {
 constexpr int ITERATIONS = 10000;
 constexpr int GEN_AMOUNT = 10000;
+constexpr int GEN_WARMUP = 1000;
 
 template <typename Func, typename ElemType>
 void funcLatencyTest(Func&& testFunc, const std::vector<ElemType>& data, std::ostream& output = std::cerr)
@@ -26,6 +27,12 @@ void funcLatencyTest(Func&& testFunc, const std::vector<ElemType>& data, std::os
     auto size                  = data.size();
     std::vector<ElemType> res(size);
     uint64_t result = UINT64_MAX;
+
+    for (size_t i = 0; i < size; ++i)
+    {
+        volatile auto dummy = testFunc(data[i]);
+        static_cast<void>(dummy);
+    }
 
     for (int n = 0; n != ITERATIONS; ++n)
     {
@@ -59,6 +66,12 @@ void funcThroughputTest(Func&& testFunc, const std::vector<ElemType>& data, std:
     std::vector<ElemType> res(size);
     uint64_t result = UINT64_MAX;
 
+    for (size_t i = 0; i < size; ++i)
+    {
+        volatile auto dummy = testFunc(data[i]);
+        static_cast<void>(dummy);
+    }
+
     for (int n = 0; n != ITERATIONS; ++n)
     {
         _mm_lfence();
@@ -83,14 +96,23 @@ void funcThroughputTest(Func&& testFunc, const std::vector<ElemType>& data, std:
 template <typename RNG>
 void genLatencyTest(RNG& generator, std::ostream& output = std::cerr)
 {
-    int64_t acc = 0;
+    uint64_t acc    = 0;
     uint64_t result = UINT64_MAX;
-    for (int n = 0; n != ITERATIONS; ++n) {
+
+    for (int i = 0; i < GEN_WARMUP; ++i)
+    {
+        volatile auto dummy = generator();
+        static_cast<void>(dummy);
+    }
+
+    for (int n = 0; n != ITERATIONS; ++n)
+    {
         _mm_lfence();
         uint64_t begin = __rdtsc();
         _mm_lfence();
 
-        for (int i = 0; i != GEN_AMOUNT; ++i) {
+        for (int i = 0; i != GEN_AMOUNT; ++i)
+        {
             acc ^= generator();
         }
 
@@ -109,14 +131,32 @@ template <typename RNGFunc>
 void genThroughputTest(std::ostream& output = std::cerr)
 {
     RNGFunc rng1(1), rng2(2), rng3(3), rng4(4);
-    int64_t acc1, acc2, acc3, acc4;
-    int64_t result = UINT64_MAX;
-    for (int n = 0; n != ITERATIONS; ++n) {
+    uint64_t acc1, acc2, acc3, acc4;
+    uint64_t result = UINT64_MAX;
+
+    for (int i = 0; i < GEN_WARMUP; ++i)
+    {
+        volatile auto dummy1 = rng1();
+        static_cast<void>(dummy1);
+
+        volatile auto dummy2 = rng2();
+        static_cast<void>(dummy2);
+
+        volatile auto dummy3 = rng3();
+        static_cast<void>(dummy3);
+
+        volatile auto dummy4 = rng4();
+        static_cast<void>(dummy4);
+    }
+
+    for (int n = 0; n != ITERATIONS; ++n)
+    {
         _mm_lfence();
         uint64_t begin = __rdtsc();
         _mm_lfence();
 
-        for (int i = 0; i != GEN_AMOUNT / 4; ++i) {
+        for (int i = 0; i != GEN_AMOUNT / 4; ++i)
+        {
             acc1 ^= rng1();
             acc2 ^= rng2();
             acc3 ^= rng3();
@@ -130,7 +170,7 @@ void genThroughputTest(std::ostream& output = std::cerr)
         result = std::min(result, end - begin);
     }
 
-    double cpe = static_cast<double>(result) /( GEN_AMOUNT / 4);
+    double cpe = static_cast<double>(result) / (GEN_AMOUNT * 4);
     output << "Throughput: " << cpe << " CPE" << std::endl;
 }
 
