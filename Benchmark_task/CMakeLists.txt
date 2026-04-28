@@ -17,7 +17,7 @@ target_sources(benchlib PRIVATE
 )
 
 target_compile_options(benchlib PRIVATE
-    -O2
+    -O3
 $<$<CONFIG:Debug>:
     -Wall
     -Wextra
