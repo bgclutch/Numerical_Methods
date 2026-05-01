@@ -1,5 +1,6 @@
 #include "minstdrand.hpp"
 #include "tests.hpp"
+#include "benchlib.hpp"
 #include <iostream>
 #include <fstream>
 
@@ -13,5 +14,10 @@ int main() {
     file << "Parallel Pi Benchmark\n";
     tests::piBenchmark(file);
 
-    return 0;
+    rng::VectorMinstd rng;
+    rng.seed(42);
+    std::cerr << "Generator Througput\n";
+    benchlib::vGenThroughputTest(rng, 10000000);
+
+    return EXIT_SUCCESS;
 }

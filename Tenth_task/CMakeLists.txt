@@ -14,6 +14,7 @@ target_link_libraries(minstd PRIVATE OpenMP::OpenMP_CXX)
 
 target_include_directories(minstd PRIVATE
     ${CMAKE_CURRENT_SOURCE_DIR}/inc
+    ${CMAKE_SOURCE_DIR}/../Benchmark_task/inc
 )
 
 target_sources(minstd PRIVATE
@@ -23,6 +24,7 @@ target_sources(minstd PRIVATE
 
 target_compile_options(minstd PRIVATE
     -fopenmp
+    -O3
 $<$<CONFIG:Debug>:
     -Wall
     -Wextra

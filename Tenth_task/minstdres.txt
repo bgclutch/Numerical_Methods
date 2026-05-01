@@ -8,6 +8,6 @@ Parallel Pi Benchmark
   Abs Error:     8.689358979330208e-05
   Std Deviation: 1.642183367736324e-04
   3-Sigma Limit: 4.926550103208972e-04
-  Time Elapsed:  0.5772 s
+  Time Elapsed:  0.0771 s
   [SUCCESS] Error IS in 3 SD. Generator is OK.
 

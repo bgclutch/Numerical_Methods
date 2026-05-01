@@ -5,10 +5,11 @@
 #include <random>
 #include <iomanip>
 #include <omp.h>
+#include <cstdint>
 #include <bit>
 
 void tests::isRNGCorrect(std::ofstream& output) {
-    rng::VectorMinstd rng(8);
+    rng::VectorMinstd rng;
     rng.seed(42);
 
     const size_t testSize = 128;
@@ -50,7 +51,7 @@ void tests::piBenchmark(std::ofstream& output) {
         size_t count = endPoint - beginPoint;
 
         // тк на 1 точку нужно 2 генерации мы смещаемся на 2 * beginPoint.
-        rng::VectorMinstd rng(8);
+        rng::VectorMinstd rng;
         rng.seed(42, beginPoint * 2);
 
         // блок содержит 2 * BLOCKSIZE случайных чисел

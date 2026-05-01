@@ -22,17 +22,17 @@ ElemType modPow(ElemType base, ElemType exp, ElemType mod) {
 }
 } // namespace rng::detail
 
+template <uint64_t Dimension = 8>
 class VectorMinstd {
  private:
     static constexpr uint64_t a = 48271;
     static constexpr uint64_t period = 2147483647; // == 2^31 - 1
-    uint64_t dimension;
     uint32_t Ak32;
     std::vector<uint32_t> state;
 
  public:
-    VectorMinstd(uint64_t vector_size) : dimension{vector_size}, state(vector_size) {
-        uint64_t Ak = detail::modPow(a, dimension, period);
+    VectorMinstd() : state(Dimension) {
+        uint64_t Ak = detail::modPow(a, Dimension, period);
         Ak32 = static_cast<uint32_t>(Ak);
     }
 
@@ -47,7 +47,7 @@ class VectorMinstd {
         current = (current * a) % period;
         state[0] = static_cast<uint32_t>(current);
 
-        for (size_t i = 1; i < dimension; ++i) {
+        for (size_t i = 1; i < Dimension; ++i) {
             current = (current * a) % period;
             state[i] = static_cast<uint32_t>(current);
         }
@@ -55,9 +55,9 @@ class VectorMinstd {
 
     void generateFloat(std::span<float> out) {
         size_t size = out.size();
-        for (size_t i = 0; i < size; i += dimension) {
+        for (size_t i = 0; i < size; i += Dimension) {
             #pragma omp simd
-            for (size_t j = 0; j < dimension; ++j) {
+            for (size_t j = 0; j < Dimension; ++j) {
                 uint32_t current = state[j];
                 out[i + j] = static_cast<float>(current) * (2.0f / 2147483647.0f) - 1.0f;
                 uint64_t y = static_cast<uint64_t>(Ak32) * current;
@@ -72,9 +72,9 @@ class VectorMinstd {
 
     void generateInt(std::span<uint32_t> out) {
         size_t size = out.size();
-        for (size_t i = 0; i < size; i += dimension) {
+        for (size_t i = 0; i < size; i += Dimension) {
             #pragma omp simd
-            for (size_t j = 0; j < dimension; ++j) {
+            for (size_t j = 0; j < Dimension; ++j) {
                 uint32_t current = state[j];
                 out[i + j] = current;
 
