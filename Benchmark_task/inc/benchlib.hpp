@@ -1,13 +1,14 @@
 #pragma once
 
 #include <immintrin.h>
+
 #include <bit>
+#include <cmath>
 #include <cstdint>
 #include <fstream>
 #include <iostream>
 #include <numeric>
 #include <vector>
-#include <cmath>
 
 namespace benchlib
 {
@@ -126,12 +127,14 @@ void funcThroughputTest(Func&& testFunc, const std::vector<ElemType>& data, std:
 }
 
 template <typename Func, typename ElemType>
-void vfuncTest(Func&& testFunc, const std::vector<ElemType>& data, std::ostream& output = std::cerr) {
+void vfuncTest(Func&& testFunc, const std::vector<ElemType>& data, std::ostream& output = std::cerr)
+{
     size_t size = data.size();
     std::vector<ElemType> res(size);
     std::vector<double> dataVec;
 
-    for (int n = 0; n != ITERATIONS; ++n) {
+    for (int n = 0; n != ITERATIONS; ++n)
+    {
         _mm_lfence();
         uint64_t begin = __rdtsc();
         _mm_lfence();
@@ -234,16 +237,18 @@ void genThroughputTest(std::ostream& output = std::cerr)
 }
 
 template <typename RNG>
-void vGenThroughputTest(RNG& rng, const size_t& size = 1000000, std::ostream& output = std::cerr) {
+void vGenThroughputTest(RNG& rng, const size_t& size = 1000000, std::ostream& output = std::cerr)
+{
     std::vector<float> res(size);
     std::vector<double> dataVec;
 
-    for (int n = 0; n != ITERATIONS; ++n) {
+    for (int n = 0; n != ITERATIONS; ++n)
+    {
         _mm_lfence();
         uint64_t begin = __rdtsc();
         _mm_lfence();
 
-        rng.generateFloat(res); // questionable, might be rename func in minrandlib?
+        rng.generateFloat(res);  // questionable, might be rename func in minrandlib?
 
         uint32_t aux;
         uint64_t end = __rdtscp(&aux);
