@@ -7,6 +7,7 @@
 #include <iostream>
 #include <numeric>
 #include <vector>
+#include <cmath>
 
 namespace benchlib
 {
@@ -230,6 +231,32 @@ void genThroughputTest(std::ostream& output = std::cerr)
 
     ResData result = detail::calculateStats(dataVec);
     output << "Throughput: " << result.mean << " CPE +-" << result.stddev << std::endl;
+}
+
+template <typename RNG>
+void vGenThroughputTest(RNG& rng, const size_t& size = 1000000, std::ostream& output = std::cerr) {
+    std::vector<float> res(size);
+    std::vector<double> dataVec;
+
+    for (int n = 0; n != ITERATIONS; ++n) {
+        _mm_lfence();
+        uint64_t begin = __rdtsc();
+        _mm_lfence();
+
+        rng.generateFloat(res); // questionable, might be rename func in minrandlib?
+
+        uint32_t aux;
+        uint64_t end = __rdtscp(&aux);
+        _mm_lfence();
+
+        volatile float dummy = res[size - 1];
+        static_cast<void>(dummy);
+
+        dataVec.push_back((end - begin) / size);
+    }
+
+    ResData result = detail::calculateStats(dataVec);
+    output << "Vector RNG Throughput: " << result.mean << " CPE +- " << result.stddev << std::endl;
 }
 
 }  // namespace benchlib
