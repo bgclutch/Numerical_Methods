@@ -1,10 +1,12 @@
+#include <fstream>
+#include <iostream>
+
+#include "benchlib.hpp"
 #include "minstdrand.hpp"
 #include "tests.hpp"
-#include "benchlib.hpp"
-#include <iostream>
-#include <fstream>
 
-int main() {
+int main()
+{
     std::ofstream file("minstdres.txt");
     file << "Correctness of std::minstd_rand\n";
     tests::isRNGCorrect(file);
