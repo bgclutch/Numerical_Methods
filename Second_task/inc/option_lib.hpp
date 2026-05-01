@@ -1,14 +1,17 @@
 #pragma once
-#include "utils.hpp"
-#include <cmath>
 #include <algorithm>
+#include <cmath>
 #include <iostream>
+#include <random>
 #include <string>
 #include <vector>
-#include <random>
 
-namespace financial {
-struct OptionParameters {
+#include "utils.hpp"
+
+namespace financial
+{
+struct OptionParameters
+{
     double spotPrice_;
     double strikePrice_;
     double timeToMaturity_;
@@ -17,46 +20,66 @@ struct OptionParameters {
     finutils::OptionType optionType_;
 };
 
-struct AmericanParameters {
+struct AmericanParameters
+{
     double timeStep       = 0.;
     double upFactor       = 0.;
     double downFactor     = 0.;
     double riskFactor     = 0.;
     double discountFactor = 0.;
 
-    AmericanParameters(const OptionParameters& params, const int calcSteps) :
-        timeStep(params.timeToMaturity_ / calcSteps),
-        upFactor(std::exp(params.volatility_ * std::sqrt(timeStep))),
-        downFactor(1 / upFactor),
-        riskFactor((std::exp(params.riskFreeRate_ * timeStep) - downFactor) / (upFactor - downFactor)),
-        discountFactor(std::exp(-params.riskFreeRate_ * timeStep)) {}
+    AmericanParameters(const OptionParameters& params, const int calcSteps)
+        : timeStep(params.timeToMaturity_ / calcSteps),
+          upFactor(std::exp(params.volatility_ * std::sqrt(timeStep))),
+          downFactor(1 / upFactor),
+          riskFactor((std::exp(params.riskFreeRate_ * timeStep) - downFactor) / (upFactor - downFactor)),
+          discountFactor(std::exp(-params.riskFreeRate_ * timeStep))
+    {
+    }
+};
+
+struct MCResult
+{
+    double callPrice;
+    double putPrice;
 };
 
 double calcCDF(const double num);
 double calcBSPrice(const OptionParameters&);
 
-inline std::ostream& operator<<(std::ostream& outStream, const OptionParameters& params) {
-    outStream << "Option type:      " << params.optionType_     << "\n"
-              << "Spot price:       " << params.spotPrice_      << "\n"
-              << "Strike price:     " << params.strikePrice_    << "\n"
+inline std::ostream& operator<<(std::ostream& outStream, const OptionParameters& params)
+{
+    outStream << "Option type:      " << params.optionType_ << "\n"
+              << "Spot price:       " << params.spotPrice_ << "\n"
+              << "Strike price:     " << params.strikePrice_ << "\n"
               << "Time to maturity: " << params.timeToMaturity_ << "\n"
-              << "Risk free rating: " << params.riskFreeRate_   << "\n"
+              << "Risk free rating: " << params.riskFreeRate_ << "\n"
               << "Volatility:       " << params.volatility_;
 
     return outStream;
 }
 
-inline std::ostream& operator<<(std::ostream& outStream, const AmericanParameters& params) {
-    outStream << "Time step:       " << params.timeStep   << "\n"
-              << "Up factor:       " << params.upFactor   << "\n"
+inline std::ostream& operator<<(std::ostream& outStream, const AmericanParameters& params)
+{
+    outStream << "Time step:       " << params.timeStep << "\n"
+              << "Up factor:       " << params.upFactor << "\n"
               << "Down factor:     " << params.downFactor << "\n"
               << "Risk factor:     " << params.riskFactor << "\n"
               << "Discount factor: " << params.discountFactor;
 
     return outStream;
 }
-} // namespace financial
+void calcOptionsMC(const std::vector<OptionParameters>&, const uint64_t&, std::vector<MCResult>&);
+void calcSimdBS(const OptionParameters&, uint64_t, const uint64_t&, double&, double&);
+}  // namespace financial
 
-namespace finutils {
+namespace finutils
+{
 std::vector<financial::OptionParameters> dataGenerator();
-} // namespace finutils
+}  // namespace finutils
+
+namespace tests
+{
+void testTask13();
+void testTask14();
+}  // namespace tests
